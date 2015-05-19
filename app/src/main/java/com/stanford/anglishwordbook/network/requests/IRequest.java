@@ -13,31 +13,40 @@ public interface IRequest {
     /**
      * Params for the request
      */
-    void setParams(Map<String, Object> params);
-    Map<String, Object> getParams();
+    void setQueryParams(Map<String, String> params);
+    Map<String, String> getQueryParams();
 
     /**
      * Check if mParams are valid.
      * I.E. if we need a time stamp param, is it in the mParams map
      * @return
      */
-    boolean isParamsValid();
-
-    /**
-     * Return the list of required mParams.  This is needed for isParamsValid
-     * @return
-     */
-    List<String> getRequiredParams();
-
-    /**
-     * Returns if the queryParams are valid
-     * @return
-     */
     boolean isQueryParamsValid();
 
     /**
-     * Returns the list of required query params.
+     * Return the list of required mParams.  This is needed for isQueryParamsValid
      * @return
      */
-    List<String> gettRequiredQueryParams();
+    List<String> getRequiredQueryParams();
+
+    /**
+     * Params for the request
+     */
+    void setBodyParams(Map<String, String> params);
+    Map<String, String> getBodyParams();
+
+    /**
+     * Check if mParams are valid.
+     * I.E. if we need a time stamp param, is it in the mParams map
+     * @return
+     */
+    boolean isBodyParamsValid();
+
+    /**
+     * Return the list of required mParams.  This is needed for isQueryParamsValid
+     * @return
+     */
+    List<String> getRequiredBodyParams();
+
+    void generateRequiredParams();
 }

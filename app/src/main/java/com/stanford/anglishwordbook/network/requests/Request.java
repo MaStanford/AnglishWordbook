@@ -11,53 +11,71 @@ import java.util.Map;
 import io.gsonfire.annotations.PostDeserialize;
 import io.gsonfire.annotations.PreSerialize;
 
-public class Request implements IRequest, ISerializable {
+public abstract class Request implements IRequest, ISerializable {
 
     transient private static final String TAG = Request.class.getSimpleName();
 
-    transient List<String> tRequiredParams = new ArrayList<>();
     transient List<String> tRequiredQueryParams = new ArrayList<>();
+    transient Map<String, String> tQueryParams;
 
-    transient Map<String, Object> tQueryParams;
+    transient List<String> tRequiredBodyParams = new ArrayList<>();
+    Map<String, String> tBodyParams;
 
-    public Request() {
+    public Request(Map<String, String> queryParams, Map<String, String> bodyParams) {
+        this.tQueryParams = queryParams;
+        this.tBodyParams = bodyParams;
+    }
 
+    public abstract void generateRequiredParams();
+
+    @Override
+    public void setQueryParams(Map<String, String> params) {
+        this.tQueryParams = params;
     }
 
     @Override
-    public void setParams(Map<String, Object> params) {
-
+    public Map<String, String> getQueryParams() {
+        return this.tQueryParams;
     }
 
     @Override
-    public Map<String, Object> getParams() {
-        return null;
+    public boolean isQueryParamsValid() {
+        for(String key : tRequiredQueryParams){
+            if(!this.tQueryParams.keySet().contains(key)){
+                return false;
+            }
+        }
+        return true;
     }
 
     @Override
-    public List<String> getRequiredParams() {
-        return tRequiredParams;
-    }
-
-    public void setRequiredParams(List<String> requiredParams) {
-        tRequiredParams = requiredParams;
+    public List<String> getRequiredQueryParams() {
+        return this.tRequiredQueryParams;
     }
 
     @Override
-    public List<String> gettRequiredQueryParams() {
-        return tRequiredQueryParams;
+    public List<String> getRequiredBodyParams() {
+        return this.tRequiredBodyParams;
     }
 
-    public void settRequiredQueryParams(List<String> tRequiredQueryParams) {
-        this.tRequiredQueryParams = tRequiredQueryParams;
+    @Override
+    public boolean isBodyParamsValid() {
+        for(String key : tRequiredBodyParams){
+            if(!this.tBodyParams.keySet().contains(key)){
+                return false;
+            }
+        }
+        return true;
     }
 
-    public Map<String, Object> gettQueryParams() {
-        return tQueryParams;
+    @Override
+    public Map<String, String> getBodyParams() {
+        return this.tBodyParams;
     }
 
-    public void settQueryParams(Map<String, Object> tQueryParams) {
-        this.tQueryParams = tQueryParams;
+    @Override
+    public void setBodyParams(Map<String, String> params) {
+        this.tBodyParams = params;
     }
 
     @PostDeserialize
