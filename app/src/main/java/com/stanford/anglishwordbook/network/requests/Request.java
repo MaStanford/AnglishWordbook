@@ -24,6 +24,7 @@ public abstract class Request implements IRequest, ISerializable {
     public Request(Map<String, String> queryParams, Map<String, String> bodyParams) {
         this.tQueryParams = queryParams;
         this.tBodyParams = bodyParams;
+        generateRequiredParams();
     }
 
     public abstract void generateRequiredParams();

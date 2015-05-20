@@ -2,86 +2,158 @@ package com.stanford.anglishwordbook.network.responses;
 
 import com.google.gson.annotations.SerializedName;
 
+import java.util.Date;
+
 /**
  * Created by m.stanford on 3/10/15.
  */
 public class ResponseLogin {
 
-    @SerializedName("session")
-    private String mSession;
+    private class BanEnd {
+        @SerializedName("__type")
+        private String mType;
 
-    @SerializedName("uuid")
-    private String mUuid;
+        @SerializedName("iso")
+        private Date mDate;
 
-    @SerializedName("isValidOauth")
-    private boolean mIsValidOAuth;
+        private BanEnd(String type, Date date) {
+            mType = type;
+            mDate = date;
+        }
 
-    @SerializedName("guid")
-    private String mGuid;
+        public String getType() {
+            return mType;
+        }
 
-    @SerializedName("time")
-    private long mTime;
+        public void setType(String type) {
+            mType = type;
+        }
 
-    @SerializedName("expiration")
-    private long mExpiration;
+        public Date getDate() {
+            return mDate;
+        }
 
-    public ResponseLogin() {
+        public void setDate(Date date) {
+            mDate = date;
+        }
+
+        @Override
+        public String toString() {
+            return "BanEnd{" +
+                    "mType='" + mType + '\'' +
+                    ", mDate=" + mDate +
+                    '}';
+        }
     }
 
-    public ResponseLogin(String session, String uuid, boolean isValidOAuth, String guid, long time, long expiration) {
-        mSession = session;
-        mUuid = uuid;
-        mIsValidOAuth = isValidOAuth;
-        mGuid = guid;
-        mTime = time;
-        mExpiration = expiration;
+    @SerializedName("username")
+    private String mUserName;
+
+    @SerializedName("email")
+    private String mEmail;
+
+    @SerializedName("isAdmin")
+    private boolean mIsAdmin;
+
+    @SerializedName("objectId")
+    private String mObjectId;
+
+    @SerializedName("points")
+    private long mPoints;
+
+    @SerializedName("sessionToken")
+    private String mSessionToken;
+
+    @SerializedName("wordCount")
+    private long mWordCount;
+
+    @SerializedName("flags")
+    private long mFlags;
+
+    @SerializedName("banEnd")
+    private BanEnd mBanEnd;
+
+    public ResponseLogin(String userName, String email, boolean isAdmin, String objectId, long points, String sessionToken, long wordCount, long flags, BanEnd banEnd) {
+        mUserName = userName;
+        mEmail = email;
+        mIsAdmin = isAdmin;
+        mObjectId = objectId;
+        mPoints = points;
+        mSessionToken = sessionToken;
+        mWordCount = wordCount;
+        mFlags = flags;
+        mBanEnd = banEnd;
     }
 
-    public String getSession() {
-        return mSession;
+    public String getUserName() {
+        return mUserName;
     }
 
-    public void setSession(String session) {
-        mSession = session;
+    public void setUserName(String userName) {
+        mUserName = userName;
     }
 
-    public String getUuid() {
-        return mUuid;
+    public String getEmail() {
+        return mEmail;
     }
 
-    public void setUuid(String uuid) {
-        mUuid = uuid;
+    public void setEmail(String email) {
+        mEmail = email;
     }
 
-    public boolean isValidOAuth() {
-        return mIsValidOAuth;
+    public boolean isAdmin() {
+        return mIsAdmin;
     }
 
-    public void setValidOAuth(boolean isValidOAuth) {
-        mIsValidOAuth = isValidOAuth;
+    public void setAdmin(boolean isAdmin) {
+        mIsAdmin = isAdmin;
     }
 
-    public String getGuid() {
-        return mGuid;
+    public String getObjectId() {
+        return mObjectId;
     }
 
-    public void setGuid(String guid) {
-        mGuid = guid;
+    public void setObjectId(String objectId) {
+        mObjectId = objectId;
     }
 
-    public long getTime() {
-        return mTime;
+    public long getPoints() {
+        return mPoints;
     }
 
-    public void setTime(long time) {
-        mTime = time;
+    public void setPoints(long points) {
+        mPoints = points;
     }
 
-    public long getExpiration() {
-        return mExpiration;
+    public String getSessionToken() {
+        return mSessionToken;
     }
 
-    public void setExpiration(long expiration) {
-        mExpiration = expiration;
+    public void setSessionToken(String sessionToken) {
+        mSessionToken = sessionToken;
+    }
+
+    public long getWordCount() {
+        return mWordCount;
+    }
+
+    public void setWordCount(long wordCount) {
+        mWordCount = wordCount;
+    }
+
+    public long getFlags() {
+        return mFlags;
+    }
+
+    public void setFlags(long flags) {
+        mFlags = flags;
+    }
+
+    public BanEnd getBanEnd() {
+        return mBanEnd;
+    }
+
+    public void setBanEnd(BanEnd banEnd) {
+        mBanEnd = banEnd;
     }
 }

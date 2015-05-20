@@ -2,6 +2,7 @@ package com.stanford.anglishwordbook.network;
 
 import com.google.gson.JsonObject;
 import com.stanford.anglishwordbook.network.requests.IRequest;
+import com.stanford.anglishwordbook.network.responses.ResponseLogin;
 
 import retrofit.Callback;
 import retrofit.http.Body;
@@ -40,7 +41,10 @@ public interface NetworkWebservice {
     void parseUserSignUp(@Body IRequest body, Callback<JsonObject> callback);
 
     @GET("/1/login")
-    void parseUserLogin(@Query("username") String userName, @Query("password") String password, Callback<JsonObject> callback);
+    void parseUserLogin(@Query("username") String userName, @Query("password") String password, Callback<ResponseLogin> callback);
+
+    @GET("/1/login")
+    ResponseLogin parseUserLogin(@Query("username") String userName, @Query("password") String password);
 
     @GET("/1/logout")
     void parseUserLogout(@Body IRequest body, Callback<JsonObject> callback);
