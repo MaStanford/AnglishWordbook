@@ -1,5 +1,6 @@
 package com.stanford.anglishwordbook;
 
+
 import android.app.Application;
 
 import com.parse.Parse;
@@ -24,12 +25,5 @@ public class AnglishApplication extends Application {
 
         // Add your initialization code here
         Parse.initialize(this, "ApuxkukQC9mFuLIdIjG3qC27ms5kZ4XZbopxUohp", "tXpQPZMSGqZoKAg2DXBthWAyFfqSEEeJxX2O6HbO");
-
-
-        ParseUser.enableAutomaticUser();
-        ParseACL defaultACL = new ParseACL();
-        // Optionally enable public read access.
-        // defaultACL.setPublicReadAccess(true);
-        ParseACL.setDefaultACL(defaultACL, true);
     }
 }

@@ -41,13 +41,3 @@ dependencies {
     compile fileTree(dir: 'libs', include: 'parse/Parse-*.jar')
     compile fileTree(dir: 'libs', include: 'parse/ParseCrashReporting-*.jar')
 }
-
-/* Uncomment if you enable ProGuard and you want to automatically upload symbols on build.
-parse {
-  applicationId YOUR_APPLICATION_ID
-  masterKey YOUR_MASTER_KEY
-
-  // Make symbol upload automatic. Otherwise, use e.g. ../gradlew parseUploadSymbolsDebug;
-  uploadSymbols true
-}
-*/
