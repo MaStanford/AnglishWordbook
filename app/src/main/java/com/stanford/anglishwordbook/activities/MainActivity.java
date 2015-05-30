@@ -1,21 +1,29 @@
 package com.stanford.anglishwordbook.activities;
 
+import android.support.v4.app.Fragment;
 import android.support.v7.app.ActionBarActivity;
 import android.support.v7.app.ActionBar;
 import android.support.v4.app.FragmentManager;
 import android.os.Bundle;
+import android.util.Log;
 import android.view.Menu;
 import android.view.MenuItem;
 import android.support.v4.widget.DrawerLayout;
 
+import com.stanford.anglishwordbook.fragments.EtymologyFragment;
+import com.stanford.anglishwordbook.fragments.NameFragment;
 import com.stanford.anglishwordbook.fragments.NavigationDrawerFragment;
 import com.stanford.anglishwordbook.R;
 import com.stanford.anglishwordbook.fragments.OnFragmentInteractionListener;
 import com.stanford.anglishwordbook.fragments.WordBookFragment;
 
+import java.util.ArrayList;
+import java.util.List;
+
 
 public class MainActivity extends ActionBarActivity implements NavigationDrawerFragment.NavigationDrawerCallbacks, OnFragmentInteractionListener {
 
+    private static final String TAG = MainActivity.class.getSimpleName();
     /**
      * Fragment managing the behaviors, interactions and presentation of the navigation drawer.
      */
@@ -26,9 +34,19 @@ public class MainActivity extends ActionBarActivity implements NavigationDrawerF
      */
     private CharSequence mTitle;
 
+    /**
+     * list of fragments
+     */
+    List<Fragment> mFragmentList;
+
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
+
+        Log.d(TAG, "onCreate");
+
+        initFragmentList();
+
         setContentView(R.layout.activity_main);
 
         mNavigationDrawerFragment = (NavigationDrawerFragment)getSupportFragmentManager().findFragmentById(R.id.navigation_drawer);
@@ -38,11 +56,19 @@ public class MainActivity extends ActionBarActivity implements NavigationDrawerF
         mNavigationDrawerFragment.setUp(R.id.navigation_drawer,(DrawerLayout) findViewById(R.id.drawer_layout));
     }
 
+    private void initFragmentList() {
+        mFragmentList = new ArrayList<>();
+        mFragmentList.add(WordBookFragment.newInstance(1));
+        mFragmentList.add(NameFragment.newInstance(2));
+        mFragmentList.add(EtymologyFragment.newInstance(3));
+    }
+
     @Override
     public void onNavigationDrawerItemSelected(int position) {
-        // update the main content by replacing fragments
+        Log.d(TAG, "onNavigationDrawerItemSelected");
+
         FragmentManager fragmentManager = getSupportFragmentManager();
-        fragmentManager.beginTransaction().replace(R.id.container, WordBookFragment.newInstance(position + 1)).commit();
+        fragmentManager.beginTransaction().replace(R.id.container, mFragmentList.get(position)).commit();
     }
 
     public void onSectionAttached(int number) {
@@ -54,7 +80,7 @@ public class MainActivity extends ActionBarActivity implements NavigationDrawerF
                 mTitle = getString(R.string.title_names);
                 break;
             case 3:
-                mTitle = getString(R.string.title_section3);
+                mTitle = getString(R.string.title_etymology);
                 break;
         }
     }

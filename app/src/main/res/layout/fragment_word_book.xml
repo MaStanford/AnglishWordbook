@@ -4,13 +4,6 @@
              android:layout_height="match_parent"
              tools:context="com.stanford.anglishwordbook.fragments.WordBookFragment">
 
-    <TextView
-        android:id="@+id/tv_wordbook_output"
-        android:text="@string/hello_blank_fragment"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_alignBottom="@+id/et_wordbook"
-        android:layout_centerHorizontal="true"/>
 
     <EditText
         android:layout_width="wrap_content"
@@ -18,14 +11,17 @@
         android:id="@+id/et_wordbook"
         android:hint="Type your English word..."
         android:layout_alignParentTop="true"
-        android:layout_centerHorizontal="true"/>
+        android:layout_centerHorizontal="true"
+        android:inputType="text"
+        android:imeOptions="actionSearch"/>
 
-    <Button
+
+    <ListView
+        android:id="@+id/lv_wordbook"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="New Button"
-        android:id="@+id/bt_wordbook"
-        android:layout_alignParentBottom="true"
-        android:layout_centerHorizontal="true"/>
+        android:layout_below="@+id/et_wordbook"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"/>
 
 </RelativeLayout>

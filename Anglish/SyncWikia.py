@@ -112,7 +112,12 @@ def addWord(wordDef):
        "Content-Type": "application/json"
     })
     result = json.loads(connection.getresponse().read())
-    print result
+
+    if 'objectId' in result:
+        print result
+        return True
+    else:
+        return False
 
 
 def isValidWord(line):
@@ -138,5 +143,7 @@ for j in range(STARTING_PAGE, ENDING_PAGE):
         # print 'Obj 1 ' + processedPage[i]
         # print 'Obj 2 ' + processedPage[i+1]
         wordDef = buildWordDef(processedPage[k], processedPage[k+1])
-        addWord(wordDef)
-        k += 2
+        if addWord(wordDef):
+            k += 2
+        else:
+            k = k

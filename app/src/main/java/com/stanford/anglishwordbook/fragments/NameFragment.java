@@ -2,19 +2,18 @@ package com.stanford.anglishwordbook.fragments;
 
 import android.app.Activity;
 import android.os.Bundle;
-import android.app.Fragment;
+import android.support.v4.app.Fragment;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
 import android.widget.AbsListView;
 import android.widget.AdapterView;
-import android.widget.ArrayAdapter;
 import android.widget.ListAdapter;
 import android.widget.TextView;
 
 import com.stanford.anglishwordbook.R;
 
-import com.stanford.anglishwordbook.fragments.dummy.DummyContent;
+import com.stanford.anglishwordbook.activities.MainActivity;
 
 /**
  * A fragment representing a list of Items.
@@ -27,14 +26,10 @@ import com.stanford.anglishwordbook.fragments.dummy.DummyContent;
  */
 public class NameFragment extends Fragment implements AbsListView.OnItemClickListener {
 
-    // TODO: Rename parameter arguments, choose names that match
     // the fragment initialization parameters, e.g. ARG_ITEM_NUMBER
     private static final String ARG_PARAM1 = "param1";
-    private static final String ARG_PARAM2 = "param2";
 
-    // TODO: Rename and change types of parameters
-    private String mParam1;
-    private String mParam2;
+    private int mPageIndex;
 
     private OnFragmentInteractionListener mListener;
 
@@ -49,12 +44,10 @@ public class NameFragment extends Fragment implements AbsListView.OnItemClickLis
      */
     private ListAdapter mAdapter;
 
-    // TODO: Rename and change types of parameters
-    public static NameFragment newInstance(String param1, String param2) {
+    public static NameFragment newInstance(int pageIndex) {
         NameFragment fragment = new NameFragment();
         Bundle args = new Bundle();
-        args.putString(ARG_PARAM1, param1);
-        args.putString(ARG_PARAM2, param2);
+        args.putInt(ARG_PARAM1, pageIndex);
         fragment.setArguments(args);
         return fragment;
     }
@@ -71,13 +64,8 @@ public class NameFragment extends Fragment implements AbsListView.OnItemClickLis
         super.onCreate(savedInstanceState);
 
         if (getArguments() != null) {
-            mParam1 = getArguments().getString(ARG_PARAM1);
-            mParam2 = getArguments().getString(ARG_PARAM2);
+            mPageIndex = getArguments().getInt(ARG_PARAM1);
         }
-
-        // TODO: Change Adapter to display your content
-        mAdapter = new ArrayAdapter<DummyContent.DummyItem>(getActivity(),
-                android.R.layout.simple_list_item_1, android.R.id.text1, DummyContent.ITEMS);
     }
 
     @Override
@@ -99,11 +87,11 @@ public class NameFragment extends Fragment implements AbsListView.OnItemClickLis
     public void onAttach(Activity activity) {
         super.onAttach(activity);
         try {
-            mListener = (OnFragmentInteractionListener) activity;
+            mListener = (com.stanford.anglishwordbook.fragments.OnFragmentInteractionListener) activity;
         } catch (ClassCastException e) {
-            throw new ClassCastException(activity.toString()
-                    + " must implement OnFragmentInteractionListener");
+            throw new ClassCastException(activity.toString() + " must implement OnFragmentInteractionListener");
         }
+        ((MainActivity) activity).onSectionAttached(mPageIndex);
     }
 
     @Override
@@ -116,9 +104,6 @@ public class NameFragment extends Fragment implements AbsListView.OnItemClickLis
     @Override
     public void onItemClick(AdapterView<?> parent, View view, int position, long id) {
         if (null != mListener) {
-            // Notify the active callbacks interface (the activity, if the
-            // fragment is attached to one) that an item has been selected.
-            mListener.onFragmentInteraction(DummyContent.ITEMS.get(position).id);
         }
     }
 

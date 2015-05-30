@@ -1,31 +1,52 @@
 package com.stanford.anglishwordbook.fragments;
 
 import android.app.Activity;
-import android.net.Uri;
+import android.content.Context;
 import android.os.Bundle;
 import android.support.v4.app.Fragment;
+import android.util.Log;
+import android.view.KeyEvent;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
+import android.view.inputmethod.EditorInfo;
+import android.view.inputmethod.InputMethodManager;
+import android.widget.EditText;
+import android.widget.ListView;
+import android.widget.TextView;
 
+import com.google.gson.Gson;
+import com.parse.FindCallback;
+import com.parse.ParseException;
+import com.parse.ParseObject;
+import com.parse.ParseQuery;
 import com.stanford.anglishwordbook.R;
 import com.stanford.anglishwordbook.activities.MainActivity;
+import com.stanford.anglishwordbook.adapters.WordAdapter;
+import com.stanford.anglishwordbook.models.Word;
+
+import java.util.ArrayList;
+import java.util.List;
 
 /**
  * A simple {@link Fragment} subclass.
  * Activities that contain this fragment must implement the
- * {@link WordBookFragment.OnFragmentInteractionListener} interface
- * to handle interaction events.
  * Use the {@link WordBookFragment#newInstance} factory method to
  * create an instance of this fragment.
  */
 public class WordBookFragment extends Fragment {
 
     private static final String ARG_PARAM1 = "param1";
+    private static final String TAG = WordBookFragment.class.getSimpleName();
 
     private int mPageIndex;
 
     private OnFragmentInteractionListener mListener;
+
+    private List<Word> mWordList;
+
+    private ListView mListView;
+    private WordAdapter mAdapter;
 
     /**
      * Use this factory method to create a new instance of
@@ -55,15 +76,8 @@ public class WordBookFragment extends Fragment {
 
     @Override
     public View onCreateView(LayoutInflater inflater, ViewGroup container, Bundle savedInstanceState) {
-        // Inflate the layout for this fragment
-        return inflater.inflate(R.layout.fragment_word_book, container, false);
-    }
 
-    // TODO: Rename method, update argument and hook method into UI event
-    public void onButtonPressed(Uri uri) {
-        if (mListener != null) {
-            mListener.onFragmentInteraction(uri);
-        }
+        return inflater.inflate(R.layout.fragment_word_book, container, false);
     }
 
     @Override
@@ -75,6 +89,53 @@ public class WordBookFragment extends Fragment {
             throw new ClassCastException(activity.toString() + " must implement OnFragmentInteractionListener");
         }
         ((MainActivity) activity).onSectionAttached(mPageIndex);
+    }
+
+    private void queryWord(){
+        String word = ((EditText) getActivity().findViewById(R.id.et_wordbook)).getText().toString();
+        ParseQuery<ParseObject> query = new ParseQuery("Word");
+        query.whereContains("Word", word);
+        query.findInBackground(new FindCallback<ParseObject>() {
+            @Override
+            public void done(List<ParseObject> parseObjects, ParseException e) {
+                if(e == null){
+                    mWordList.clear();
+                    for(ParseObject obj : parseObjects){
+                        Word word = new Word(obj.getString("Word"), obj.getString("Type"), (List<String>)(List<?>) obj.getList("Attested"), (List<String>)(List<?>)  obj.getList("Unattested"));
+                        Log.d(TAG, "New Word: " + word.toString());
+                        mWordList.add(word);
+                    }
+                    mAdapter.updateWords(mWordList);
+                }else{
+
+                }
+            }
+        });
+    }
+
+    @Override
+    public void onResume() {
+        super.onResume();
+
+        //Set up the keyboard
+        ((EditText) getActivity().findViewById(R.id.et_wordbook)).setOnEditorActionListener(new TextView.OnEditorActionListener() {
+            @Override
+            public boolean onEditorAction(TextView v, int actionId, KeyEvent event) {
+                if(actionId == EditorInfo.IME_ACTION_SEARCH){
+                    queryWord();
+                    InputMethodManager imm = (InputMethodManager)getActivity().getSystemService(Context.INPUT_METHOD_SERVICE);
+                    imm.hideSoftInputFromWindow(((EditText) getActivity().findViewById(R.id.et_wordbook)).getWindowToken(), 0);
+                }
+                return false;
+            }
+        });
+
+        //set up the list
+        mWordList =  new ArrayList<>();
+        mWordList.add(new Word("Word", "Type", new ArrayList<String>(), new ArrayList<String>()));
+        mListView = (ListView) getActivity().findViewById(R.id.lv_wordbook);
+        mAdapter = new WordAdapter(getActivity(), mWordList);
+        mListView.setAdapter(mAdapter);
     }
 
     @Override
