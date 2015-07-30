@@ -17,7 +17,7 @@ public class LaunchActivity extends ActionBarActivity {
         setContentView(R.layout.activity_launch);
 
         Intent intent = new Intent(this, MainActivity.class);
-        intent.setFlags(Intent.FLAG_ACTIVITY_NO_HISTORY);
+        intent.setFlags(Intent.FLAG_ACTIVITY_CLEAR_TASK);
         startActivity(intent);
     }
 

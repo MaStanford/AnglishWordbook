@@ -2,6 +2,7 @@ package com.stanford.anglishwordbook.models;
 
 import com.google.gson.annotations.SerializedName;
 
+import java.util.ArrayList;
 import java.util.List;
 
 /**
@@ -10,13 +11,13 @@ import java.util.List;
 public class Word {
 
     @SerializedName("Word")
-    private String mEnglishWord;
+    private String mEnglishWord = "";
     @SerializedName("Type")
-    private String mType;
+    private String mType = "";
     @SerializedName("Attested")
-    private List<String> mAttested;
+    private List<String> mAttested = new ArrayList<>();
     @SerializedName("Unattested")
-    private List<String> mUnAttested;
+    private List<String> mUnAttested = new ArrayList<>();
 
     public Word() {
     }
@@ -44,7 +45,7 @@ public class Word {
         mType = type;
     }
 
-    public List getAttested() {
+    public List<String> getAttested() {
         return mAttested;
     }
 
@@ -52,7 +53,7 @@ public class Word {
         mAttested = attested;
     }
 
-    public List getUnAttested() {
+    public List<String> getUnAttested() {
         return mUnAttested;
     }
 

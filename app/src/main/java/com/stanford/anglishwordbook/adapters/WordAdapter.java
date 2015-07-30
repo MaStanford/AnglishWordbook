@@ -52,10 +52,20 @@ public class WordAdapter extends BaseAdapter{
         TextView unAttested= ViewHolder.get(convertView, R.id.tv_unattested);
 
         Word data = (Word) getItem(position);
-        word.setText("Word: " + data.getEnglishWord());
-        wordType.setText("Type: " + data.getType());
-        attested.setText("Attested: " + data.getAttested().toString());
-        unAttested.setText("Unattested: " + (data.getUnAttested().toString()));
+
+        String attestedDef = "";
+        for (String att : data.getAttested()){
+            attestedDef += att + "\n";
+        }
+        String unattestedDef = "";
+        for (String att : data.getUnAttested()){
+            unattestedDef += att + "\n";
+        }
+
+        word.setText(data.getEnglishWord().replaceAll("[^a-zA-Z0-9\\s]", " "));
+        wordType.setText(data.getType().replaceAll("[^a-zA-Z0-9\\s]", " "));
+        attested.setText(attestedDef);
+        unAttested.setText(unattestedDef);
 
         return convertView;
     }

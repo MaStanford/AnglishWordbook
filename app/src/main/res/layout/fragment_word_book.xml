@@ -24,4 +24,12 @@
         android:layout_alignParentLeft="true"
         android:layout_alignParentStart="true"/>
 
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/tv_word_error"
+        android:visibility="gone"
+        android:layout_below="@+id/et_wordbook"
+        android:layout_centerHorizontal="true"/>
+
 </RelativeLayout>

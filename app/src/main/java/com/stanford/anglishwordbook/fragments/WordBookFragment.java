@@ -99,15 +99,23 @@ public class WordBookFragment extends Fragment {
             @Override
             public void done(List<ParseObject> parseObjects, ParseException e) {
                 if(e == null){
+                    ((TextView)getActivity().findViewById(R.id.tv_word_error)).setVisibility(View.GONE);
                     mWordList.clear();
-                    for(ParseObject obj : parseObjects){
-                        Word word = new Word(obj.getString("Word"), obj.getString("Type"), (List<String>)(List<?>) obj.getList("Attested"), (List<String>)(List<?>)  obj.getList("Unattested"));
-                        Log.d(TAG, "New Word: " + word.toString());
-                        mWordList.add(word);
+                    if(parseObjects.size() > 0) {
+                        for (ParseObject obj : parseObjects) {
+                            Word word = new Word(obj.getString("Word"), obj.getString("Type"), (List<String>) (List<?>) obj.getList("Attested"), (List<String>) (List<?>) obj.getList("Unattested"));
+                            Log.d(TAG, "New Word: " + word.toString());
+                            mWordList.add(word);
+                        }
+                        mAdapter.updateWords(mWordList);
+                    }else{
+                        mWordList = new ArrayList<Word>();
+                        mAdapter.updateWords(mWordList);
+                        ((TextView)getActivity().findViewById(R.id.tv_word_error)).setVisibility(View.VISIBLE);
+                        ((TextView)getActivity().findViewById(R.id.tv_word_error)).setText("Word not found, you could create a definition.");
                     }
-                    mAdapter.updateWords(mWordList);
                 }else{
-
+                    //TODO: show error
                 }
             }
         });
@@ -116,6 +124,8 @@ public class WordBookFragment extends Fragment {
     @Override
     public void onResume() {
         super.onResume();
+
+        ((TextView)getActivity().findViewById(R.id.tv_word_error)).setVisibility(View.GONE);
 
         //Set up the keyboard
         ((EditText) getActivity().findViewById(R.id.et_wordbook)).setOnEditorActionListener(new TextView.OnEditorActionListener() {
@@ -132,7 +142,6 @@ public class WordBookFragment extends Fragment {
 
         //set up the list
         mWordList =  new ArrayList<>();
-        mWordList.add(new Word("Word", "Type", new ArrayList<String>(), new ArrayList<String>()));
         mListView = (ListView) getActivity().findViewById(R.id.lv_wordbook);
         mAdapter = new WordAdapter(getActivity(), mWordList);
         mListView.setAdapter(mAdapter);

@@ -125,4 +125,10 @@ public class MainActivity extends ActionBarActivity implements NavigationDrawerF
     public void onFragmentInteraction(Object object) {
 
     }
+
+    @Override
+    public void onBackPressed() {
+        super.onBackPressed();
+        finish();
+    }
 }
