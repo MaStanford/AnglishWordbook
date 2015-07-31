@@ -24,6 +24,7 @@ import com.parse.ParseException;
 import com.parse.ParseUser;
 import com.stanford.anglishwordbook.R;
 import com.stanford.anglishwordbook.network.utils.NetworkConnection;
+import com.stanford.anglishwordbook.network.utils.ParseErrorHandler;
 
 /**
  * A login screen that offers login via email/password.
@@ -212,8 +213,10 @@ public class LoginActivity extends ActionBarActivity {
     private void handleParseError(ParseException e) {
         mErrorView.setVisibility(View.VISIBLE);
 
+        ParseErrorHandler.handleParseError(e);
+
         switch(e.getCode()){
-            case 101:
+            case ParseException.OBJECT_NOT_FOUND:
                 mErrorView.setText("Invalid login, check credentials and try again");
                 clear();
                 break;

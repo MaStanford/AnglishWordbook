@@ -27,10 +27,13 @@ import android.widget.TextView;
 import java.util.ArrayList;
 import java.util.List;
 
+import com.parse.ParseACL;
 import com.parse.ParseException;
 import com.parse.ParseUser;
 import com.parse.SignUpCallback;
 import com.stanford.anglishwordbook.R;
+import com.stanford.anglishwordbook.models.User;
+import com.stanford.anglishwordbook.network.utils.ParseErrorHandler;
 
 /**
  * A login screen that offers login via email/password.
@@ -153,6 +156,10 @@ public class RegisterActivity extends ActionBarActivity implements LoaderCallbac
         user.setUsername(username);
         user.setPassword(password);
         user.setEmail(email);
+        user.put(User.IS_ADMIN, false);
+        user.put(User.FLAGS, 0);
+        user.put(User.POINTS, 0);
+        user.put(User.WORD_COUNT, 0);
 
         user.signUpInBackground(new SignUpCallback() {
             @Override
@@ -169,10 +176,28 @@ public class RegisterActivity extends ActionBarActivity implements LoaderCallbac
     }
     
     private void handleParseError(ParseException e) {
+        ParseErrorHandler.handleParseError(e);
+
         switch(e.getCode()){
-            case 101:
+            case ParseException.OBJECT_NOT_FOUND:
                 mErrorView.setVisibility(View.VISIBLE);
                 mErrorView.setText("Invalid login, check credentials and try again");
+                clear();
+                break;
+            case ParseException.EMAIL_TAKEN:
+                mErrorView.setVisibility(View.VISIBLE);
+                mErrorView.setText("Email is already in use.");
+                clear();
+                break;
+            case ParseException.ACCOUNT_ALREADY_LINKED:
+                mErrorView.setVisibility(View.VISIBLE);
+                mErrorView.setText("Account already exists");
+                clear();
+                break;
+            case ParseException.USERNAME_TAKEN:
+                mErrorView.setVisibility(View.VISIBLE);
+                mErrorView.setText("Username already taken");
+                mUserView.setError(getString(R.string.error_invalid_user));
                 clear();
                 break;
         }
@@ -190,7 +215,7 @@ public class RegisterActivity extends ActionBarActivity implements LoaderCallbac
 
     private boolean isUserValid(String user) {
         //TODO: Check to see if it's been used before
-        return user.length() > 4;
+        return user.length() >= 4;
     }
 
     private boolean isEmailValid(String email) {
