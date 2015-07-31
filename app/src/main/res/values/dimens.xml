@@ -15,5 +15,8 @@
     <dimen name="drawable_wordbook_header_corners">3dp</dimen>
 
     <dimen name="wordbook_edittext_top_margin">10dp</dimen>
+    <dimen name="tv_sign_in_margin_top">15dp</dimen>
+    <dimen name="tv_register_margin_top">15dp</dimen>
+    <dimen name="tv_login_error_margin">10dp</dimen>
 
 </resources>

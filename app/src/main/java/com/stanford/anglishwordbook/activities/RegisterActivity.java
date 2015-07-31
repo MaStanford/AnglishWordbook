@@ -2,11 +2,15 @@ package com.stanford.anglishwordbook.activities;
 
 import android.animation.Animator;
 import android.animation.AnimatorListenerAdapter;
-import android.app.AlertDialog;
-import android.content.DialogInterface;
+import android.app.LoaderManager.LoaderCallbacks;
+import android.content.CursorLoader;
 import android.content.Intent;
+import android.content.Loader;
+import android.database.Cursor;
+import android.net.Uri;
 
 import android.os.Bundle;
+import android.provider.ContactsContract;
 import android.support.v7.app.ActionBarActivity;
 import android.text.TextUtils;
 import android.util.Log;
@@ -14,48 +18,47 @@ import android.view.KeyEvent;
 import android.view.View;
 import android.view.View.OnClickListener;
 import android.view.inputmethod.EditorInfo;
+import android.widget.ArrayAdapter;
+import android.widget.AutoCompleteTextView;
 import android.widget.Button;
 import android.widget.EditText;
 import android.widget.TextView;
 
-import com.parse.LogInCallback;
-import com.parse.ParseAnonymousUtils;
+import java.util.ArrayList;
+import java.util.List;
+
 import com.parse.ParseException;
 import com.parse.ParseUser;
+import com.parse.SignUpCallback;
 import com.stanford.anglishwordbook.R;
-import com.stanford.anglishwordbook.network.utils.NetworkConnection;
 
 /**
  * A login screen that offers login via email/password.
  */
-public class LoginActivity extends ActionBarActivity {
+public class RegisterActivity extends ActionBarActivity implements LoaderCallbacks<Cursor> {
 
-    private static final String TAG = LoginActivity.class.getSimpleName();
-
-    /**
-     * Keep track of the login task to ensure we can cancel it if requested.
-     */
-    private boolean mIsWorking = false;
-
+    private static final String TAG = RegisterActivity.class.getSimpleName();
     // UI references.
-    private EditText mUserNameView;
+    private AutoCompleteTextView mEmailView;
     private EditText mPasswordView;
     private View mProgressView;
     private View mLoginFormView;
+    private EditText mUserView;
+
+    private boolean mIsWorking = false;
     private TextView mErrorView;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_login);
-
-        checkNetwork();
-
-        checkIfUserLoggedIn();
+        setContentView(R.layout.activity_register);
 
         // Set up the login form.
-        mErrorView = (TextView) findViewById(R.id.tv_login_error);
-        mUserNameView = (EditText) findViewById(R.id.username);
+        mErrorView = (TextView) findViewById(R.id.tv_register_error);
+        mUserView = (EditText) findViewById(R.id.username);
+        mEmailView = (AutoCompleteTextView) findViewById(R.id.email);
+        populateAutoComplete();
+
         mPasswordView = (EditText) findViewById(R.id.password);
         mPasswordView.setOnEditorActionListener(new TextView.OnEditorActionListener() {
             @Override
@@ -76,69 +79,15 @@ public class LoginActivity extends ActionBarActivity {
             }
         });
 
-        findViewById(R.id.tv_register).setOnClickListener(new OnClickListener() {
-            @Override
-            public void onClick(View v) {
-                Intent intent = new Intent(getApplicationContext(), RegisterActivity.class);
-                startActivity(intent);
-            }
-        });
-
-        findViewById(R.id.btn_anon_login).setOnClickListener(new OnClickListener() {
-            @Override
-            public void onClick(View v) {
-                ParseAnonymousUtils.logIn(new LogInCallback() {
-                    @Override
-                    public void done(ParseUser user, ParseException e) {
-                        if (e != null) {
-                            //TODO: this probably means somthing like no network.
-                            Log.d("MyApp", "Anonymous login failed.");
-                        } else {
-                            launchApp();
-                        }
-                    }
-                });
-            }
-        });
         mLoginFormView = findViewById(R.id.login_form);
         mProgressView = findViewById(R.id.login_progress);
     }
 
-    private void checkNetwork() {
-        if (!NetworkConnection.isNetworkAvailable(this)) {
-            AlertDialog.Builder builder = new AlertDialog.Builder(this);
-            builder.setCancelable(false)
-                    .setMessage("Network unavailable, please connect to a network and select 'Connected'")
-                    .setPositiveButton("Connected", new DialogInterface.OnClickListener() {
-                        @Override
-                        public void onClick(DialogInterface dialog, int which) {
-                            checkNetwork();
-                        }
-                    })
-                    .setNegativeButton("Exit App", new DialogInterface.OnClickListener() {
-                        @Override
-                        public void onClick(DialogInterface dialog, int which) {
-                            finish();
-                            System.exit(0);
-                        }
-                    })
-                    .setTitle("Network Connection Required.");
-            builder.create().show();
-        }
+
+    private void populateAutoComplete() {
+        getLoaderManager().initLoader(0, null, this);
     }
 
-    private void checkIfUserLoggedIn() {
-        ParseUser user = ParseUser.getCurrentUser();
-        if (user != null && user.isAuthenticated()) {
-            launchApp();
-        }
-    }
-
-    private void launchApp() {
-        Intent intent = new Intent(getApplicationContext(), MainActivity.class);
-        intent.addFlags(Intent.FLAG_ACTIVITY_CLEAR_TASK | Intent.FLAG_ACTIVITY_NEW_TASK);
-        startActivity(intent);
-    }
 
     /**
      * Attempts to sign in or register the account specified by the login form.
@@ -152,11 +101,13 @@ public class LoginActivity extends ActionBarActivity {
 
         // Reset errors.
         mErrorView.setVisibility(View.GONE);
-        mUserNameView.setError(null);
+        mUserView.setError(null);
+        mEmailView.setError(null);
         mPasswordView.setError(null);
 
         // Store values at the time of the login attempt.
-        String username = mUserNameView.getText().toString();
+        String user = mUserView.getText().toString();
+        String email = mEmailView.getText().toString();
         String password = mPasswordView.getText().toString();
 
         boolean cancel = false;
@@ -171,13 +122,17 @@ public class LoginActivity extends ActionBarActivity {
         }
 
         // Check for a valid email address.
-        if (TextUtils.isEmpty(username)) {
-            mUserNameView.setError(getString(R.string.error_field_required));
-            focusView = mUserNameView;
+        if (TextUtils.isEmpty(email)) {
+            mEmailView.setError(getString(R.string.error_field_required));
+            focusView = mEmailView;
             cancel = true;
-        } else if (!isUserValid(username)) {
-            mUserNameView.setError(getString(R.string.error_invalid_email));
-            focusView = mUserNameView;
+        } else if (!isEmailValid(email)) {
+            mEmailView.setError(getString(R.string.error_invalid_email));
+            focusView = mEmailView;
+            cancel = true;
+        }else if(!isUserValid(user)){
+            mUserView.setError(getString(R.string.error_invalid_user));
+            focusView = mEmailView;
             cancel = true;
         }
 
@@ -189,31 +144,34 @@ public class LoginActivity extends ActionBarActivity {
             // Show a progress spinner, and kick off a background task to
             // perform the user login attempt.
             showProgress(true);
-            login(username, password);
+            register(user, password, email);
         }
     }
 
-    private void login(String username, String password) {
-        ParseUser.logInInBackground(username, password, new LogInCallback() {
+    private void register(String username, String password, String email) {
+        ParseUser user = new ParseUser();
+        user.setUsername(username);
+        user.setPassword(password);
+        user.setEmail(email);
+
+        user.signUpInBackground(new SignUpCallback() {
             @Override
-            public void done(ParseUser parseUser, ParseException e) {
+            public void done(com.parse.ParseException e) {
                 showProgress(false);
                 if (e == null) {
                     launchApp();
                 } else {
-                    clear();
                     Log.d(TAG, "Login error: " + e.getCode() + e.getMessage() + e.toString());
                     handleParseError(e);
                 }
             }
         });
     }
-
+    
     private void handleParseError(ParseException e) {
-        mErrorView.setVisibility(View.VISIBLE);
-
         switch(e.getCode()){
             case 101:
+                mErrorView.setVisibility(View.VISIBLE);
                 mErrorView.setText("Invalid login, check credentials and try again");
                 clear();
                 break;
@@ -224,9 +182,19 @@ public class LoginActivity extends ActionBarActivity {
         mPasswordView.setText("");
     }
 
-    private boolean isUserValid(String email) {
-        //Check to see if this is used already.
-        return email.length() >= 4;
+    private void launchApp() {
+        Intent intent = new Intent(getApplicationContext(), MainActivity.class);
+        intent.addFlags(Intent.FLAG_ACTIVITY_CLEAR_TASK | Intent.FLAG_ACTIVITY_NEW_TASK);
+        startActivity(intent);
+    }
+
+    private boolean isUserValid(String user) {
+        //TODO: Check to see if it's been used before
+        return user.length() > 4;
+    }
+
+    private boolean isEmailValid(String email) {
+        return email.contains("@");
     }
 
     private boolean isPasswordValid(String password) {
@@ -254,6 +222,51 @@ public class LoginActivity extends ActionBarActivity {
                 mProgressView.setVisibility(show ? View.VISIBLE : View.GONE);
             }
         });
+    }
+
+    @Override
+    public Loader<Cursor> onCreateLoader(int i, Bundle bundle) {
+        return new CursorLoader(this,
+                // Retrieve data rows for the device user's 'profile' contact.
+                Uri.withAppendedPath(ContactsContract.Profile.CONTENT_URI, ContactsContract.Contacts.Data.CONTENT_DIRECTORY), ProfileQuery.PROJECTION,
+
+                // Select only email addresses.
+                ContactsContract.Contacts.Data.MIMETYPE + " = ?", new String[]{ContactsContract.CommonDataKinds.Email.CONTENT_ITEM_TYPE}, ContactsContract.Contacts.Data.IS_PRIMARY + " DESC");
+    }
+
+    @Override
+    public void onLoadFinished(Loader<Cursor> cursorLoader, Cursor cursor) {
+        List<String> emails = new ArrayList<String>();
+        cursor.moveToFirst();
+        while (!cursor.isAfterLast()) {
+            emails.add(cursor.getString(ProfileQuery.ADDRESS));
+            cursor.moveToNext();
+        }
+
+        addEmailsToAutoComplete(emails);
+    }
+
+    @Override
+    public void onLoaderReset(Loader<Cursor> cursorLoader) {
+
+    }
+
+    private interface ProfileQuery {
+        String[] PROJECTION = {
+                ContactsContract.CommonDataKinds.Email.ADDRESS,
+                ContactsContract.CommonDataKinds.Email.IS_PRIMARY,
+        };
+
+        int ADDRESS = 0;
+        int IS_PRIMARY = 1;
+    }
+
+
+    private void addEmailsToAutoComplete(List<String> emailAddressCollection) {
+        //Create adapter to tell the AutoCompleteTextView what to show in its dropdown list.
+        ArrayAdapter<String> adapter =
+                new ArrayAdapter<String>(RegisterActivity.this, android.R.layout.simple_dropdown_item_1line, emailAddressCollection);
+        mEmailView.setAdapter(adapter);
     }
 }
 

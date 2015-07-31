@@ -10,7 +10,7 @@
               android:paddingTop="@dimen/activity_vertical_margin"
               tools:context="com.stanford.anglishwordbook.activities.LoginActivity">
 
-    <!-- Login progress -->
+    <!-- Register progress -->
     <ProgressBar
         android:id="@+id/login_progress"
         style="?android:attr/progressBarStyleLarge"
@@ -30,28 +30,28 @@
             android:layout_height="wrap_content"
             android:orientation="vertical">
 
-            <Button
-                android:id="@+id/btn_anon_login"
-                style="?android:textAppearanceSmall"
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:layout_marginTop="16dp"
-                android:text="@string/action_anon_login"
-                android:textStyle="bold"/>
-
             <TextView
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:id="@+id/tv_login_error"
-                android:visibility="gone"
+                android:id="@+id/tv_register_error"
                 android:layout_gravity="center_horizontal"
-                android:layout_margin="@dimen/tv_login_error_margin"/>
+                android:layout_margin="@dimen/tv_login_error_margin"
+                android:visibility="gone"/>
 
             <EditText
                 android:id="@+id/username"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:hint="@string/prompt_username"
+                android:inputType="textAutoComplete"
+                android:maxLines="1"
+                android:singleLine="true"/>
+
+            <AutoCompleteTextView
+                android:id="@+id/email"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="@string/prompt_email"
                 android:inputType="textEmailAddress"
                 android:maxLines="1"
                 android:singleLine="true"/>
@@ -62,7 +62,7 @@
                 android:layout_height="wrap_content"
                 android:hint="@string/prompt_password"
                 android:imeActionId="@+id/login"
-                android:imeActionLabel="@string/action_sign_in_short"
+                android:imeActionLabel="@string/action_register"
                 android:imeOptions="actionUnspecified"
                 android:inputType="textPassword"
                 android:maxLines="1"
@@ -74,16 +74,16 @@
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:layout_marginTop="16dp"
-                android:text="@string/action_sign_in"
+                android:text="@string/action_register"
                 android:textStyle="bold"/>
 
             <TextView
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:text="@string/tv_register"
-                android:id="@+id/tv_register"
+                android:text="@string/tv_sign_in"
+                android:id="@+id/tv_sign_in"
                 android:layout_gravity="center_horizontal"
-                android:layout_marginTop="@dimen/tv_register_margin_top"/>
+                android:layout_marginTop="@dimen/tv_sign_in_margin_top"/>
 
         </LinearLayout>
     </ScrollView>

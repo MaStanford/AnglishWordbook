@@ -16,7 +16,7 @@ android {
 
     defaultConfig {
         applicationId "com.stanford.anglishwordbook"
-        minSdkVersion 15
+        minSdkVersion 21
         targetSdkVersion 21
         versionCode 1
         versionName "1.0"
@@ -36,8 +36,8 @@ dependencies {
     compile 'com.squareup.okhttp:okhttp:2.0.0'
     compile 'com.squareup.retrofit:retrofit:1.9.0'
     compile 'io.gsonfire:gson-fire:1.0.1'
-    compile 'com.google.android.gms:play-services:6.5.87'
     compile 'com.parse.bolts:bolts-android:1.2.0'
+    compile 'com.github.shell-software:fab:1.1.2'
     compile fileTree(dir: 'libs', include: 'parse/Parse-*.jar')
     compile fileTree(dir: 'libs', include: 'parse/ParseCrashReporting-*.jar')
 }

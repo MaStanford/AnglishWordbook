@@ -1,39 +1,47 @@
 <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
-             xmlns:tools="http://schemas.android.com/tools"
-             android:layout_width="match_parent"
-             android:layout_height="match_parent"
-             tools:context="com.stanford.anglishwordbook.fragments.WordBookFragment"
-                android:background="@drawable/wordbook_header">
-
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:background="@drawable/wordbook_header"
+                xmlns:fab="http://schemas.android.com/apk/res-auto">
 
     <EditText
+        android:id="@+id/et_wordbook"
         android:layout_width="fill_parent"
         android:layout_height="wrap_content"
-        android:id="@+id/et_wordbook"
-        android:hint="Type your English word..."
         android:layout_alignParentTop="true"
         android:layout_centerHorizontal="true"
         android:layout_margin="@dimen/wordbook_edittext_top_margin"
+        android:background="@drawable/wordbook_header"
         android:gravity="center"
-        android:inputType="text"
+        android:hint="Type your English word..."
         android:imeOptions="actionSearch"
-        android:background="@drawable/wordbook_header"/>
+        android:inputType="text"/>
 
 
     <ListView
         android:id="@+id/lv_wordbook"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_below="@+id/et_wordbook"
         android:layout_alignParentLeft="true"
-        android:layout_alignParentStart="true"/>
+        android:layout_alignParentStart="true"
+        android:layout_below="@+id/et_wordbook"/>
 
     <TextView
+        android:id="@+id/tv_word_error"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:id="@+id/tv_word_error"
-        android:visibility="gone"
         android:layout_below="@+id/et_wordbook"
-        android:layout_centerHorizontal="true"/>
+        android:layout_centerHorizontal="true"
+        android:visibility="gone"/>
+
+    <com.software.shell.fab.ActionButton
+        android:id="@+id/action_button"
+        fab:image="@drawable/fab_plus_icon"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentRight="true"
+        android:layout_marginRight="@dimen/fab_margin"
+        android:layout_marginBottom="@dimen/fab_margin"/>
 
 </RelativeLayout>
