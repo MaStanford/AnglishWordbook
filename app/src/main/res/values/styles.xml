@@ -11,9 +11,11 @@
 
     <style name="TextWordBookStatic">
         <item name="android:layout_gravity">end</item>
+        <item name="android:textSize">14sp</item>
     </style>
 
     <style name="TextWordBookDef">
         <item name="android:layout_gravity">center</item>
+        <item name="android:textSize">13sp</item>
     </style>
 </resources>

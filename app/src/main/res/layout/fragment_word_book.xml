@@ -2,18 +2,22 @@
              xmlns:tools="http://schemas.android.com/tools"
              android:layout_width="match_parent"
              android:layout_height="match_parent"
-             tools:context="com.stanford.anglishwordbook.fragments.WordBookFragment">
+             tools:context="com.stanford.anglishwordbook.fragments.WordBookFragment"
+                android:background="@drawable/wordbook_header">
 
 
     <EditText
-        android:layout_width="wrap_content"
+        android:layout_width="fill_parent"
         android:layout_height="wrap_content"
         android:id="@+id/et_wordbook"
         android:hint="Type your English word..."
         android:layout_alignParentTop="true"
         android:layout_centerHorizontal="true"
+        android:layout_margin="@dimen/wordbook_edittext_top_margin"
+        android:gravity="center"
         android:inputType="text"
-        android:imeOptions="actionSearch"/>
+        android:imeOptions="actionSearch"
+        android:background="@drawable/wordbook_header"/>
 
 
     <ListView

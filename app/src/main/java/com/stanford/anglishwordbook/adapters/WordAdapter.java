@@ -55,14 +55,14 @@ public class WordAdapter extends BaseAdapter{
 
         String attestedDef = "";
         for (String att : data.getAttested()){
-            attestedDef += att + "\n";
+            attestedDef += att.replace(";", "\n").replace(",", "\n") + "\n";
         }
         String unattestedDef = "";
         for (String att : data.getUnAttested()){
-            unattestedDef += att + "\n";
+            unattestedDef += att.replace(";", "\n").replace(",", "\n") + "\n";
         }
 
-        word.setText(data.getEnglishWord().replaceAll("[^a-zA-Z0-9\\s]", " "));
+        word.setText(data.getEnglishWord());
         wordType.setText(data.getType().replaceAll("[^a-zA-Z0-9\\s]", " "));
         attested.setText(attestedDef);
         unAttested.setText(unattestedDef);
