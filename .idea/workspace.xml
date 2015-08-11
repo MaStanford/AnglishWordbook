@@ -18,10 +18,202 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="fbc1a755-49cd-4067-915a-6c1e5d54c76f" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/src/main/java/com/stanford/anglishwordbook/network/utils/ParseErrorHandler.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/src/main/java/com/stanford/anglishwordbook/models/User.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/java/com/stanford/anglishwordbook/activities/LoginActivity.java" afterPath="$PROJECT_DIR$/app/src/main/java/com/stanford/anglishwordbook/activities/LoginActivity.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/1_bolts_android_1_2_0.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/ParseCrashReporting_1_9_4.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/ParseFacebookUtilsV3_1_9_4.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/ParseFacebookUtilsV4_1_9_4.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Parse_1_9_4.xml" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/ParseCrashReporting_1_9_2.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/Parse_1_9_2.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/okhttp_2_0_0.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/okhttp_urlconnection_2_0_0.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/okio_1_0_0.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/libs/parse/Parse-1.9.2-javadoc.zip" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/libs/parse/Parse-1.9.2-javadoc/allclasses-frame.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/libs/parse/Parse-1.9.2-javadoc/allclasses-noframe.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/libs/parse/Parse-1.9.2-javadoc/com/parse/ConfigCallback.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/libs/parse/Parse-1.9.2-javadoc/com/parse/CountCallback.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/libs/parse/Parse-1.9.2-javadoc/com/parse/DeleteCallback.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/libs/parse/Parse-1.9.2-javadoc/com/parse/FindCallback.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/libs/parse/Parse-1.9.2-javadoc/com/parse/FunctionCallback.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/libs/parse/Parse-1.9.2-javadoc/com/parse/GetCallback.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/libs/parse/Parse-1.9.2-javadoc/com/parse/GetDataCallback.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/libs/parse/Parse-1.9.2-javadoc/com/parse/LocationCallback.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/libs/parse/Parse-1.9.2-javadoc/com/parse/LogInCallback.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/libs/parse/Parse-1.9.2-javadoc/com/parse/LogOutCallback.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/libs/parse/Parse-1.9.2-javadoc/com/parse/Parse.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/libs/parse/Parse-1.9.2-javadoc/com/parse/ParseACL.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/libs/parse/Parse-1.9.2-javadoc/com/parse/ParseAnalytics.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/libs/parse/Parse-1.9.2-javadoc/com/parse/ParseAnonymousUtils.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/libs/parse/Parse-1.9.2-javadoc/com/parse/ParseClassName.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/libs/parse/Parse-1.9.2-javadoc/com/parse/ParseCloud.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/libs/parse/Parse-1.9.2-javadoc/com/parse/ParseConfig.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/libs/parse/Parse-1.9.2-javadoc/com/parse/ParseException.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/libs/parse/Parse-1.9.2-javadoc/com/parse/ParseFile.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/libs/parse/Parse-1.9.2-javadoc/com/parse/ParseGeoPoint.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/libs/parse/Parse-1.9.2-javadoc/com/parse/ParseImageView.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/libs/parse/Parse-1.9.2-javadoc/com/parse/ParseInstallation.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/libs/parse/Parse-1.9.2-javadoc/com/parse/ParseObject.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/libs/parse/Parse-1.9.2-javadoc/com/parse/ParsePush.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/libs/parse/Parse-1.9.2-javadoc/com/parse/ParsePushBroadcastReceiver.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/libs/parse/Parse-1.9.2-javadoc/com/parse/ParseQuery.CachePolicy.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/libs/parse/Parse-1.9.2-javadoc/com/parse/ParseQuery.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/libs/parse/Parse-1.9.2-javadoc/com/parse/ParseQueryAdapter.OnQueryLoadListener.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/libs/parse/Parse-1.9.2-javadoc/com/parse/ParseQueryAdapter.QueryFactory.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/libs/parse/Parse-1.9.2-javadoc/com/parse/ParseQueryAdapter.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/libs/parse/Parse-1.9.2-javadoc/com/parse/ParseRelation.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/libs/parse/Parse-1.9.2-javadoc/com/parse/ParseRole.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/libs/parse/Parse-1.9.2-javadoc/com/parse/ParseSession.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/libs/parse/Parse-1.9.2-javadoc/com/parse/ParseTwitterUtils.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/libs/parse/Parse-1.9.2-javadoc/com/parse/ParseUser.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/libs/parse/Parse-1.9.2-javadoc/com/parse/ProgressCallback.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/libs/parse/Parse-1.9.2-javadoc/com/parse/PushService.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/libs/parse/Parse-1.9.2-javadoc/com/parse/RefreshCallback.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/libs/parse/Parse-1.9.2-javadoc/com/parse/RequestPasswordResetCallback.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/libs/parse/Parse-1.9.2-javadoc/com/parse/SaveCallback.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/libs/parse/Parse-1.9.2-javadoc/com/parse/SendCallback.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/libs/parse/Parse-1.9.2-javadoc/com/parse/SignUpCallback.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/libs/parse/Parse-1.9.2-javadoc/com/parse/class-use/ConfigCallback.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/libs/parse/Parse-1.9.2-javadoc/com/parse/class-use/CountCallback.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/libs/parse/Parse-1.9.2-javadoc/com/parse/class-use/DeleteCallback.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/libs/parse/Parse-1.9.2-javadoc/com/parse/class-use/FindCallback.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/libs/parse/Parse-1.9.2-javadoc/com/parse/class-use/FunctionCallback.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/libs/parse/Parse-1.9.2-javadoc/com/parse/class-use/GetCallback.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/libs/parse/Parse-1.9.2-javadoc/com/parse/class-use/GetDataCallback.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/libs/parse/Parse-1.9.2-javadoc/com/parse/class-use/LocationCallback.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/libs/parse/Parse-1.9.2-javadoc/com/parse/class-use/LogInCallback.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/libs/parse/Parse-1.9.2-javadoc/com/parse/class-use/LogOutCallback.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/libs/parse/Parse-1.9.2-javadoc/com/parse/class-use/Parse.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/libs/parse/Parse-1.9.2-javadoc/com/parse/class-use/ParseACL.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/libs/parse/Parse-1.9.2-javadoc/com/parse/class-use/ParseAnalytics.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/libs/parse/Parse-1.9.2-javadoc/com/parse/class-use/ParseAnonymousUtils.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/libs/parse/Parse-1.9.2-javadoc/com/parse/class-use/ParseClassName.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/libs/parse/Parse-1.9.2-javadoc/com/parse/class-use/ParseCloud.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/libs/parse/Parse-1.9.2-javadoc/com/parse/class-use/ParseConfig.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/libs/parse/Parse-1.9.2-javadoc/com/parse/class-use/ParseException.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/libs/parse/Parse-1.9.2-javadoc/com/parse/class-use/ParseFile.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/libs/parse/Parse-1.9.2-javadoc/com/parse/class-use/ParseGeoPoint.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/libs/parse/Parse-1.9.2-javadoc/com/parse/class-use/ParseImageView.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/libs/parse/Parse-1.9.2-javadoc/com/parse/class-use/ParseInstallation.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/libs/parse/Parse-1.9.2-javadoc/com/parse/class-use/ParseObject.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/libs/parse/Parse-1.9.2-javadoc/com/parse/class-use/ParsePush.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/libs/parse/Parse-1.9.2-javadoc/com/parse/class-use/ParsePushBroadcastReceiver.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/libs/parse/Parse-1.9.2-javadoc/com/parse/class-use/ParseQuery.CachePolicy.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/libs/parse/Parse-1.9.2-javadoc/com/parse/class-use/ParseQuery.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/libs/parse/Parse-1.9.2-javadoc/com/parse/class-use/ParseQueryAdapter.OnQueryLoadListener.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/libs/parse/Parse-1.9.2-javadoc/com/parse/class-use/ParseQueryAdapter.QueryFactory.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/libs/parse/Parse-1.9.2-javadoc/com/parse/class-use/ParseQueryAdapter.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/libs/parse/Parse-1.9.2-javadoc/com/parse/class-use/ParseRelation.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/libs/parse/Parse-1.9.2-javadoc/com/parse/class-use/ParseRole.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/libs/parse/Parse-1.9.2-javadoc/com/parse/class-use/ParseSession.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/libs/parse/Parse-1.9.2-javadoc/com/parse/class-use/ParseTwitterUtils.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/libs/parse/Parse-1.9.2-javadoc/com/parse/class-use/ParseUser.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/libs/parse/Parse-1.9.2-javadoc/com/parse/class-use/ProgressCallback.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/libs/parse/Parse-1.9.2-javadoc/com/parse/class-use/PushService.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/libs/parse/Parse-1.9.2-javadoc/com/parse/class-use/RefreshCallback.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/libs/parse/Parse-1.9.2-javadoc/com/parse/class-use/RequestPasswordResetCallback.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/libs/parse/Parse-1.9.2-javadoc/com/parse/class-use/SaveCallback.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/libs/parse/Parse-1.9.2-javadoc/com/parse/class-use/SendCallback.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/libs/parse/Parse-1.9.2-javadoc/com/parse/class-use/SignUpCallback.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/libs/parse/Parse-1.9.2-javadoc/com/parse/package-frame.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/libs/parse/Parse-1.9.2-javadoc/com/parse/package-summary.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/libs/parse/Parse-1.9.2-javadoc/com/parse/package-tree.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/libs/parse/Parse-1.9.2-javadoc/com/parse/package-use.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/libs/parse/Parse-1.9.2-javadoc/constant-values.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/libs/parse/Parse-1.9.2-javadoc/deprecated-list.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/libs/parse/Parse-1.9.2-javadoc/help-doc.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/libs/parse/Parse-1.9.2-javadoc/index-all.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/libs/parse/Parse-1.9.2-javadoc/index.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/libs/parse/Parse-1.9.2-javadoc/overview-tree.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/libs/parse/Parse-1.9.2-javadoc/package-list" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/libs/parse/Parse-1.9.2-javadoc/resources/background.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/libs/parse/Parse-1.9.2-javadoc/resources/tab.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/libs/parse/Parse-1.9.2-javadoc/resources/titlebar.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/libs/parse/Parse-1.9.2-javadoc/resources/titlebar_end.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/libs/parse/Parse-1.9.2-javadoc/serialized-form.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/libs/parse/Parse-1.9.2-javadoc/stylesheet.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/libs/parse/Parse-1.9.2.jar" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/libs/parse/Parse-1.9.2.jar.properties" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/libs/parse/ParseCrashReporting-1.9.2-javadoc/allclasses-frame.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/libs/parse/ParseCrashReporting-1.9.2-javadoc/allclasses-noframe.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/libs/parse/ParseCrashReporting-1.9.2-javadoc/com/parse/ParseCrashReporting.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/libs/parse/ParseCrashReporting-1.9.2-javadoc/com/parse/class-use/ParseCrashReporting.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/libs/parse/ParseCrashReporting-1.9.2-javadoc/com/parse/package-frame.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/libs/parse/ParseCrashReporting-1.9.2-javadoc/com/parse/package-summary.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/libs/parse/ParseCrashReporting-1.9.2-javadoc/com/parse/package-tree.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/libs/parse/ParseCrashReporting-1.9.2-javadoc/com/parse/package-use.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/libs/parse/ParseCrashReporting-1.9.2-javadoc/constant-values.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/libs/parse/ParseCrashReporting-1.9.2-javadoc/deprecated-list.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/libs/parse/ParseCrashReporting-1.9.2-javadoc/help-doc.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/libs/parse/ParseCrashReporting-1.9.2-javadoc/index-all.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/libs/parse/ParseCrashReporting-1.9.2-javadoc/index.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/libs/parse/ParseCrashReporting-1.9.2-javadoc/overview-tree.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/libs/parse/ParseCrashReporting-1.9.2-javadoc/package-list" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/libs/parse/ParseCrashReporting-1.9.2-javadoc/resources/background.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/libs/parse/ParseCrashReporting-1.9.2-javadoc/resources/tab.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/libs/parse/ParseCrashReporting-1.9.2-javadoc/resources/titlebar.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/libs/parse/ParseCrashReporting-1.9.2-javadoc/resources/titlebar_end.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/libs/parse/ParseCrashReporting-1.9.2-javadoc/stylesheet.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/libs/parse/ParseCrashReporting-1.9.2.jar" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/libs/parse/ParseCrashReporting-1.9.2.jar.properties" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/libs/parse/ParseFacebookUtilsV3-1.9.2-javadoc/allclasses-frame.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/libs/parse/ParseFacebookUtilsV3-1.9.2-javadoc/allclasses-noframe.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/libs/parse/ParseFacebookUtilsV3-1.9.2-javadoc/com/parse/ParseFacebookUtils.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/libs/parse/ParseFacebookUtilsV3-1.9.2-javadoc/com/parse/class-use/ParseFacebookUtils.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/libs/parse/ParseFacebookUtilsV3-1.9.2-javadoc/com/parse/package-frame.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/libs/parse/ParseFacebookUtilsV3-1.9.2-javadoc/com/parse/package-summary.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/libs/parse/ParseFacebookUtilsV3-1.9.2-javadoc/com/parse/package-tree.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/libs/parse/ParseFacebookUtilsV3-1.9.2-javadoc/com/parse/package-use.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/libs/parse/ParseFacebookUtilsV3-1.9.2-javadoc/constant-values.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/libs/parse/ParseFacebookUtilsV3-1.9.2-javadoc/deprecated-list.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/libs/parse/ParseFacebookUtilsV3-1.9.2-javadoc/help-doc.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/libs/parse/ParseFacebookUtilsV3-1.9.2-javadoc/index-all.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/libs/parse/ParseFacebookUtilsV3-1.9.2-javadoc/index.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/libs/parse/ParseFacebookUtilsV3-1.9.2-javadoc/overview-tree.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/libs/parse/ParseFacebookUtilsV3-1.9.2-javadoc/package-list" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/libs/parse/ParseFacebookUtilsV3-1.9.2-javadoc/resources/background.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/libs/parse/ParseFacebookUtilsV3-1.9.2-javadoc/resources/tab.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/libs/parse/ParseFacebookUtilsV3-1.9.2-javadoc/resources/titlebar.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/libs/parse/ParseFacebookUtilsV3-1.9.2-javadoc/resources/titlebar_end.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/libs/parse/ParseFacebookUtilsV3-1.9.2-javadoc/stylesheet.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/libs/parse/ParseFacebookUtilsV3-1.9.2.jar" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/libs/parse/ParseFacebookUtilsV3-1.9.2.jar.properties" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/libs/parse/ParseFacebookUtilsV4-1.9.2-javadoc/allclasses-frame.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/libs/parse/ParseFacebookUtilsV4-1.9.2-javadoc/allclasses-noframe.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/libs/parse/ParseFacebookUtilsV4-1.9.2-javadoc/com/parse/ParseFacebookUtils.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/libs/parse/ParseFacebookUtilsV4-1.9.2-javadoc/com/parse/class-use/ParseFacebookUtils.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/libs/parse/ParseFacebookUtilsV4-1.9.2-javadoc/com/parse/package-frame.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/libs/parse/ParseFacebookUtilsV4-1.9.2-javadoc/com/parse/package-summary.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/libs/parse/ParseFacebookUtilsV4-1.9.2-javadoc/com/parse/package-tree.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/libs/parse/ParseFacebookUtilsV4-1.9.2-javadoc/com/parse/package-use.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/libs/parse/ParseFacebookUtilsV4-1.9.2-javadoc/constant-values.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/libs/parse/ParseFacebookUtilsV4-1.9.2-javadoc/deprecated-list.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/libs/parse/ParseFacebookUtilsV4-1.9.2-javadoc/help-doc.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/libs/parse/ParseFacebookUtilsV4-1.9.2-javadoc/index-all.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/libs/parse/ParseFacebookUtilsV4-1.9.2-javadoc/index.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/libs/parse/ParseFacebookUtilsV4-1.9.2-javadoc/overview-tree.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/libs/parse/ParseFacebookUtilsV4-1.9.2-javadoc/package-list" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/libs/parse/ParseFacebookUtilsV4-1.9.2-javadoc/resources/background.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/libs/parse/ParseFacebookUtilsV4-1.9.2-javadoc/resources/tab.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/libs/parse/ParseFacebookUtilsV4-1.9.2-javadoc/resources/titlebar.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/libs/parse/ParseFacebookUtilsV4-1.9.2-javadoc/resources/titlebar_end.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/libs/parse/ParseFacebookUtilsV4-1.9.2-javadoc/stylesheet.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/libs/parse/ParseFacebookUtilsV4-1.9.2.jar" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/libs/parse/ParseFacebookUtilsV4-1.9.2.jar.properties" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/libs/parse/bolts-android-1.2.0-javadoc.jar" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/libs/parse/bolts-android-1.2.0.jar" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/libs/parse/bolts-android-1.2.0.jar.properties" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/libs/parse/third_party_licenses.txt" afterPath="" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/AndroidManifest.xml" afterPath="$PROJECT_DIR$/app/src/main/AndroidManifest.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/java/com/stanford/anglishwordbook/AnglishApplication.java" afterPath="$PROJECT_DIR$/app/src/main/java/com/stanford/anglishwordbook/AnglishApplication.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/java/com/stanford/anglishwordbook/activities/MainActivity.java" afterPath="$PROJECT_DIR$/app/src/main/java/com/stanford/anglishwordbook/activities/MainActivity.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/java/com/stanford/anglishwordbook/activities/RegisterActivity.java" afterPath="$PROJECT_DIR$/app/src/main/java/com/stanford/anglishwordbook/activities/RegisterActivity.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/java/com/stanford/anglishwordbook/models/Word.java" afterPath="$PROJECT_DIR$/app/src/main/java/com/stanford/anglishwordbook/models/Word.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/java/com/stanford/anglishwordbook/fragments/WordBookFragment.java" afterPath="$PROJECT_DIR$/app/src/main/java/com/stanford/anglishwordbook/fragments/WordBookFragment.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/app.iml" afterPath="$PROJECT_DIR$/app/app.iml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build.gradle" afterPath="$PROJECT_DIR$/app/build.gradle" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/res/menu/main.xml" afterPath="$PROJECT_DIR$/app/src/main/res/menu/main.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/res/values/strings.xml" afterPath="$PROJECT_DIR$/app/src/main/res/values/strings.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="AnglishWordbook.iws" />
@@ -66,148 +258,41 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="LoginActivity.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/src/main/java/com/stanford/anglishwordbook/activities/LoginActivity.java">
+      <file leaf-file-name="MainActivity.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/src/main/java/com/stanford/anglishwordbook/activities/MainActivity.java">
           <provider selected="true" editor-type-id="text-editor">
             <state vertical-scroll-proportion="0.0">
-              <caret line="218" column="31" selection-start-line="218" selection-start-column="17" selection-end-line="218" selection-end-column="31" />
+              <caret line="105" column="54" selection-start-line="105" selection-start-column="54" selection-end-line="105" selection-end-column="54" />
               <folding>
                 <element signature="imports" expanded="true" />
-                <element signature="e#1938#2299#0" expanded="true" />
-                <element signature="e#2298#2299#0" expanded="true" />
-                <element signature="e#2435#2581#0" expanded="true" />
-                <element signature="e#2580#2581#0" expanded="true" />
-                <element signature="e#2643#2886#0" expanded="true" />
-                <element signature="e#2885#2886#0" expanded="true" />
-                <element signature="e#2951#3565#0" expanded="true" />
-                <element signature="e#3081#3539#0" expanded="true" />
-                <element signature="e#3538#3539#0" expanded="true" />
-                <element signature="e#3564#3565#0" expanded="true" />
-                <element signature="e#4056#4302#0" expanded="true" />
-                <element signature="e#4301#4302#0" expanded="true" />
-                <element signature="e#4355#4639#0" expanded="true" />
-                <element signature="e#4638#4639#0" expanded="true" />
-                <element signature="e#6082#6124#0" expanded="true" />
-                <element signature="e#6326#6366#0" expanded="true" />
-                <element signature="e#6515#6554#0" expanded="true" />
-                <element signature="e#7151#7599#0" expanded="true" />
-                <element signature="e#7598#7599#0" expanded="true" />
-                <element signature="e#8015#8016#0" expanded="true" />
-                <element signature="e#8056#8057#0" expanded="true" />
-                <element signature="e#8251#8252#0" expanded="true" />
-                <element signature="e#8295#8296#0" expanded="true" />
-                <element signature="e#8679#8896#0" expanded="true" />
-                <element signature="e#8895#8896#0" expanded="true" />
-                <element signature="e#9061#9277#0" expanded="true" />
-                <element signature="e#9276#9277#0" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="RegisterActivity.java" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/app/src/main/java/com/stanford/anglishwordbook/activities/RegisterActivity.java">
+      <file leaf-file-name="WordBookFragment.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/app/src/main/java/com/stanford/anglishwordbook/fragments/WordBookFragment.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.78957915">
-              <caret line="200" column="0" selection-start-line="200" selection-start-column="0" selection-end-line="200" selection-end-column="0" />
+            <state vertical-scroll-proportion="0.26307693">
+              <caret line="44" column="49" selection-start-line="44" selection-start-column="49" selection-end-line="44" selection-end-column="49" />
               <folding>
                 <element signature="imports" expanded="true" />
-                <element signature="e#2220#2581#0" expanded="true" />
-                <element signature="e#2580#2581#0" expanded="true" />
-                <element signature="e#2717#2863#0" expanded="true" />
-                <element signature="e#2862#2863#0" expanded="true" />
-                <element signature="e#3030#3031#0" expanded="true" />
-                <element signature="e#3090#3091#0" expanded="true" />
-                <element signature="e#4067#4109#0" expanded="true" />
-                <element signature="e#4305#4345#0" expanded="true" />
-                <element signature="e#4486#4525#0" expanded="true" />
-                <element signature="e#4660#4698#0" expanded="true" />
-                <element signature="e#5581#5990#0" expanded="true" />
-                <element signature="e#5989#5990#0" expanded="true" />
-                <element signature="e#7011#7049#0" expanded="true" />
-                <element signature="e#7142#7143#0" expanded="true" />
-                <element signature="e#7183#7184#0" expanded="true" />
-                <element signature="e#7616#7617#0" expanded="true" />
-                <element signature="e#7658#7659#0" expanded="true" />
-                <element signature="e#7714#7715#0" expanded="true" />
-                <element signature="e#7758#7759#0" expanded="true" />
-                <element signature="e#8142#8359#0" expanded="true" />
-                <element signature="e#8358#8359#0" expanded="true" />
-                <element signature="e#8524#8740#0" expanded="true" />
-                <element signature="e#8739#8740#0" expanded="true" />
-                <element signature="e#9479#9487#0" expanded="true" />
-                <element signature="e#10317#10325#0" expanded="true" />
+                <element signature="e#3926#5275#0" expanded="true" />
+                <element signature="e#5274#5275#0" expanded="true" />
+                <element signature="e#5571#6140#0" expanded="true" />
+                <element signature="e#6139#6140#0" expanded="true" />
+                <element signature="e#6397#6398#0" expanded="true" />
+                <element signature="e#6429#6430#0" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="ParseErrorHandler.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/src/main/java/com/stanford/anglishwordbook/network/utils/ParseErrorHandler.java">
+      <file leaf-file-name="WordAdapter.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/src/main/java/com/stanford/anglishwordbook/adapters/WordAdapter.java">
           <provider selected="true" editor-type-id="text-editor">
             <state vertical-scroll-proportion="0.0">
-              <caret line="15" column="36" selection-start-line="15" selection-start-column="36" selection-end-line="15" selection-end-column="36" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="activity_register.xml" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/activity_register.xml">
-          <provider editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0">
-              <caret line="64" column="63" selection-start-line="64" selection-start-column="63" selection-end-line="64" selection-end-column="63" />
-              <folding>
-                <element signature="e#366#399#0" expanded="true" />
-                <element signature="e#434#469#0" expanded="true" />
-                <element signature="e#505#540#0" expanded="true" />
-                <element signature="e#574#607#0" expanded="true" />
-                <element signature="e#1634#1664#0" expanded="true" />
-                <element signature="e#1909#1934#0" expanded="true" />
-                <element signature="e#2278#2300#0" expanded="true" />
-                <element signature="e#2635#2660#0" expanded="true" />
-                <element signature="e#3271#3296#0" expanded="true" />
-                <element signature="e#3497#3517#0" expanded="true" />
-                <element signature="e#3663#3693#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-          <provider selected="true" editor-type-id="android-designer">
-            <state />
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="activity_login.xml" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/activity_login.xml">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-12.931034">
-              <caret line="45" column="40" selection-start-line="45" selection-start-column="40" selection-end-line="45" selection-end-column="40" />
-              <folding>
-                <element signature="e#366#399#0" expanded="true" />
-                <element signature="e#434#469#0" expanded="true" />
-                <element signature="e#505#540#0" expanded="true" />
-                <element signature="e#574#607#0" expanded="true" />
-                <element signature="e#1659#1686#0" expanded="true" />
-                <element signature="e#2046#2076#0" expanded="true" />
-                <element signature="e#2279#2304#0" expanded="true" />
-                <element signature="e#2639#2664#0" expanded="true" />
-                <element signature="e#2753#2783#0" expanded="true" />
-                <element signature="e#3280#3304#0" expanded="true" />
-                <element signature="e#3505#3526#0" expanded="true" />
-                <element signature="e#3673#3704#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-          <provider editor-type-id="android-designer">
-            <state />
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="strings.xml" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/src/main/res/values/strings.xml">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-18.0">
-              <caret line="30" column="58" selection-start-line="30" selection-start-column="58" selection-end-line="30" selection-end-column="58" />
+              <caret line="72" column="16" selection-start-line="72" selection-start-column="16" selection-end-line="72" selection-end-column="16" />
               <folding />
             </state>
           </provider>
@@ -217,39 +302,70 @@
         <entry file="file://$PROJECT_DIR$/app/src/main/java/com/stanford/anglishwordbook/models/Word.java">
           <provider selected="true" editor-type-id="text-editor">
             <state vertical-scroll-proportion="0.0">
-              <caret line="66" column="35" selection-start-line="66" selection-start-column="35" selection-end-line="66" selection-end-column="35" />
+              <caret line="40" column="6" selection-start-line="40" selection-start-column="6" selection-end-line="40" selection-end-column="6" />
               <folding>
                 <element signature="imports" expanded="true" />
-                <element signature="e#812#813#0" expanded="true" />
-                <element signature="e#847#848#0" expanded="true" />
-                <element signature="e#901#902#0" expanded="true" />
-                <element signature="e#943#944#0" expanded="true" />
-                <element signature="e#974#975#0" expanded="true" />
-                <element signature="e#1002#1003#0" expanded="true" />
-                <element signature="e#1042#1043#0" expanded="true" />
-                <element signature="e#1070#1071#0" expanded="true" />
-                <element signature="e#1111#1112#0" expanded="true" />
-                <element signature="e#1143#1144#0" expanded="true" />
-                <element signature="e#1189#1190#0" expanded="true" />
-                <element signature="e#1225#1226#0" expanded="true" />
-                <element signature="e#1268#1269#0" expanded="true" />
-                <element signature="e#1302#1303#0" expanded="true" />
-                <element signature="e#1352#1353#0" expanded="true" />
-                <element signature="e#1392#1393#0" expanded="true" />
-                <element signature="e#1745#1746#0" expanded="true" />
-                <element signature="e#1784#1785#0" expanded="true" />
+                <element signature="e#993#994#0" expanded="true" />
+                <element signature="e#1036#1037#0" expanded="true" />
+                <element signature="e#1080#1081#0" expanded="true" />
+                <element signature="e#1125#1126#0" expanded="true" />
+                <element signature="e#1685#1686#0" expanded="true" />
+                <element signature="e#1720#1721#0" expanded="true" />
+                <element signature="e#1774#1775#0" expanded="true" />
+                <element signature="e#1816#1817#0" expanded="true" />
+                <element signature="e#1847#1848#0" expanded="true" />
+                <element signature="e#1875#1876#0" expanded="true" />
+                <element signature="e#1915#1916#0" expanded="true" />
+                <element signature="e#1943#1944#0" expanded="true" />
+                <element signature="e#1984#1985#0" expanded="true" />
+                <element signature="e#2016#2017#0" expanded="true" />
+                <element signature="e#2062#2063#0" expanded="true" />
+                <element signature="e#2098#2099#0" expanded="true" />
+                <element signature="e#2141#2142#0" expanded="true" />
+                <element signature="e#2175#2176#0" expanded="true" />
+                <element signature="e#2225#2226#0" expanded="true" />
+                <element signature="e#2265#2266#0" expanded="true" />
+                <element signature="e#2618#2619#0" expanded="true" />
+                <element signature="e#2657#2658#0" expanded="true" />
+                <element signature="e#2708#2709#0" expanded="true" />
+                <element signature="e#2732#2733#0" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="User.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/src/main/java/com/stanford/anglishwordbook/models/User.java">
+      <file leaf-file-name="AnglishApplication.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/src/main/java/com/stanford/anglishwordbook/AnglishApplication.java">
           <provider selected="true" editor-type-id="text-editor">
             <state vertical-scroll-proportion="0.0">
-              <caret line="9" column="47" selection-start-line="9" selection-start-column="47" selection-end-line="9" selection-end-column="47" />
+              <caret line="14" column="28" selection-start-line="14" selection-start-column="28" selection-end-line="14" selection-end-column="28" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="build.gradle" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/build.gradle">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.0">
+              <caret line="33" column="53" selection-start-line="33" selection-start-column="53" selection-end-line="33" selection-end-column="53" />
               <folding />
             </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="fragment_word_book.xml" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/fragment_word_book.xml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.0">
+              <caret line="35" column="0" selection-start-line="35" selection-start-column="0" selection-end-line="35" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+          <provider editor-type-id="android-designer">
+            <state />
           </provider>
         </entry>
       </file>
@@ -1139,7 +1255,7 @@
     </option>
     <option name="modificationStamps">
       <map>
-        <entry key="$PROJECT_DIR$" value="4288343131000" />
+        <entry key="$PROJECT_DIR$" value="4289228236000" />
         <entry key="$PROJECT_DIR$/../thoughtstream_android" value="4270723558000" />
       </map>
     </option>
@@ -1295,21 +1411,15 @@
                             <option value="$APPLICATION_HOME_DIR$/gradle/m2repository/org/ow2/asm/asm-tree/4.0/asm-tree-4.0-sources.jar" />
                             <option value="$APPLICATION_HOME_DIR$/gradle/m2repository/org/ow2/asm/asm-tree/4.0/asm-tree-4.0.jar" />
                             <option value="$USER_HOME$/Library/Android/sdk/extras/android/m2repository/com/android/support/appcompat-v7/22.0.0/appcompat-v7-22.0.0.aar" />
-                            <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.squareup.okhttp/okhttp-urlconnection/2.0.0/3e100a0b64b18b70fe11cab7afb44702210fe52d/okhttp-urlconnection-2.0.0-sources.jar" />
-                            <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.squareup.okhttp/okhttp-urlconnection/2.0.0/afe8399d352713b66e597e9670c741d1e60ae923/okhttp-urlconnection-2.0.0.jar" />
-                            <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.squareup.okhttp/okhttp/2.0.0/af42b755327c58cfae866f18ed873e2d537e0ea8/okhttp-2.0.0-sources.jar" />
-                            <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.squareup.okhttp/okhttp/2.0.0/4c8d1536dba3812cc1592090dc20c47a4ed3c35e/okhttp-2.0.0.jar" />
                             <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.squareup.retrofit/retrofit/1.9.0/f3908d76273ad2498add8bb89d7fb787f3061b1d/retrofit-1.9.0-sources.jar" />
                             <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.squareup.retrofit/retrofit/1.9.0/a681c044244d9fc375198588297a39ba78028423/retrofit-1.9.0.jar" />
                             <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/io.gsonfire/gson-fire/1.0.1/bb8f06d0493a77943b95d50b24bc9b81d01227a4/gson-fire-1.0.1-sources.jar" />
                             <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/io.gsonfire/gson-fire/1.0.1/471f1ea495fdf5284490422708e02b2fed7f31ea/gson-fire-1.0.1.jar" />
-                            <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.parse.bolts/bolts-android/1.2.0/857ff136219a186d2cccbf25977e2d00c38c5e3d/bolts-android-1.2.0-sources.jar" />
-                            <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.parse.bolts/bolts-android/1.2.0/6ee2953ccf51ce72b6d548c30c4633b99eb4f9dd/bolts-android-1.2.0.jar" />
                             <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.github.shell-software/fab/1.1.2/fe240d8c4ac516b967c9520142ac5675ef46f096/fab-1.1.2-sources.jar" />
                             <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.github.shell-software/fab/1.1.2/6fa556340f81eb1ec64feb65cb762471ac984e81/fab-1.1.2.aar" />
+                            <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.parse.bolts/bolts-android/1.2.0/857ff136219a186d2cccbf25977e2d00c38c5e3d/bolts-android-1.2.0-sources.jar" />
+                            <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.parse.bolts/bolts-android/1.2.0/6ee2953ccf51ce72b6d548c30c4633b99eb4f9dd/bolts-android-1.2.0.jar" />
                             <option value="$USER_HOME$/Library/Android/sdk/extras/android/m2repository/com/android/support/support-v4/22.0.0/support-v4-22.0.0.aar" />
-                            <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.squareup.okio/okio/1.0.0/31c1e834571f026521191d28ebbb5df5f1d21437/okio-1.0.0-sources.jar" />
-                            <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.squareup.okio/okio/1.0.0/2534c458682c73f5b9871131ab3098d3f987ca3/okio-1.0.0.jar" />
                             <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.google.code.gson/gson/2.3.1/563dcb685903c96ce8abbd03adf7fa49e19aa8b4/gson-2.3.1-sources.jar" />
                             <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.google.code.gson/gson/2.3.1/ecb6e1f8e4b0e84c4b886c2f14a1500caf309757/gson-2.3.1.jar" />
                             <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.github.shell-software/uitools/1.1.0/54491914dfef31b0eac4b2d78583e129ea832be7/uitools-1.1.0-sources.jar" />
@@ -1319,9 +1429,12 @@
                             <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.github.shell-software/viewmover/1.1.0/4e636787b37f83cb5bf44a3a5de05c303820330f/viewmover-1.1.0-sources.jar" />
                             <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.github.shell-software/viewmover/1.1.0/552a071505a61f8cedd3e1384b4d25c6867c2d1d/viewmover-1.1.0.aar" />
                             <option value="$USER_HOME$/Library/Android/sdk/extras/android/m2repository/com/android/support/support-annotations/22.0.0/support-annotations-22.0.0.jar" />
+                            <option value="$MODULE_DIR$/libs/bolts-android-1.2.0.jar" />
+                            <option value="$MODULE_DIR$/libs/Parse-1.9.4.jar" />
+                            <option value="$MODULE_DIR$/libs/ParseCrashReporting-1.9.4.jar" />
+                            <option value="$MODULE_DIR$/libs/ParseFacebookUtilsV3-1.9.4.jar" />
+                            <option value="$MODULE_DIR$/libs/ParseFacebookUtilsV4-1.9.4.jar" />
                             <option value="$MODULE_DIR$/libs/volley.jar" />
-                            <option value="$MODULE_DIR$/libs/parse/Parse-1.9.2.jar" />
-                            <option value="$MODULE_DIR$/libs/parse/ParseCrashReporting-1.9.2.jar" />
                             <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.parse.tools/gradle/1.1/adb8482544b41093709783541cababab0a38d18b/gradle-1.1.jar" />
                             <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.android.tools.build/gradle/1.0.1/5e05aed7bd5c3941c03c22e853cae1c0f65cfdac/gradle-1.0.1-sources.jar" />
                             <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.android.tools.build/gradle/1.0.1/cd1ae9a4b885e8f07572d0f894f149533c082cc8/gradle-1.0.1.jar" />
@@ -1478,7 +1591,6 @@
     <option name="CHANGED_PATHS">
       <list>
         <option value="$PROJECT_DIR$/app/src/main/java/com/stanford/anglishwordbook/activities/LaunchActivity.java" />
-        <option value="$PROJECT_DIR$/app/src/main/java/com/stanford/anglishwordbook/models/Word.java" />
         <option value="$PROJECT_DIR$/app/src/main/res/values/styles.xml" />
         <option value="$PROJECT_DIR$/app/src/main/java/com/stanford/anglishwordbook/adapters/WordAdapter.java" />
         <option value="$PROJECT_DIR$/app/src/main/res/layout/item_wordlist.xml" />
@@ -1487,23 +1599,25 @@
         <option value="$PROJECT_DIR$/app/src/main/res/drawable/wordbook_header.xml" />
         <option value="$PROJECT_DIR$/app/src/main/res/values/dimens.xml" />
         <option value="$PROJECT_DIR$/app/src/main/java/com/stanford/anglishwordbook/dialogs/WordDialog.java" />
-        <option value="$PROJECT_DIR$/app/src/main/java/com/stanford/anglishwordbook/fragments/WordBookFragment.java" />
         <option value="$PROJECT_DIR$/app/src/main/java/com/stanford/anglishwordbook/fragments/NavigationDrawerFragment.java" />
-        <option value="$PROJECT_DIR$/app/build.gradle" />
         <option value="$PROJECT_DIR$/app/src/main/res/layout/fragment_word_book.xml" />
-        <option value="$PROJECT_DIR$/app/src/main/AndroidManifest.xml" />
         <option value="$PROJECT_DIR$/app/src/main/java/com/stanford/anglishwordbook/auth/AnglishAuthenticator.java" />
-        <option value="$PROJECT_DIR$/app/src/main/res/values/strings.xml" />
         <option value="$PROJECT_DIR$/app/src/main/java/com/stanford/anglishwordbook/network/utils/NetworkConnection.java" />
         <option value="$PROJECT_DIR$/app/src/main/res/layout/activity_login.xml" />
         <option value="$PROJECT_DIR$/app/src/main/res/layout/activity_register.xml" />
-        <option value="$PROJECT_DIR$/app/src/main/res/menu/main.xml" />
-        <option value="$PROJECT_DIR$/app/src/main/java/com/stanford/anglishwordbook/activities/MainActivity.java" />
         <option value="$PROJECT_DIR$/app/src/main/java/com/stanford/anglishwordbook/models/User.java" />
         <option value="$PROJECT_DIR$/app/src/main/java/com/stanford/anglishwordbook/network/utils/ParseNEtworkErrorUtil.java" />
         <option value="$PROJECT_DIR$/app/src/main/java/com/stanford/anglishwordbook/network/utils/ParseErrorHandler.java" />
         <option value="$PROJECT_DIR$/app/src/main/java/com/stanford/anglishwordbook/activities/LoginActivity.java" />
+        <option value="$PROJECT_DIR$/app/src/main/AndroidManifest.xml" />
+        <option value="$PROJECT_DIR$/app/src/main/res/menu/main.xml" />
+        <option value="$PROJECT_DIR$/app/src/main/java/com/stanford/anglishwordbook/AnglishApplication.java" />
+        <option value="$PROJECT_DIR$/app/src/main/java/com/stanford/anglishwordbook/activities/MainActivity.java" />
         <option value="$PROJECT_DIR$/app/src/main/java/com/stanford/anglishwordbook/activities/RegisterActivity.java" />
+        <option value="$PROJECT_DIR$/app/src/main/res/values/strings.xml" />
+        <option value="$PROJECT_DIR$/app/src/main/java/com/stanford/anglishwordbook/models/Word.java" />
+        <option value="$PROJECT_DIR$/app/build.gradle" />
+        <option value="$PROJECT_DIR$/app/src/main/java/com/stanford/anglishwordbook/fragments/WordBookFragment.java" />
       </list>
     </option>
   </component>
@@ -1518,9 +1632,10 @@
     <order />
   </component>
   <component name="ProjectFrameBounds">
-    <option name="y" value="22" />
-    <option name="width" value="1680" />
-    <option name="height" value="1024" />
+    <option name="x" value="-1113" />
+    <option name="y" value="-1178" />
+    <option name="width" value="1920" />
+    <option name="height" value="1178" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
     <OptionsSetting value="true" id="Add" />
@@ -1548,10 +1663,9 @@
       <sortByType />
     </navigator>
     <panes>
-      <pane id="Scope" />
       <pane id="ProjectPane" />
+      <pane id="Scope" />
       <pane id="PackagesPane" />
-      <pane id="Scratches" />
       <pane id="AndroidView">
         <subPane>
           <PATH>
@@ -1572,46 +1686,6 @@
             <PATH_ELEMENT>
               <option name="myItemId" value="app" />
               <option name="myItemType" value="com.android.tools.idea.navigator.nodes.AndroidModuleNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="res" />
-              <option name="myItemType" value="com.android.tools.idea.navigator.nodes.AndroidResFolderNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="AnglishWordbook" />
-              <option name="myItemType" value="com.android.tools.idea.navigator.nodes.AndroidViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="app" />
-              <option name="myItemType" value="com.android.tools.idea.navigator.nodes.AndroidModuleNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="res" />
-              <option name="myItemType" value="com.android.tools.idea.navigator.nodes.AndroidResFolderNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="menu" />
-              <option name="myItemType" value="com.android.tools.idea.navigator.nodes.AndroidResFolderTypeNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="AnglishWordbook" />
-              <option name="myItemType" value="com.android.tools.idea.navigator.nodes.AndroidViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="app" />
-              <option name="myItemType" value="com.android.tools.idea.navigator.nodes.AndroidModuleNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="res" />
-              <option name="myItemType" value="com.android.tools.idea.navigator.nodes.AndroidResFolderNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="layout" />
-              <option name="myItemType" value="com.android.tools.idea.navigator.nodes.AndroidResFolderTypeNode" />
             </PATH_ELEMENT>
           </PATH>
           <PATH>
@@ -1687,32 +1761,6 @@
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="network" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="AnglishWordbook" />
-              <option name="myItemType" value="com.android.tools.idea.navigator.nodes.AndroidViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="app" />
-              <option name="myItemType" value="com.android.tools.idea.navigator.nodes.AndroidModuleNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="java" />
-              <option name="myItemType" value="com.android.tools.idea.navigator.nodes.AndroidSourceTypeNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="anglishwordbook" />
-              <option name="myItemType" value="com.android.tools.idea.navigator.nodes.AndroidPsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="network" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="utils" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -1826,22 +1874,9 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="AnglishWordbook" />
-              <option name="myItemType" value="com.android.tools.idea.navigator.nodes.AndroidViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="app" />
-              <option name="myItemType" value="com.android.tools.idea.navigator.nodes.AndroidModuleNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="manifests" />
-              <option name="myItemType" value="com.android.tools.idea.navigator.nodes.AndroidManifestsGroupNode" />
-            </PATH_ELEMENT>
-          </PATH>
         </subPane>
       </pane>
+      <pane id="Scratches" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -1857,7 +1892,7 @@
     <property name="OverrideImplement.combined" value="true" />
     <property name="OverrideImplement.overriding.sorted" value="false" />
     <property name="FullScreen" value="false" />
-    <property name="ANDROID_EXTENDED_DEVICE_CHOOSER_SERIALS" value="c744d0d4" />
+    <property name="ANDROID_EXTENDED_DEVICE_CHOOSER_SERIALS" value="02157df27b551725" />
     <property name="ANDROID_EXTENDED_DEVICE_CHOOSER_AVD" value="Tablet" />
     <property name="android.project.structure.last.selected" value="app" />
     <property name="android.project.structure.proportion" value="0.15" />
@@ -2106,30 +2141,29 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="0" y="22" width="1680" height="1024" extended-state="6" />
+    <frame x="-1113" y="-1178" width="1920" height="1178" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info id="Documentation" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.26007327" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" x="-1013" y="-1078" width="1720" height="978" />
+      <window_info id="Documentation" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25985092" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" x="-1013" y="-1078" width="1720" height="978" />
       <window_info id="Palette&#9;" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Preview" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Captures" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3992467" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.36158192" sideWeight="0.5042598" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Build Variants" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Gradle Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32862523" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Android" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.41960353" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32862523" sideWeight="0.4978701" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Android" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.36158192" sideWeight="0.49574015" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Gradle" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.20512821" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.20704846" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.17891374" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.2062147" sideWeight="0.4978701" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.24973376" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
@@ -2137,6 +2171,7 @@
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Preview" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32956687" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
@@ -2196,13 +2231,6 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/stanford/anglishwordbook/network/NetworkUtil.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="10" column="13" selection-start-line="10" selection-start-column="13" selection-end-line="10" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/app/src/main/java/com/stanford/anglishwordbook/network/NetworkErrorHandler.java">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
@@ -2280,24 +2308,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="jar://$PROJECT_DIR$/app/libs/parse/Parse-1.9.2.jar!/com/parse/ParseUser.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-1.876506">
-          <caret line="30" column="34" selection-start-line="30" selection-start-column="34" selection-end-line="30" selection-end-column="34" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/build.gradle">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/stanford/anglishwordbook/AnglishApplication.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="29" column="0" selection-start-line="29" selection-start-column="0" selection-end-line="29" selection-end-column="0" />
         </state>
       </provider>
     </entry>
@@ -2370,9 +2384,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.88491046">
           <caret line="68" column="5" selection-start-line="68" selection-start-column="5" selection-end-line="68" selection-end-column="5" />
-          <folding>
-            <element signature="imports" expanded="false" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -2380,7 +2391,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.4629156">
           <caret line="5191" column="24" selection-start-line="5191" selection-start-column="24" selection-end-line="5191" selection-end-column="24" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -2400,22 +2410,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/stanford/anglishwordbook/adapters/WordAdapter.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.4064516">
-          <caret line="64" column="42" selection-start-line="64" selection-start-column="42" selection-end-line="64" selection-end-column="42" />
-          <folding>
-            <element signature="e#799#800#0" expanded="false" />
-            <element signature="e#845#846#0" expanded="false" />
-            <element signature="e#902#903#0" expanded="false" />
-            <element signature="e#959#960#0" expanded="false" />
-            <element signature="e#902#903#0" expanded="false" />
-            <element signature="e#959#960#0" expanded="false" />
-            <element signature="e#2291#2321#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/item_wordlist.xml">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.2613941">
@@ -2431,17 +2425,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.36774194">
           <caret line="19" column="8" selection-start-line="19" selection-start-column="8" selection-end-line="19" selection-end-column="8" />
-          <folding>
-            <element signature="e#217#260#0" expanded="false" />
-            <element signature="e#331#374#0" expanded="false" />
-            <element signature="e#400#443#0" expanded="false" />
-            <element signature="e#471#514#0" expanded="false" />
-            <element signature="e#543#586#0" expanded="false" />
-            <element signature="e#629#672#0" expanded="false" />
-            <element signature="e#711#754#0" expanded="false" />
-            <element signature="e#790#833#0" expanded="false" />
-            <element signature="e#870#913#0" expanded="false" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -2449,7 +2432,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.13548388">
           <caret line="7" column="42" selection-start-line="7" selection-start-column="42" selection-end-line="7" selection-end-column="42" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -2458,41 +2440,6 @@
         <state vertical-scroll-proportion="0.30967742">
           <caret line="16" column="49" selection-start-line="16" selection-start-column="49" selection-end-line="16" selection-end-column="49" />
           <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/stanford/anglishwordbook/dialogs/WordDialog.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.89032257">
-          <caret line="46" column="0" selection-start-line="46" selection-start-column="0" selection-end-line="46" selection-end-column="0" />
-          <folding>
-            <element signature="imports" expanded="false" />
-            <element signature="e#441#442#0" expanded="false" />
-            <element signature="e#481#482#0" expanded="false" />
-            <element signature="e#542#543#0" expanded="false" />
-            <element signature="e#582#583#0" expanded="false" />
-            <element signature="e#626#627#0" expanded="false" />
-            <element signature="e#658#659#0" expanded="false" />
-            <element signature="e#727#728#0" expanded="false" />
-            <element signature="e#777#778#0" expanded="false" />
-            <element signature="e#1176#1177#0" expanded="false" />
-            <element signature="e#1208#1209#0" expanded="false" />
-            <element signature="e#1251#1252#0" expanded="false" />
-            <element signature="e#1282#1283#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/stanford/anglishwordbook/fragments/WordBookFragment.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="17" column="0" selection-start-line="17" selection-start-column="0" selection-end-line="17" selection-end-column="0" />
-          <folding>
-            <element signature="e#3125#4474#0" expanded="false" />
-            <element signature="e#4473#4474#0" expanded="false" />
-            <element signature="e#4770#5339#0" expanded="false" />
-            <element signature="e#5338#5339#0" expanded="false" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -2511,24 +2458,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.4967742">
           <caret line="105" column="0" selection-start-line="105" selection-start-column="0" selection-end-line="105" selection-end-column="0" />
-          <folding>
-            <element signature="imports" expanded="false" />
-            <element signature="e#3084#3499#0" expanded="false" />
-            <element signature="e#3498#3499#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/AndroidManifest.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.17045455">
-          <caret line="10" column="0" selection-start-line="10" selection-start-column="0" selection-end-line="10" selection-end-column="0" />
-          <folding>
-            <element signature="e#727#745#0" expanded="true" />
-            <element signature="e#926#944#0" expanded="true" />
-            <element signature="e#1066#1084#0" expanded="true" />
-            <element signature="e#1203#1233#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -2536,15 +2465,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/build.gradle">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="38" column="0" selection-start-line="38" selection-start-column="0" selection-end-line="38" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -2552,27 +2472,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="-0.0056818184">
           <caret line="229" column="56" selection-start-line="229" selection-start-column="8" selection-end-line="229" selection-end-column="56" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#3505#3723#0" expanded="true" />
-            <element signature="e#3722#3723#0" expanded="true" />
-            <element signature="e#3985#4019#0" expanded="true" />
-            <element signature="e#4045#4076#0" expanded="true" />
-            <element signature="e#4102#4137#0" expanded="true" />
-            <element signature="e#5705#5736#0" expanded="true" />
-            <element signature="e#5805#5837#0" expanded="true" />
-            <element signature="e#7445#7582#0" expanded="true" />
-            <element signature="e#7581#7582#0" expanded="true" />
-            <element signature="e#10272#10289#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/res/values/strings.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-18.0">
-          <caret line="30" column="58" selection-start-line="30" selection-start-column="58" selection-end-line="30" selection-end-column="58" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -2580,123 +2479,13 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="11" column="17" selection-start-line="11" selection-start-column="17" selection-end-line="11" selection-end-column="17" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/activity_login.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-12.931034">
-          <caret line="45" column="40" selection-start-line="45" selection-start-column="40" selection-end-line="45" selection-end-column="40" />
-          <folding>
-            <element signature="e#366#399#0" expanded="true" />
-            <element signature="e#434#469#0" expanded="true" />
-            <element signature="e#505#540#0" expanded="true" />
-            <element signature="e#574#607#0" expanded="true" />
-            <element signature="e#1659#1686#0" expanded="true" />
-            <element signature="e#2046#2076#0" expanded="true" />
-            <element signature="e#2279#2304#0" expanded="true" />
-            <element signature="e#2639#2664#0" expanded="true" />
-            <element signature="e#2753#2783#0" expanded="true" />
-            <element signature="e#3280#3304#0" expanded="true" />
-            <element signature="e#3505#3526#0" expanded="true" />
-            <element signature="e#3673#3704#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-      <provider editor-type-id="android-designer">
-        <state />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/fragment_word_book.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.421875">
-          <caret line="18" column="0" selection-start-line="18" selection-start-column="0" selection-end-line="18" selection-end-column="0" />
-          <folding>
-            <element signature="e#575#612#0" expanded="true" />
-            <element signature="e#1733#1752#0" expanded="true" />
-            <element signature="e#1789#1808#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-      <provider editor-type-id="android-designer">
-        <state />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/activity_register.xml">
-      <provider editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="64" column="63" selection-start-line="64" selection-start-column="63" selection-end-line="64" selection-end-column="63" />
-          <folding>
-            <element signature="e#366#399#0" expanded="true" />
-            <element signature="e#434#469#0" expanded="true" />
-            <element signature="e#505#540#0" expanded="true" />
-            <element signature="e#574#607#0" expanded="true" />
-            <element signature="e#1634#1664#0" expanded="true" />
-            <element signature="e#1909#1934#0" expanded="true" />
-            <element signature="e#2278#2300#0" expanded="true" />
-            <element signature="e#2635#2660#0" expanded="true" />
-            <element signature="e#3271#3296#0" expanded="true" />
-            <element signature="e#3497#3517#0" expanded="true" />
-            <element signature="e#3663#3693#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-      <provider selected="true" editor-type-id="android-designer">
-        <state />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/res/menu/main.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.09018036">
-          <caret line="3" column="40" selection-start-line="3" selection-start-column="40" selection-end-line="3" selection-end-column="40" />
-          <folding>
-            <element signature="e#259#282#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/stanford/anglishwordbook/activities/MainActivity.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="125" column="9" selection-start-line="125" selection-start-column="9" selection-end-line="125" selection-end-column="9" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/stanford/anglishwordbook/models/Word.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="66" column="35" selection-start-line="66" selection-start-column="35" selection-end-line="66" selection-end-column="35" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#812#813#0" expanded="true" />
-            <element signature="e#847#848#0" expanded="true" />
-            <element signature="e#901#902#0" expanded="true" />
-            <element signature="e#943#944#0" expanded="true" />
-            <element signature="e#974#975#0" expanded="true" />
-            <element signature="e#1002#1003#0" expanded="true" />
-            <element signature="e#1042#1043#0" expanded="true" />
-            <element signature="e#1070#1071#0" expanded="true" />
-            <element signature="e#1111#1112#0" expanded="true" />
-            <element signature="e#1143#1144#0" expanded="true" />
-            <element signature="e#1189#1190#0" expanded="true" />
-            <element signature="e#1225#1226#0" expanded="true" />
-            <element signature="e#1268#1269#0" expanded="true" />
-            <element signature="e#1302#1303#0" expanded="true" />
-            <element signature="e#1352#1353#0" expanded="true" />
-            <element signature="e#1392#1393#0" expanded="true" />
-            <element signature="e#1745#1746#0" expanded="true" />
-            <element signature="e#1784#1785#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/app/src/main/java/com/stanford/anglishwordbook/models/User.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
+        <state vertical-scroll-proportion="0.20673813">
           <caret line="9" column="47" selection-start-line="9" selection-start-column="47" selection-end-line="9" selection-end-column="47" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -2704,78 +2493,214 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="15" column="36" selection-start-line="15" selection-start-column="36" selection-end-line="15" selection-end-column="36" />
-          <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/app/src/main/java/com/stanford/anglishwordbook/activities/LoginActivity.java">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
-          <caret line="218" column="31" selection-start-line="218" selection-start-column="17" selection-end-line="218" selection-end-column="31" />
+          <caret line="214" column="0" selection-start-line="214" selection-start-column="0" selection-end-line="214" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/activity_register.xml">
+      <provider editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="64" column="63" selection-start-line="64" selection-start-column="63" selection-end-line="64" selection-end-column="63" />
           <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#1938#2299#0" expanded="true" />
-            <element signature="e#2298#2299#0" expanded="true" />
-            <element signature="e#2435#2581#0" expanded="true" />
-            <element signature="e#2580#2581#0" expanded="true" />
-            <element signature="e#2643#2886#0" expanded="true" />
-            <element signature="e#2885#2886#0" expanded="true" />
-            <element signature="e#2951#3565#0" expanded="true" />
-            <element signature="e#3081#3539#0" expanded="true" />
-            <element signature="e#3538#3539#0" expanded="true" />
-            <element signature="e#3564#3565#0" expanded="true" />
-            <element signature="e#4056#4302#0" expanded="true" />
-            <element signature="e#4301#4302#0" expanded="true" />
-            <element signature="e#4355#4639#0" expanded="true" />
-            <element signature="e#4638#4639#0" expanded="true" />
-            <element signature="e#6082#6124#0" expanded="true" />
-            <element signature="e#6326#6366#0" expanded="true" />
-            <element signature="e#6515#6554#0" expanded="true" />
-            <element signature="e#7151#7599#0" expanded="true" />
-            <element signature="e#7598#7599#0" expanded="true" />
-            <element signature="e#8015#8016#0" expanded="true" />
-            <element signature="e#8056#8057#0" expanded="true" />
-            <element signature="e#8251#8252#0" expanded="true" />
-            <element signature="e#8295#8296#0" expanded="true" />
-            <element signature="e#8679#8896#0" expanded="true" />
-            <element signature="e#8895#8896#0" expanded="true" />
-            <element signature="e#9061#9277#0" expanded="true" />
-            <element signature="e#9276#9277#0" expanded="true" />
+            <element signature="e#366#399#0" expanded="false" />
+            <element signature="e#434#469#0" expanded="false" />
+            <element signature="e#505#540#0" expanded="false" />
+            <element signature="e#574#607#0" expanded="false" />
+            <element signature="e#1634#1664#0" expanded="false" />
+            <element signature="e#1909#1934#0" expanded="false" />
+            <element signature="e#2278#2300#0" expanded="false" />
+            <element signature="e#2635#2660#0" expanded="false" />
+            <element signature="e#3271#3296#0" expanded="false" />
+            <element signature="e#3497#3517#0" expanded="false" />
+            <element signature="e#3663#3693#0" expanded="false" />
           </folding>
+        </state>
+      </provider>
+      <provider selected="true" editor-type-id="android-designer">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/activity_login.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-12.931034">
+          <caret line="45" column="40" selection-start-line="45" selection-start-column="40" selection-end-line="45" selection-end-column="40" />
+          <folding>
+            <element signature="e#366#399#0" expanded="false" />
+            <element signature="e#434#469#0" expanded="false" />
+            <element signature="e#505#540#0" expanded="false" />
+            <element signature="e#574#607#0" expanded="false" />
+            <element signature="e#1659#1686#0" expanded="false" />
+            <element signature="e#2046#2076#0" expanded="false" />
+            <element signature="e#2279#2304#0" expanded="false" />
+            <element signature="e#2639#2664#0" expanded="false" />
+            <element signature="e#2753#2783#0" expanded="false" />
+            <element signature="e#3280#3304#0" expanded="false" />
+            <element signature="e#3505#3526#0" expanded="false" />
+            <element signature="e#3673#3704#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+      <provider editor-type-id="android-designer">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/AndroidManifest.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="14" column="46" selection-start-line="14" selection-start-column="46" selection-end-line="14" selection-end-column="46" />
+          <folding>
+            <element signature="e#730#748#0" expanded="true" />
+            <element signature="e#929#947#0" expanded="true" />
+            <element signature="e#1069#1087#0" expanded="true" />
+            <element signature="e#1206#1224#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/res/drawable/book_open_icon.png">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/res/values/strings.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-13.8">
+          <caret line="24" column="48" selection-start-line="24" selection-start-column="48" selection-end-line="24" selection-end-column="48" />
+          <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/app/src/main/java/com/stanford/anglishwordbook/activities/RegisterActivity.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.78957915">
-          <caret line="200" column="0" selection-start-line="200" selection-start-column="0" selection-end-line="200" selection-end-column="0" />
+        <state vertical-scroll-proportion="0.0">
+          <caret line="224" column="125" selection-start-line="224" selection-start-column="125" selection-end-line="224" selection-end-column="125" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="e#2220#2581#0" expanded="true" />
-            <element signature="e#2580#2581#0" expanded="true" />
-            <element signature="e#2717#2863#0" expanded="true" />
-            <element signature="e#2862#2863#0" expanded="true" />
-            <element signature="e#3030#3031#0" expanded="true" />
-            <element signature="e#3090#3091#0" expanded="true" />
-            <element signature="e#4067#4109#0" expanded="true" />
-            <element signature="e#4305#4345#0" expanded="true" />
-            <element signature="e#4486#4525#0" expanded="true" />
-            <element signature="e#4660#4698#0" expanded="true" />
-            <element signature="e#5581#5990#0" expanded="true" />
-            <element signature="e#5989#5990#0" expanded="true" />
-            <element signature="e#7011#7049#0" expanded="true" />
-            <element signature="e#7142#7143#0" expanded="true" />
-            <element signature="e#7183#7184#0" expanded="true" />
-            <element signature="e#7616#7617#0" expanded="true" />
-            <element signature="e#7658#7659#0" expanded="true" />
-            <element signature="e#7714#7715#0" expanded="true" />
-            <element signature="e#7758#7759#0" expanded="true" />
-            <element signature="e#8142#8359#0" expanded="true" />
-            <element signature="e#8358#8359#0" expanded="true" />
-            <element signature="e#8524#8740#0" expanded="true" />
-            <element signature="e#8739#8740#0" expanded="true" />
-            <element signature="e#9479#9487#0" expanded="true" />
-            <element signature="e#10317#10325#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/res/menu/main.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="8" column="0" selection-start-line="8" selection-start-column="0" selection-end-line="8" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/stanford/anglishwordbook/dialogs/WordDialog.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="16" column="13" selection-start-line="16" selection-start-column="13" selection-end-line="16" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$USER_HOME$/Library/Android/sdk/platforms/android-21/android.jar!/java/util/Arrays.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/stanford/anglishwordbook/activities/MainActivity.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="105" column="54" selection-start-line="105" selection-start-column="54" selection-end-line="105" selection-end-column="54" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/fragment_word_book.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="35" column="0" selection-start-line="35" selection-start-column="0" selection-end-line="35" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+      <provider editor-type-id="android-designer">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/stanford/anglishwordbook/AnglishApplication.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="14" column="28" selection-start-line="14" selection-start-column="28" selection-end-line="14" selection-end-column="28" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/build.gradle">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="33" column="53" selection-start-line="33" selection-start-column="53" selection-end-line="33" selection-end-column="53" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/stanford/anglishwordbook/models/Word.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="40" column="6" selection-start-line="40" selection-start-column="6" selection-end-line="40" selection-end-column="6" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#993#994#0" expanded="true" />
+            <element signature="e#1036#1037#0" expanded="true" />
+            <element signature="e#1080#1081#0" expanded="true" />
+            <element signature="e#1125#1126#0" expanded="true" />
+            <element signature="e#1685#1686#0" expanded="true" />
+            <element signature="e#1720#1721#0" expanded="true" />
+            <element signature="e#1774#1775#0" expanded="true" />
+            <element signature="e#1816#1817#0" expanded="true" />
+            <element signature="e#1847#1848#0" expanded="true" />
+            <element signature="e#1875#1876#0" expanded="true" />
+            <element signature="e#1915#1916#0" expanded="true" />
+            <element signature="e#1943#1944#0" expanded="true" />
+            <element signature="e#1984#1985#0" expanded="true" />
+            <element signature="e#2016#2017#0" expanded="true" />
+            <element signature="e#2062#2063#0" expanded="true" />
+            <element signature="e#2098#2099#0" expanded="true" />
+            <element signature="e#2141#2142#0" expanded="true" />
+            <element signature="e#2175#2176#0" expanded="true" />
+            <element signature="e#2225#2226#0" expanded="true" />
+            <element signature="e#2265#2266#0" expanded="true" />
+            <element signature="e#2618#2619#0" expanded="true" />
+            <element signature="e#2657#2658#0" expanded="true" />
+            <element signature="e#2708#2709#0" expanded="true" />
+            <element signature="e#2732#2733#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/stanford/anglishwordbook/adapters/WordAdapter.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="72" column="16" selection-start-line="72" selection-start-column="16" selection-end-line="72" selection-end-column="16" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/stanford/anglishwordbook/fragments/WordBookFragment.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.26307693">
+          <caret line="44" column="49" selection-start-line="44" selection-start-column="49" selection-end-line="44" selection-end-column="49" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#3926#5275#0" expanded="true" />
+            <element signature="e#5274#5275#0" expanded="true" />
+            <element signature="e#5571#6140#0" expanded="true" />
+            <element signature="e#6139#6140#0" expanded="true" />
+            <element signature="e#6397#6398#0" expanded="true" />
+            <element signature="e#6429#6430#0" expanded="true" />
           </folding>
         </state>
       </provider>

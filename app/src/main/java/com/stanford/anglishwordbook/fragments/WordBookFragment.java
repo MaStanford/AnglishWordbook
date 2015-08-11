@@ -3,6 +3,7 @@ package com.stanford.anglishwordbook.fragments;
 import android.app.Activity;
 import android.content.Context;
 import android.os.Bundle;
+import android.os.Parcelable;
 import android.support.v4.app.Fragment;
 import android.util.Log;
 import android.view.KeyEvent;
@@ -37,12 +38,11 @@ public class WordBookFragment extends Fragment {
 
     private static final String ARG_PARAM1 = "param1";
     private static final String TAG = WordBookFragment.class.getSimpleName();
+    private static final String KEY_WORD_LIST = "com.stanford.anglishwordbook.key_word_list";
 
     private int mPageIndex;
 
-    private OnFragmentInteractionListener mListener;
-
-    private List<Word> mWordList;
+    private List<Word> mWordList = new ArrayList<>();
 
     private ListView mListView;
     private WordAdapter mAdapter;
@@ -83,11 +83,30 @@ public class WordBookFragment extends Fragment {
     public void onAttach(Activity activity) {
         super.onAttach(activity);
         try {
-            mListener = (OnFragmentInteractionListener) activity;
-        } catch (ClassCastException e) {
-            throw new ClassCastException(activity.toString() + " must implement OnFragmentInteractionListener");
+            ((MainActivity) activity).onSectionAttached(mPageIndex);
+        }catch (ClassCastException e){
+
         }
-        ((MainActivity) activity).onSectionAttached(mPageIndex);
+    }
+
+    @Override
+    public void onSaveInstanceState(Bundle outState) {
+        Log.d(TAG, "onSaveInstanceState " + mWordList.size());
+        outState.putParcelableArrayList(KEY_WORD_LIST, (ArrayList<? extends Parcelable>) this.mWordList);
+        super.onSaveInstanceState(outState);
+    }
+
+    @Override
+    public void onViewStateRestored(Bundle savedInstanceState) {
+        super.onViewStateRestored(savedInstanceState);
+
+        if(savedInstanceState != null && savedInstanceState.getParcelableArray(KEY_WORD_LIST) != null){
+            Log.d(TAG, "onViewStateRestored Bundle not null, " + savedInstanceState.getParcelableArrayList(KEY_WORD_LIST).toString());
+            this.mWordList = savedInstanceState.getParcelableArrayList(KEY_WORD_LIST);
+            mAdapter.updateWords(mWordList);
+        }else{
+            Log.d(TAG, "onViewStateRestored Bundle null");
+        }
     }
 
     private void queryWord(){
@@ -140,7 +159,6 @@ public class WordBookFragment extends Fragment {
         });
 
         //set up the list
-        mWordList =  new ArrayList<>();
         mListView = (ListView) getActivity().findViewById(R.id.lv_wordbook);
         mAdapter = new WordAdapter(getActivity(), mWordList);
         mListView.setAdapter(mAdapter);
@@ -149,6 +167,5 @@ public class WordBookFragment extends Fragment {
     @Override
     public void onDetach() {
         super.onDetach();
-        mListener = null;
     }
 }

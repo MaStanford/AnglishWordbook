@@ -27,7 +27,7 @@ import android.widget.TextView;
 import java.util.ArrayList;
 import java.util.List;
 
-import com.parse.ParseACL;
+import com.parse.ParseAnonymousUtils;
 import com.parse.ParseException;
 import com.parse.ParseUser;
 import com.parse.SignUpCallback;
@@ -41,6 +41,9 @@ import com.stanford.anglishwordbook.network.utils.ParseErrorHandler;
 public class RegisterActivity extends ActionBarActivity implements LoaderCallbacks<Cursor> {
 
     private static final String TAG = RegisterActivity.class.getSimpleName();
+
+    public static final String ANON_REGISTER = "com.stanford.anglishwordbook.anon_register";
+
     // UI references.
     private AutoCompleteTextView mEmailView;
     private EditText mPasswordView;
@@ -49,12 +52,17 @@ public class RegisterActivity extends ActionBarActivity implements LoaderCallbac
     private EditText mUserView;
 
     private boolean mIsWorking = false;
+    private boolean mIsAnonReg = false;
     private TextView mErrorView;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_register);
+
+        Intent launchIntent = getIntent();
+        mIsAnonReg = launchIntent.getBooleanExtra(ANON_REGISTER, false);
+
 
         // Set up the login form.
         mErrorView = (TextView) findViewById(R.id.tv_register_error);
@@ -67,7 +75,7 @@ public class RegisterActivity extends ActionBarActivity implements LoaderCallbac
             @Override
             public boolean onEditorAction(TextView textView, int id, KeyEvent keyEvent) {
                 if (id == R.id.login || id == EditorInfo.IME_NULL) {
-                    attemptLogin();
+                    attemptRegister();
                     return true;
                 }
                 return false;
@@ -78,7 +86,7 @@ public class RegisterActivity extends ActionBarActivity implements LoaderCallbac
         mEmailSignInButton.setOnClickListener(new OnClickListener() {
             @Override
             public void onClick(View view) {
-                attemptLogin();
+                attemptRegister();
             }
         });
 
@@ -97,7 +105,7 @@ public class RegisterActivity extends ActionBarActivity implements LoaderCallbac
      * If there are form errors (invalid email, missing fields, etc.), the
      * errors are presented and no actual login attempt is made.
      */
-    public void attemptLogin() {
+    public void attemptRegister() {
         if (mIsWorking) {
             return;
         }
@@ -152,27 +160,50 @@ public class RegisterActivity extends ActionBarActivity implements LoaderCallbac
     }
 
     private void register(String username, String password, String email) {
-        ParseUser user = new ParseUser();
-        user.setUsername(username);
-        user.setPassword(password);
-        user.setEmail(email);
-        user.put(User.IS_ADMIN, false);
-        user.put(User.FLAGS, 0);
-        user.put(User.POINTS, 0);
-        user.put(User.WORD_COUNT, 0);
 
-        user.signUpInBackground(new SignUpCallback() {
-            @Override
-            public void done(com.parse.ParseException e) {
-                showProgress(false);
-                if (e == null) {
-                    launchApp();
-                } else {
-                    Log.d(TAG, "Login error: " + e.getCode() + e.getMessage() + e.toString());
-                    handleParseError(e);
+        if(mIsAnonReg){
+            ParseUser user = ParseUser.getCurrentUser();
+            user.setUsername(username);
+            user.setPassword(password);
+            user.setEmail(email);
+
+            user.signUpInBackground(new SignUpCallback() {
+                @Override
+                public void done(com.parse.ParseException e) {
+                    showProgress(false);
+                    if (e == null) {
+                        launchApp();
+                    } else {
+                        showProgress(false);
+                        Log.d(TAG, "Login error: " + e.getCode() + e.getMessage() + e.toString());
+                        handleParseError(e);
+                    }
                 }
-            }
-        });
+            });
+        }else{
+            ParseUser user = new ParseUser();
+            user.put(User.IS_ADMIN, false);
+            user.put(User.FLAGS, 0);
+            user.put(User.POINTS, 0);
+            user.put(User.WORD_COUNT, 0);
+            user.setUsername(username);
+            user.setPassword(password);
+            user.setEmail(email);
+
+            user.signUpInBackground(new SignUpCallback() {
+                @Override
+                public void done(com.parse.ParseException e) {
+                    showProgress(false);
+                    if (e == null) {
+                        launchApp();
+                    } else {
+                        showProgress(false);
+                        Log.d(TAG, "Login error: " + e.getCode() + e.getMessage() + e.toString());
+                        handleParseError(e);
+                    }
+                }
+            });
+        }
     }
     
     private void handleParseError(ParseException e) {
@@ -189,6 +220,11 @@ public class RegisterActivity extends ActionBarActivity implements LoaderCallbac
                 mErrorView.setText("Email is already in use.");
                 clear();
                 break;
+            case ParseException.INVALID_EMAIL_ADDRESS:
+                mErrorView.setVisibility(View.VISIBLE);
+                mErrorView.setText("Invalid Email address \nYou really need this in case you need to recover your password.\nI'm not just asking to ask");
+                clear();
+                break;
             case ParseException.ACCOUNT_ALREADY_LINKED:
                 mErrorView.setVisibility(View.VISIBLE);
                 mErrorView.setText("Account already exists");
@@ -197,7 +233,7 @@ public class RegisterActivity extends ActionBarActivity implements LoaderCallbac
             case ParseException.USERNAME_TAKEN:
                 mErrorView.setVisibility(View.VISIBLE);
                 mErrorView.setText("Username already taken");
-                mUserView.setError(getString(R.string.error_invalid_user));
+                mUserView.setError(getString(R.string.error_user_take));
                 clear();
                 break;
         }

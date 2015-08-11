@@ -4,9 +4,7 @@ package com.stanford.anglishwordbook;
 import android.app.Application;
 
 import com.parse.Parse;
-import com.parse.ParseACL;
 import com.parse.ParseCrashReporting;
-import com.parse.ParseUser;
 
 /**
  * Created by m.stanford on 5/20/15.

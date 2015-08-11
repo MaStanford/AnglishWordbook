@@ -158,14 +158,14 @@ extends <a href="http://developer.android.com/reference/java/lang/Object.html?is
 <tr class="altColor">
 <td class="colFirst"><code>static void</code></td>
 <td class="colLast"><code><strong><a href="../../com/parse/ParseFacebookUtils.html#initialize(android.content.Context)">initialize</a></strong>(<a href="http://developer.android.com/reference/android/content/Context.html?is-external=true" title="class or interface in android.content">Context</a>&nbsp;context)</code>
-<div class="block">Initializes <code>ParseFacebookUtils</code> and <code>FacebookSdk</code>.</div>
+<div class="block">Initializes <code>ParseFacebookUtils</code> and <code>com.facebook.FacebookSdk</code>.</div>
 </td>
 </tr>
 <tr class="rowColor">
 <td class="colFirst"><code>static void</code></td>
 <td class="colLast"><code><strong><a href="../../com/parse/ParseFacebookUtils.html#initialize(android.content.Context,%20int)">initialize</a></strong>(<a href="http://developer.android.com/reference/android/content/Context.html?is-external=true" title="class or interface in android.content">Context</a>&nbsp;context,
           int&nbsp;callbackRequestCodeOffset)</code>
-<div class="block">Initializes <code>ParseFacebookUtils</code> and <code>FacebookSdk</code>.</div>
+<div class="block">Initializes <code>ParseFacebookUtils</code> and <code>com.facebook.FacebookSdk</code>.</div>
 </td>
 </tr>
 <tr class="altColor">
@@ -174,16 +174,16 @@ extends <a href="http://developer.android.com/reference/java/lang/Object.html?is
 </tr>
 <tr class="rowColor">
 <td class="colFirst"><code>static <a href="http://boltsframework.github.io/docs/android/bolts/Task.html?is-external=true" title="class or interface in bolts">Task</a>&lt;<a href="http://developer.android.com/reference/java/lang/Void.html?is-external=true" title="class or interface in java.lang">Void</a>&gt;</code></td>
-<td class="colLast"><code><strong><a href="../../com/parse/ParseFacebookUtils.html#linkInBackground(ParseUser,%20com.facebook.AccessToken)">linkInBackground</a></strong>(ParseUser&nbsp;user,
-                com.facebook.AccessToken&nbsp;accessToken)</code>
+<td class="colLast"><code><strong><a href="../../com/parse/ParseFacebookUtils.html#linkInBackground(ParseUser,%20AccessToken)">linkInBackground</a></strong>(ParseUser&nbsp;user,
+                AccessToken&nbsp;accessToken)</code>
 <div class="block">Link an existing Parse user with a Facebook account using authorization credentials that have
  already been obtained.</div>
 </td>
 </tr>
 <tr class="altColor">
 <td class="colFirst"><code>static <a href="http://boltsframework.github.io/docs/android/bolts/Task.html?is-external=true" title="class or interface in bolts">Task</a>&lt;<a href="http://developer.android.com/reference/java/lang/Void.html?is-external=true" title="class or interface in java.lang">Void</a>&gt;</code></td>
-<td class="colLast"><code><strong><a href="../../com/parse/ParseFacebookUtils.html#linkInBackground(ParseUser,%20com.facebook.AccessToken,%20SaveCallback)">linkInBackground</a></strong>(ParseUser&nbsp;user,
-                com.facebook.AccessToken&nbsp;accessToken,
+<td class="colLast"><code><strong><a href="../../com/parse/ParseFacebookUtils.html#linkInBackground(ParseUser,%20AccessToken,%20SaveCallback)">linkInBackground</a></strong>(ParseUser&nbsp;user,
+                AccessToken&nbsp;accessToken,
                 SaveCallback&nbsp;callback)</code>
 <div class="block">Link an existing Parse user with a Facebook account using authorization credentials that have
  already been obtained.</div>
@@ -259,14 +259,14 @@ extends <a href="http://developer.android.com/reference/java/lang/Object.html?is
 </tr>
 <tr class="rowColor">
 <td class="colFirst"><code>static <a href="http://boltsframework.github.io/docs/android/bolts/Task.html?is-external=true" title="class or interface in bolts">Task</a>&lt;ParseUser&gt;</code></td>
-<td class="colLast"><code><strong><a href="../../com/parse/ParseFacebookUtils.html#logInInBackground(com.facebook.AccessToken)">logInInBackground</a></strong>(com.facebook.AccessToken&nbsp;accessToken)</code>
+<td class="colLast"><code><strong><a href="../../com/parse/ParseFacebookUtils.html#logInInBackground(AccessToken)">logInInBackground</a></strong>(AccessToken&nbsp;accessToken)</code>
 <div class="block">Log in using a Facebook account using authorization credentials that have already been
  obtained.</div>
 </td>
 </tr>
 <tr class="altColor">
 <td class="colFirst"><code>static <a href="http://boltsframework.github.io/docs/android/bolts/Task.html?is-external=true" title="class or interface in bolts">Task</a>&lt;ParseUser&gt;</code></td>
-<td class="colLast"><code><strong><a href="../../com/parse/ParseFacebookUtils.html#logInInBackground(com.facebook.AccessToken,%20LogInCallback)">logInInBackground</a></strong>(com.facebook.AccessToken&nbsp;accessToken,
+<td class="colLast"><code><strong><a href="../../com/parse/ParseFacebookUtils.html#logInInBackground(AccessToken,%20LogInCallback)">logInInBackground</a></strong>(AccessToken&nbsp;accessToken,
                  LogInCallback&nbsp;callback)</code>
 <div class="block">Log in using a Facebook account using authorization credentials that have already been
  obtained.</div>
@@ -392,7 +392,7 @@ extends <a href="http://developer.android.com/reference/java/lang/Object.html?is
 <li class="blockList">
 <h4>initialize</h4>
 <pre>public static&nbsp;void&nbsp;initialize(<a href="http://developer.android.com/reference/android/content/Context.html?is-external=true" title="class or interface in android.content">Context</a>&nbsp;context)</pre>
-<div class="block">Initializes <code>ParseFacebookUtils</code> and <code>FacebookSdk</code>.
+<div class="block">Initializes <code>ParseFacebookUtils</code> and <code>com.facebook.FacebookSdk</code>.
  <p/>
  This should be called in your <a href="http://developer.android.com/reference/android/app/Application.html?is-external=true#onCreate()" title="class or interface in android.app"><code>Application.onCreate()</code></a>.</div>
 <dl><dt><span class="strong">Parameters:</span></dt><dd><code>context</code> - The application context</dd></dl>
@@ -406,7 +406,7 @@ extends <a href="http://developer.android.com/reference/java/lang/Object.html?is
 <h4>initialize</h4>
 <pre>public static&nbsp;void&nbsp;initialize(<a href="http://developer.android.com/reference/android/content/Context.html?is-external=true" title="class or interface in android.content">Context</a>&nbsp;context,
               int&nbsp;callbackRequestCodeOffset)</pre>
-<div class="block">Initializes <code>ParseFacebookUtils</code> and <code>FacebookSdk</code>.
+<div class="block">Initializes <code>ParseFacebookUtils</code> and <code>com.facebook.FacebookSdk</code>.
  <p/>
  This should be called in your <a href="http://developer.android.com/reference/android/app/Application.html?is-external=true#onCreate()" title="class or interface in android.app"><code>Application.onCreate()</code></a>.</div>
 <dl><dt><span class="strong">Parameters:</span></dt><dd><code>context</code> - The application context</dd><dd><code>callbackRequestCodeOffset</code> - The request code offset that Facebook activities will be
@@ -429,26 +429,26 @@ extends <a href="http://developer.android.com/reference/java/lang/Object.html?is
 <dt><span class="strong">Returns:</span></dt><dd><code>true</code> if the result could be handled.</dd></dl>
 </li>
 </ul>
-<a name="logInInBackground(com.facebook.AccessToken)">
+<a name="logInInBackground(AccessToken)">
 <!--   -->
 </a>
 <ul class="blockList">
 <li class="blockList">
 <h4>logInInBackground</h4>
-<pre>public static&nbsp;<a href="http://boltsframework.github.io/docs/android/bolts/Task.html?is-external=true" title="class or interface in bolts">Task</a>&lt;ParseUser&gt;&nbsp;logInInBackground(com.facebook.AccessToken&nbsp;accessToken)</pre>
+<pre>public static&nbsp;<a href="http://boltsframework.github.io/docs/android/bolts/Task.html?is-external=true" title="class or interface in bolts">Task</a>&lt;ParseUser&gt;&nbsp;logInInBackground(AccessToken&nbsp;accessToken)</pre>
 <div class="block">Log in using a Facebook account using authorization credentials that have already been
  obtained.</div>
 <dl><dt><span class="strong">Parameters:</span></dt><dd><code>accessToken</code> - Authorization credentials of a Facebook user.</dd>
 <dt><span class="strong">Returns:</span></dt><dd>A task that will be resolved when logging in is complete.</dd></dl>
 </li>
 </ul>
-<a name="logInInBackground(com.facebook.AccessToken, LogInCallback)">
+<a name="logInInBackground(AccessToken, LogInCallback)">
 <!--   -->
 </a>
 <ul class="blockList">
 <li class="blockList">
 <h4>logInInBackground</h4>
-<pre>public static&nbsp;<a href="http://boltsframework.github.io/docs/android/bolts/Task.html?is-external=true" title="class or interface in bolts">Task</a>&lt;ParseUser&gt;&nbsp;logInInBackground(com.facebook.AccessToken&nbsp;accessToken,
+<pre>public static&nbsp;<a href="http://boltsframework.github.io/docs/android/bolts/Task.html?is-external=true" title="class or interface in bolts">Task</a>&lt;ParseUser&gt;&nbsp;logInInBackground(AccessToken&nbsp;accessToken,
                                 LogInCallback&nbsp;callback)</pre>
 <div class="block">Log in using a Facebook account using authorization credentials that have already been
  obtained.</div>
@@ -559,28 +559,28 @@ extends <a href="http://developer.android.com/reference/java/lang/Object.html?is
 <dl><dt><span class="strong">Parameters:</span></dt><dd><code>fragment</code> - The fragment which is starting the login process.</dd><dd><code>permissions</code> - The requested permissions.</dd><dd><code>callback</code> - A callback that will be executed when logging in is complete.</dd></dl>
 </li>
 </ul>
-<a name="linkInBackground(ParseUser, com.facebook.AccessToken)">
+<a name="linkInBackground(ParseUser, AccessToken)">
 <!--   -->
 </a>
 <ul class="blockList">
 <li class="blockList">
 <h4>linkInBackground</h4>
 <pre>public static&nbsp;<a href="http://boltsframework.github.io/docs/android/bolts/Task.html?is-external=true" title="class or interface in bolts">Task</a>&lt;<a href="http://developer.android.com/reference/java/lang/Void.html?is-external=true" title="class or interface in java.lang">Void</a>&gt;&nbsp;linkInBackground(ParseUser&nbsp;user,
-                          com.facebook.AccessToken&nbsp;accessToken)</pre>
+                          AccessToken&nbsp;accessToken)</pre>
 <div class="block">Link an existing Parse user with a Facebook account using authorization credentials that have
  already been obtained.</div>
 <dl><dt><span class="strong">Parameters:</span></dt><dd><code>accessToken</code> - Authorization credentials of a Facebook user.</dd>
 <dt><span class="strong">Returns:</span></dt><dd>A task that will be resolved when linking is complete.</dd></dl>
 </li>
 </ul>
-<a name="linkInBackground(ParseUser, com.facebook.AccessToken, SaveCallback)">
+<a name="linkInBackground(ParseUser, AccessToken, SaveCallback)">
 <!--   -->
 </a>
 <ul class="blockList">
 <li class="blockList">
 <h4>linkInBackground</h4>
 <pre>public static&nbsp;<a href="http://boltsframework.github.io/docs/android/bolts/Task.html?is-external=true" title="class or interface in bolts">Task</a>&lt;<a href="http://developer.android.com/reference/java/lang/Void.html?is-external=true" title="class or interface in java.lang">Void</a>&gt;&nbsp;linkInBackground(ParseUser&nbsp;user,
-                          com.facebook.AccessToken&nbsp;accessToken,
+                          AccessToken&nbsp;accessToken,
                           SaveCallback&nbsp;callback)</pre>
 <div class="block">Link an existing Parse user with a Facebook account using authorization credentials that have
  already been obtained.</div>

@@ -11,6 +11,7 @@ import android.view.Menu;
 import android.view.MenuItem;
 import android.support.v4.widget.DrawerLayout;
 
+import com.parse.ParseAnonymousUtils;
 import com.parse.ParseUser;
 import com.stanford.anglishwordbook.fragments.EtymologyFragment;
 import com.stanford.anglishwordbook.fragments.NameFragment;
@@ -26,6 +27,7 @@ import java.util.List;
 public class MainActivity extends ActionBarActivity implements NavigationDrawerFragment.NavigationDrawerCallbacks, OnFragmentInteractionListener {
 
     private static final String TAG = MainActivity.class.getSimpleName();
+
     /**
      * Fragment managing the behaviors, interactions and presentation of the navigation drawer.
      */
@@ -40,6 +42,11 @@ public class MainActivity extends ActionBarActivity implements NavigationDrawerF
      * list of fragments
      */
     List<Fragment> mFragmentList;
+
+    /**
+     * Reference to the menu in order to hide options
+     */
+    private Menu mMenu;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -56,6 +63,26 @@ public class MainActivity extends ActionBarActivity implements NavigationDrawerF
 
         // Set up the drawer.
         mNavigationDrawerFragment.setUp(R.id.navigation_drawer,(DrawerLayout) findViewById(R.id.drawer_layout));
+    }
+
+    private void checkifAnon() {
+        if (ParseAnonymousUtils.isLinked(ParseUser.getCurrentUser())) {
+            enableSignUpButton(true);
+            enableLogOutButton(true);
+        } else {
+            enableSignUpButton(false);
+            enableLogOutButton(true);
+        }
+    }
+
+    private void enableLogOutButton(boolean show) {
+        MenuItem item = mMenu.findItem(R.id.action_logout);
+        item.setVisible(show);
+    }
+
+    private void enableSignUpButton(boolean show) {
+        MenuItem item = mMenu.findItem(R.id.action_signup);
+        item.setVisible(show);
     }
 
     private void initFragmentList() {
@@ -97,11 +124,10 @@ public class MainActivity extends ActionBarActivity implements NavigationDrawerF
 
     @Override
     public boolean onCreateOptionsMenu(Menu menu) {
+        this.mMenu = menu;
         if (!mNavigationDrawerFragment.isDrawerOpen()) {
-            // Only show items in the action bar relevant to this screen
-            // if the drawer is not showing. Otherwise, let the drawer
-            // decide what to show in the action bar.
             getMenuInflater().inflate(R.menu.main, menu);
+            checkifAnon();
             restoreActionBar();
             return true;
         }
@@ -118,9 +144,16 @@ public class MainActivity extends ActionBarActivity implements NavigationDrawerF
         switch(id) {
             case R.id.action_logout:
                 ParseUser.logOut();
-                Intent intent = new Intent(getBaseContext(), LoginActivity.class);
-                intent.addFlags(Intent.FLAG_ACTIVITY_CLEAR_TASK | Intent.FLAG_ACTIVITY_NEW_TASK);
-                startActivity(intent);
+                Intent loginIntent = new Intent(getBaseContext(), LoginActivity.class);
+                loginIntent.addFlags(Intent.FLAG_ACTIVITY_CLEAR_TASK | Intent.FLAG_ACTIVITY_NEW_TASK);
+                startActivity(loginIntent);
+                finish();
+                break;
+            case R.id.action_signup:
+                Intent regIntent = new Intent(getBaseContext(), RegisterActivity.class);
+                regIntent.putExtra(RegisterActivity.ANON_REGISTER, true);
+                regIntent.addFlags(Intent.FLAG_ACTIVITY_CLEAR_TASK | Intent.FLAG_ACTIVITY_NEW_TASK);
+                startActivity(regIntent);
                 finish();
                 break;
         }
