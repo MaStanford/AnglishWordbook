@@ -27,12 +27,10 @@ import android.widget.TextView;
 import java.util.ArrayList;
 import java.util.List;
 
-import com.parse.ParseAnonymousUtils;
 import com.parse.ParseException;
 import com.parse.ParseUser;
 import com.parse.SignUpCallback;
 import com.stanford.anglishwordbook.R;
-import com.stanford.anglishwordbook.models.User;
 import com.stanford.anglishwordbook.network.utils.ParseErrorHandler;
 
 /**
@@ -182,10 +180,10 @@ public class RegisterActivity extends ActionBarActivity implements LoaderCallbac
             });
         }else{
             ParseUser user = new ParseUser();
-            user.put(User.IS_ADMIN, false);
-            user.put(User.FLAGS, 0);
-            user.put(User.POINTS, 0);
-            user.put(User.WORD_COUNT, 0);
+            user.put("isAdmin", false);
+            user.put("flags", 0);
+            user.put("points", 0);
+            user.put("wordCount", 0);
             user.setUsername(username);
             user.setPassword(password);
             user.setEmail(email);

@@ -8,8 +8,8 @@ import android.view.ViewGroup;
 import android.widget.BaseAdapter;
 import android.widget.TextView;
 
+import com.parse.ParseObject;
 import com.stanford.anglishwordbook.R;
-import com.stanford.anglishwordbook.models.Word;
 
 import java.util.List;
 
@@ -17,10 +17,10 @@ import java.util.List;
  * Created by m.stanford on 5/29/15.
  */
 public class WordAdapter extends BaseAdapter{
-    List<Word> mWordList;
+    List<ParseObject> mWordList;
     private Context mContext;
 
-    public WordAdapter(Context context, List<Word> wordList) {
+    public WordAdapter(Context context, List<ParseObject> wordList) {
         mContext = context;
         mWordList = wordList;
     }
@@ -51,26 +51,21 @@ public class WordAdapter extends BaseAdapter{
         TextView attested = ViewHolder.get(convertView, R.id.tv_attested);
         TextView unAttested= ViewHolder.get(convertView, R.id.tv_unattested);
 
-        Word data = (Word) getItem(position);
+        ParseObject data = (ParseObject) getItem(position);
 
-        String attestedDef = "";
-        for (String att : data.getAttested()){
-            attestedDef += att.replace(";", "\n").replace(",", "\n") + "\n";
-        }
-        String unattestedDef = "";
-        for (String att : data.getUnAttested()){
-            unattestedDef += att.replace(";", "\n").replace(",", "\n") + "\n";
-        }
+        String attestedDef = data.get("Attested").toString();
 
-        word.setText(data.getEnglishWord());
-        wordType.setText(data.getType().replaceAll("[^a-zA-Z0-9\\s]", " "));
+        String unattestedDef = data.get("Unattested").toString();
+
+        word.setText(data.getString("Word"));
+        wordType.setText(data.getString("Type").replaceAll("[^a-zA-Z0-9\\s]", " "));
         attested.setText(attestedDef);
         unAttested.setText(unattestedDef);
 
         return convertView;
     }
 
-    public void updateWords(List<Word> words) {
+    public void updateWords(List<ParseObject> words) {
         this.mWordList = words;
         notifyDataSetChanged();
     }

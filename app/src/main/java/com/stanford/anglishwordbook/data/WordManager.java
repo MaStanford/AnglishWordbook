@@ -1,6 +1,6 @@
 package com.stanford.anglishwordbook.data;
 
-import com.stanford.anglishwordbook.models.Word;
+import com.parse.ParseObject;
 
 import java.util.ArrayList;
 import java.util.List;
@@ -14,7 +14,7 @@ public class WordManager {
 
     private static WordManager INSTANCE;
 
-    private List<Word> mWordList = new ArrayList<>();
+    private List<ParseObject> mWordList = new ArrayList<>();
 
     public static WordManager getInstance(){
         if(INSTANCE == null){
@@ -23,11 +23,11 @@ public class WordManager {
         return INSTANCE;
     }
 
-    public List<Word> getWordList() {
+    public List<ParseObject> getWordList() {
         return mWordList;
     }
 
-    public void setWordList(List<Word> wordList) {
+    public void setWordList(List<ParseObject> wordList) {
         mWordList = wordList;
     }
 }

@@ -4,7 +4,6 @@ import android.app.Activity;
 import android.content.Context;
 import android.os.Bundle;
 import android.support.v4.app.Fragment;
-import android.util.Log;
 import android.view.KeyEvent;
 import android.view.LayoutInflater;
 import android.view.View;
@@ -23,9 +22,7 @@ import com.stanford.anglishwordbook.R;
 import com.stanford.anglishwordbook.activities.MainActivity;
 import com.stanford.anglishwordbook.adapters.WordAdapter;
 import com.stanford.anglishwordbook.data.WordManager;
-import com.stanford.anglishwordbook.models.Word;
 
-import java.util.ArrayList;
 import java.util.List;
 
 /**
@@ -38,7 +35,6 @@ public class WordBookFragment extends Fragment {
 
     private static final String ARG_PARAM1 = "param1";
     private static final String TAG = WordBookFragment.class.getSimpleName();
-    private static final String KEY_WORD_LIST = "com.stanford.anglishwordbook.key_word_list";
 
     private int mPageIndex;
 
@@ -98,34 +94,23 @@ public class WordBookFragment extends Fragment {
             @Override
             public void done(List<ParseObject> parseObjects, ParseException e) {
                 if(e == null){
-                    ((TextView)getActivity().findViewById(R.id.tv_word_error)).setVisibility(View.GONE);
-                    ArrayList<Word> wordList = new ArrayList<Word>();
-                    if(parseObjects.size() > 0) {
-                        for (ParseObject obj : parseObjects) {
-                            Word word = new Word(obj.getString("Word"), obj.getString("Type"), (List<String>) (List<?>) obj.getList("Attested"), (List<String>) (List<?>) obj.getList("Unattested"));
-                            Log.d(TAG, "New Word: " + word.toString());
-                            wordList.add(word);
-                        }
-                        mWordManager.setWordList(wordList);
-                        mAdapter.updateWords(mWordManager.getWordList());
+                    getActivity().findViewById(R.id.tv_word_error).setVisibility(View.GONE);
+                        mWordManager.setWordList(parseObjects);
+                        mAdapter.updateWords(parseObjects);
                     }else{
-                        mWordManager.getWordList().clear();
-                        mAdapter.updateWords(mWordManager.getWordList());
-                        ((TextView)getActivity().findViewById(R.id.tv_word_error)).setVisibility(View.VISIBLE);
+                        mAdapter.updateWords(null);
+                        getActivity().findViewById(R.id.tv_word_error).setVisibility(View.VISIBLE);
                         ((TextView)getActivity().findViewById(R.id.tv_word_error)).setText("Word not found, you could create a definition.");
                     }
-                }else{
-                    //TODO: show error
                 }
-            }
-        });
+            });
     }
 
     @Override
     public void onResume() {
         super.onResume();
 
-        ((TextView)getActivity().findViewById(R.id.tv_word_error)).setVisibility(View.GONE);
+        getActivity().findViewById(R.id.tv_word_error).setVisibility(View.GONE);
 
         //Set up the keyboard
         ((EditText) getActivity().findViewById(R.id.et_wordbook)).setOnEditorActionListener(new TextView.OnEditorActionListener() {
@@ -134,7 +119,7 @@ public class WordBookFragment extends Fragment {
                 if(actionId == EditorInfo.IME_ACTION_SEARCH){
                     queryWord();
                     InputMethodManager imm = (InputMethodManager)getActivity().getSystemService(Context.INPUT_METHOD_SERVICE);
-                    imm.hideSoftInputFromWindow(((EditText) getActivity().findViewById(R.id.et_wordbook)).getWindowToken(), 0);
+                    imm.hideSoftInputFromWindow(getActivity().findViewById(R.id.et_wordbook).getWindowToken(), 0);
                 }
                 return false;
             }
