@@ -3,7 +3,6 @@ package com.stanford.anglishwordbook.fragments;
 import android.app.Activity;
 import android.content.Context;
 import android.os.Bundle;
-import android.os.Parcelable;
 import android.support.v4.app.Fragment;
 import android.util.Log;
 import android.view.KeyEvent;
@@ -23,6 +22,7 @@ import com.parse.ParseQuery;
 import com.stanford.anglishwordbook.R;
 import com.stanford.anglishwordbook.activities.MainActivity;
 import com.stanford.anglishwordbook.adapters.WordAdapter;
+import com.stanford.anglishwordbook.data.WordManager;
 import com.stanford.anglishwordbook.models.Word;
 
 import java.util.ArrayList;
@@ -42,10 +42,10 @@ public class WordBookFragment extends Fragment {
 
     private int mPageIndex;
 
-    private List<Word> mWordList = new ArrayList<>();
-
     private ListView mListView;
     private WordAdapter mAdapter;
+
+    private WordManager mWordManager;
 
     /**
      * Use this factory method to create a new instance of
@@ -71,6 +71,7 @@ public class WordBookFragment extends Fragment {
         if (getArguments() != null) {
             mPageIndex = getArguments().getInt(ARG_PARAM1);
         }
+        mWordManager = WordManager.getInstance();
     }
 
     @Override
@@ -89,26 +90,6 @@ public class WordBookFragment extends Fragment {
         }
     }
 
-    @Override
-    public void onSaveInstanceState(Bundle outState) {
-        Log.d(TAG, "onSaveInstanceState " + mWordList.size());
-        outState.putParcelableArrayList(KEY_WORD_LIST, (ArrayList<? extends Parcelable>) this.mWordList);
-        super.onSaveInstanceState(outState);
-    }
-
-    @Override
-    public void onViewStateRestored(Bundle savedInstanceState) {
-        super.onViewStateRestored(savedInstanceState);
-
-        if(savedInstanceState != null && savedInstanceState.getParcelableArray(KEY_WORD_LIST) != null){
-            Log.d(TAG, "onViewStateRestored Bundle not null, " + savedInstanceState.getParcelableArrayList(KEY_WORD_LIST).toString());
-            this.mWordList = savedInstanceState.getParcelableArrayList(KEY_WORD_LIST);
-            mAdapter.updateWords(mWordList);
-        }else{
-            Log.d(TAG, "onViewStateRestored Bundle null");
-        }
-    }
-
     private void queryWord(){
         String word = ((EditText) getActivity().findViewById(R.id.et_wordbook)).getText().toString();
         ParseQuery<ParseObject> query = new ParseQuery("Word");
@@ -118,17 +99,18 @@ public class WordBookFragment extends Fragment {
             public void done(List<ParseObject> parseObjects, ParseException e) {
                 if(e == null){
                     ((TextView)getActivity().findViewById(R.id.tv_word_error)).setVisibility(View.GONE);
-                    mWordList.clear();
+                    ArrayList<Word> wordList = new ArrayList<Word>();
                     if(parseObjects.size() > 0) {
                         for (ParseObject obj : parseObjects) {
                             Word word = new Word(obj.getString("Word"), obj.getString("Type"), (List<String>) (List<?>) obj.getList("Attested"), (List<String>) (List<?>) obj.getList("Unattested"));
                             Log.d(TAG, "New Word: " + word.toString());
-                            mWordList.add(word);
+                            wordList.add(word);
                         }
-                        mAdapter.updateWords(mWordList);
+                        mWordManager.setWordList(wordList);
+                        mAdapter.updateWords(mWordManager.getWordList());
                     }else{
-                        mWordList = new ArrayList<Word>();
-                        mAdapter.updateWords(mWordList);
+                        mWordManager.getWordList().clear();
+                        mAdapter.updateWords(mWordManager.getWordList());
                         ((TextView)getActivity().findViewById(R.id.tv_word_error)).setVisibility(View.VISIBLE);
                         ((TextView)getActivity().findViewById(R.id.tv_word_error)).setText("Word not found, you could create a definition.");
                     }
@@ -160,7 +142,7 @@ public class WordBookFragment extends Fragment {
 
         //set up the list
         mListView = (ListView) getActivity().findViewById(R.id.lv_wordbook);
-        mAdapter = new WordAdapter(getActivity(), mWordList);
+        mAdapter = new WordAdapter(getActivity(), mWordManager.getWordList());
         mListView.setAdapter(mAdapter);
     }
 
