@@ -22,6 +22,7 @@ public class WordDialog extends DialogFragment {
 
     private int mWordPosition = -1;
     private WordManager mWordManager = WordManager.getInstance();
+    private View mParentView = null;
 
     public static WordDialog createFragment(int position) {
         WordDialog f = new WordDialog();
@@ -59,13 +60,29 @@ public class WordDialog extends DialogFragment {
     public View onCreateView(LayoutInflater inflater, ViewGroup container, Bundle savedInstanceState) {
         View view = inflater.inflate(R.layout.dialog_word, container);
 
+        this.mParentView = view;
 
-        //TODO: Make a network call to grab the comments.
+        //Getting the comments
+        fetchComments();
 
         WordHelper.buildWord(inflater, view, mWordManager.getWordList().get(mWordPosition), null);
 
         getDialog().setTitle(mWordManager.getWordList().get(mWordPosition).getString("Word"));
         return view;
+    }
+
+    private void fetchComments() {
+        //Start loading UI
+        showLoading(true);
+
+        //Make the call
+
+        //Finish loading UI
+        showLoading(false);
+    }
+
+    private void showLoading(boolean showLoading) {
+        mParentView.findViewById(R.id.pb_dialog_word).setVisibility(showLoading ? View.VISIBLE : View.GONE);
     }
 
     @Override
