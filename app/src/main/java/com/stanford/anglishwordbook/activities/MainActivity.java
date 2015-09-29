@@ -27,6 +27,7 @@ import java.util.List;
 public class MainActivity extends ActionBarActivity implements NavigationDrawerFragment.NavigationDrawerCallbacks, OnFragmentInteractionListener {
 
     private static final String TAG = MainActivity.class.getSimpleName();
+    public static final String FRAG_TAG_WORD = "com.stanford.fragment.word";
 
     /**
      * Fragment managing the behaviors, interactions and presentation of the navigation drawer.

@@ -4,6 +4,7 @@ import android.app.Activity;
 import android.content.Context;
 import android.os.Bundle;
 import android.support.v4.app.Fragment;
+import android.support.v4.app.FragmentManager;
 import android.view.KeyEvent;
 import android.view.LayoutInflater;
 import android.view.View;
@@ -23,6 +24,7 @@ import com.stanford.anglishwordbook.R;
 import com.stanford.anglishwordbook.activities.MainActivity;
 import com.stanford.anglishwordbook.adapters.WordAdapter;
 import com.stanford.anglishwordbook.data.WordManager;
+import com.stanford.anglishwordbook.dialogs.WordDialog;
 
 import java.util.List;
 
@@ -94,17 +96,17 @@ public class WordBookFragment extends Fragment {
         query.findInBackground(new FindCallback<ParseObject>() {
             @Override
             public void done(List<ParseObject> parseObjects, ParseException e) {
-                if(e == null){
+                if (e == null) {
                     getActivity().findViewById(R.id.tv_word_error).setVisibility(View.GONE);
-                        mWordManager.setWordList(parseObjects);
-                        mAdapter.updateWords(parseObjects);
-                    }else{
-                        mAdapter.updateWords(null);
-                        getActivity().findViewById(R.id.tv_word_error).setVisibility(View.VISIBLE);
-                        ((TextView)getActivity().findViewById(R.id.tv_word_error)).setText("Word not found, you could create a definition.");
-                    }
+                    mWordManager.setWordList(parseObjects);
+                    mAdapter.updateWords(parseObjects);
+                } else {
+                    mAdapter.updateWords(null);
+                    getActivity().findViewById(R.id.tv_word_error).setVisibility(View.VISIBLE);
+                    ((TextView) getActivity().findViewById(R.id.tv_word_error)).setText("Word not found, you could create a definition.");
                 }
-            });
+            }
+        });
     }
 
     @Override
@@ -131,11 +133,17 @@ public class WordBookFragment extends Fragment {
         mListView.setOnItemClickListener(new AdapterView.OnItemClickListener() {
             @Override
             public void onItemClick(AdapterView<?> parent, View view, int position, long id) {
-
+                launchWordDialog(position);
             }
         });
         mAdapter = new WordAdapter(getActivity(), mWordManager.getWordList());
         mListView.setAdapter(mAdapter);
+    }
+
+    private void launchWordDialog(int position) {
+        FragmentManager fm = getActivity().getSupportFragmentManager();
+        WordDialog wordDialog = WordDialog.createFragment(position);
+        wordDialog.show(fm, MainActivity.FRAG_TAG_WORD);
     }
 
     @Override
