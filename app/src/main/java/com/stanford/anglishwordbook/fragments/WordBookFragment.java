@@ -10,6 +10,7 @@ import android.view.View;
 import android.view.ViewGroup;
 import android.view.inputmethod.EditorInfo;
 import android.view.inputmethod.InputMethodManager;
+import android.widget.AdapterView;
 import android.widget.EditText;
 import android.widget.ListView;
 import android.widget.TextView;
@@ -116,9 +117,9 @@ public class WordBookFragment extends Fragment {
         ((EditText) getActivity().findViewById(R.id.et_wordbook)).setOnEditorActionListener(new TextView.OnEditorActionListener() {
             @Override
             public boolean onEditorAction(TextView v, int actionId, KeyEvent event) {
-                if(actionId == EditorInfo.IME_ACTION_SEARCH){
+                if (actionId == EditorInfo.IME_ACTION_SEARCH) {
                     queryWord();
-                    InputMethodManager imm = (InputMethodManager)getActivity().getSystemService(Context.INPUT_METHOD_SERVICE);
+                    InputMethodManager imm = (InputMethodManager) getActivity().getSystemService(Context.INPUT_METHOD_SERVICE);
                     imm.hideSoftInputFromWindow(getActivity().findViewById(R.id.et_wordbook).getWindowToken(), 0);
                 }
                 return false;
@@ -127,6 +128,12 @@ public class WordBookFragment extends Fragment {
 
         //set up the list
         mListView = (ListView) getActivity().findViewById(R.id.lv_wordbook);
+        mListView.setOnItemClickListener(new AdapterView.OnItemClickListener() {
+            @Override
+            public void onItemClick(AdapterView<?> parent, View view, int position, long id) {
+
+            }
+        });
         mAdapter = new WordAdapter(getActivity(), mWordManager.getWordList());
         mListView.setAdapter(mAdapter);
     }

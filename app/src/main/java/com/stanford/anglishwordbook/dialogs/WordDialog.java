@@ -9,14 +9,16 @@ import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
 
+import com.parse.ParseObject;
+
 /**
  * Created by m.stanford on 7/30/15.
  */
 public class WordDialog extends DialogFragment {
 
-    @Override
-    public Dialog getDialog() {
-        return super.getDialog();
+    public static WordDialog createFragment() {
+        WordDialog f = new WordDialog();
+        return f;
     }
 
     @Override

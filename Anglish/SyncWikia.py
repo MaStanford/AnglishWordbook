@@ -1,7 +1,7 @@
 __author__ = 'm.stanford'
 
 import string
-
+from socket import error as SocketError
 import json, httplib
 
 STARTING_PAGE = 72;
@@ -99,25 +99,30 @@ def addWord(wordDef):
     unattested = wordDef['unattested_definitions']
     wordType = wordDef['type']
 
-    connection = httplib.HTTPSConnection('api.parse.com', 443)
-    connection.connect()
-    connection.request('POST', '/1/classes/Word', json.dumps({
-        "Word": word,
-        "Attested": attested,
-        "Unattested": unattested,
-        "Type": wordType
-    }), {
-       "X-Parse-Application-Id": "ApuxkukQC9mFuLIdIjG3qC27ms5kZ4XZbopxUohp",
-       "X-Parse-Master-Key ": "ME6doa9GdB2PTGesScr8DwNQVzlzMwmoEurf3kIX",
-       "Content-Type": "application/json"
-    })
-    result = json.loads(connection.getresponse().read())
+    try:
+        connection = httplib.HTTPSConnection('api.parse.com', 443)
+        connection.connect()
+        connection.request('POST', '/1/classes/Word', json.dumps({
+            "Word": word,
+            "Attested": attested,
+            "Unattested": unattested,
+            "Type": wordType
+        }), {
+           "X-Parse-Application-Id": "ApuxkukQC9mFuLIdIjG3qC27ms5kZ4XZbopxUohp",
+           "X-Parse-Master-Key ": "ME6doa9GdB2PTGesScr8DwNQVzlzMwmoEurf3kIX",
+           "Content-Type": "application/json"
+        })
+        result = json.loads(connection.getresponse().read())
 
-    if 'objectId' in result:
-        print result
-        return True
-    else:
-        return False
+        if 'objectId' in result:
+            print result
+            return True
+        else:
+            return False
+
+    except SocketError as e:
+        return addWord(wordDef)
+
 
 
 def isValidWord(line):
