@@ -62,7 +62,7 @@ public class WordDialog extends DialogFragment {
 
         //TODO: Make a network call to grab the comments.
 
-        WordHelper.buildWord(inflater, container, mWordManager.getWordList().get(mWordPosition), null);
+        WordHelper.buildWord(inflater, view, mWordManager.getWordList().get(mWordPosition), null);
 
         getDialog().setTitle(mWordManager.getWordList().get(mWordPosition).getString("Word"));
         return view;
