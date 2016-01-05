@@ -9,6 +9,9 @@
     <string name="title_etymology">Etymology</string>
     <string name="title_wordbook">English to Anglish</string>
     <string name="title_names">Name Bits</string>
+    <string name="title_femalenames">Men Names</string>
+    <string name="title_malenames">Women Names</string>
+
 
     <string name="navigation_drawer_open">Open navigation drawer</string>
     <string name="navigation_drawer_close">Close navigation drawer</string>
