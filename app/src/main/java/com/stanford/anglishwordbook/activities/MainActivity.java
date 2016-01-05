@@ -14,7 +14,7 @@ import android.support.v4.widget.DrawerLayout;
 import com.parse.ParseAnonymousUtils;
 import com.parse.ParseUser;
 import com.stanford.anglishwordbook.fragments.EtymologyFragment;
-import com.stanford.anglishwordbook.fragments.NameFragment;
+import com.stanford.anglishwordbook.fragments.NameBitFragment;
 import com.stanford.anglishwordbook.fragments.NavigationDrawerFragment;
 import com.stanford.anglishwordbook.R;
 import com.stanford.anglishwordbook.fragments.OnFragmentInteractionListener;
@@ -89,7 +89,7 @@ public class MainActivity extends ActionBarActivity implements NavigationDrawerF
     private void initFragmentList() {
         mFragmentList = new ArrayList<>();
         mFragmentList.add(WordBookFragment.newInstance(1));
-        mFragmentList.add(NameFragment.newInstance(2));
+        mFragmentList.add(NameBitFragment.newInstance(2));
         mFragmentList.add(EtymologyFragment.newInstance(3));
     }
 

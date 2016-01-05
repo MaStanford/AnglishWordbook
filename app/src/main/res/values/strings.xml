@@ -1,14 +1,14 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
 
-    <string name="app_name">AnglishWordbook</string>
+    <string name="app_name">Anglish Wordbook</string>
 
     <string name="title_activity_login">Sign in</string>
     <string name="title_activity_sign_up">Sign up</string>
     <string name="title_activity_launch">Anglish Wordbook</string>
     <string name="title_etymology">Etymology</string>
     <string name="title_wordbook">English to Anglish</string>
-    <string name="title_names">Names</string>
+    <string name="title_names">Name Bits</string>
 
     <string name="navigation_drawer_open">Open navigation drawer</string>
     <string name="navigation_drawer_close">Close navigation drawer</string>

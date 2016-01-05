@@ -26,6 +26,30 @@ public class WordHelper {
         wordFrame.addView(view);
     }
 
+    public static void buildName(LayoutInflater inflater, View container, ParseObject word, ArrayList<ParseObject> comments) {
+        //TODO: Build the list here with the comments.
+        View view = inflater.inflate(R.layout.item_namelist, null);
+
+        //Fill out the word
+        populateName(view, word);
+
+        //Add the words to the UI
+        FrameLayout wordFrame = (FrameLayout) container.findViewById(R.id.fl_word);
+        wordFrame.addView(view);
+    }
+
+    private static void populateName(View view, ParseObject parseObject) {
+        TextView ne = (TextView) view.findViewById(R.id.tv_new_english);
+        TextView oe = (TextView) view.findViewById(R.id.tv_new_english);
+        TextView meaning = (TextView) view.findViewById(R.id.tv_meaning);
+
+        String meaningText = parseObject.get("meaning").toString();
+
+        ne.setText(parseObject.getString("ne"));
+        oe.setText(parseObject.getString("oe"));
+        meaning.setText(meaningText);
+    }
+
     /**
      * This is grabbed directly from the Word list adapter
      * TODO: make a helper for both of these.

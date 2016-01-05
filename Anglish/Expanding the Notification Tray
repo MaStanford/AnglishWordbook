@@ -1,0 +1,41 @@
+Expanding the Notification Tray
+What is the behaviour when you click on the status bar and then let go in a standard portrait app (status bar visible)?
+What is the behaviour when you click on the status bar and then let go in a standard landscape app (status bar visible)?
+What is the behaviour when you click on the status bar and then let go in the launcher?
+What is the behaviour when you click on the status bar and then let go in a full screen app (make status bar visible via sticky immersive first)?
+How far do you have to flick down from the status bar to make the notification tray expand?
+What happens when you click the status bar and drag down?
+If you click the status bar and drag down, what is the threshold at which the notification tray will collapse after letting go?
+If you click the status bar and drag down, what is the threshold at which the notification tray will expand after letting go?
+What ways are there to expand the notification panel without clicking or dragging the status bar?
+
+
+Behaviour when Notification Tray is Expanded
+What happens when you press back?
+What happens when you rotate the phone from portrait -> landscape?
+What happens when you rotate the phone from landscape -> portrait?
+What happens when you lock the phone?
+What happens when you leave the phone idle and it goes to sleep with no lock screen (i.e., disable it in settings)?
+What happens when you press the home key?
+What happens when you press the menu/task switch key?
+What happens when you swipe up on the tray?
+What happens when you press on unused/transparent areas (I.e., can see launcher/app underneath)?
+What other ways are there to close the notification tray?
+
+
+Status Bar Behaviour
+If an app is in true full screen mode, how can you bring back the status bar?
+If an app is in true full screen mode, does the window overlay solution affect the app’s responsiveness to clicks over the overlay region (i.e., status bar region)
+Does the custom status bar persist on the lock screen?
+Does the status bar solution disappear/get killed in low memory conditions
+What ways are there to kill the status bar solution (window overlay)?
+
+
+Kris’ Questions
+Feasibility of implementing custom notification tray (like Snowball)
+Feasibility of putting a prominent, persistent notification into the standard notification list (like media player)
+Feasibility of adding functionality to any existing notification (e.g. a cast button to notifications that contain media, e.g. photo)
+Feasibility of putting a glowing icon into the top system notifications tray
+Feasibility of putting a “cast” button on the lock screen
+Feasibility of using the edge (color, glow, etc.) to notify users
+Please send out a consolidated document with the results of this before our meeting tomorrow.  For tomorrow’s meeting, I would like to get your opinion on what the largest gaps between our prototype and stock are; and prioritize which ones we should investigate/implement technical solutions for.

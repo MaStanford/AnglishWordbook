@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:layout_width="match_parent"
+              android:layout_height="match_parent"
+              android:orientation="vertical">
+
+    <TableLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:divider="@drawable/abc_list_divider_mtrl_alpha"
+        android:dividerPadding="5dp"
+        android:stretchColumns="1"
+        android:showDividers="middle"
+        android:background="@drawable/table_bg_wordbook">
+
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <TextView
+                style="@style/TextWordBookStatic"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="English Word"
+                android:gravity="left"/>
+
+
+            <TextView
+                android:id="@+id/tv_new_english"
+                style="@style/TextWordBookDef"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:gravity="left"/>
+        </TableRow>
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:divider="@drawable/abc_list_divider_mtrl_alpha"
+            android:dividerPadding="2dp">
+
+            <TextView
+                style="@style/TextWordBookStatic"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Old English"
+                android:gravity="left"/>
+
+            <TextView
+                android:id="@+id/tv_old_english"
+                style="@style/TextWordBookDef"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:gravity="left"/>
+        </TableRow>
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+
+            <TextView
+                style="@style/TextWordBookStatic"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Meaning"
+                android:gravity="left"/>
+
+            <TextView
+                android:id="@+id/tv_meaning"
+                style="@style/TextWordBookDef"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:gravity="left"/>
+        </TableRow>
+    </TableLayout>
+</LinearLayout>

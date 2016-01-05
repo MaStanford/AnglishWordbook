@@ -22,9 +22,9 @@ import com.parse.ParseObject;
 import com.parse.ParseQuery;
 import com.stanford.anglishwordbook.R;
 import com.stanford.anglishwordbook.activities.MainActivity;
-import com.stanford.anglishwordbook.adapters.WordAdapter;
+import com.stanford.anglishwordbook.adapters.NameBitAdapter;
 import com.stanford.anglishwordbook.data.WordManager;
-import com.stanford.anglishwordbook.dialogs.WordDialog;
+import com.stanford.anglishwordbook.dialogs.NameBitDialog;
 
 import java.util.List;
 
@@ -34,15 +34,15 @@ import java.util.List;
  * Use the {@link WordBookFragment#newInstance} factory method to
  * create an instance of this fragment.
  */
-public class WordBookFragment extends Fragment {
+public class NameBitFragment extends Fragment {
 
     private static final String ARG_PARAM1 = "param1";
-    private static final String TAG = WordBookFragment.class.getSimpleName();
+    private static final String TAG = NameBitFragment.class.getSimpleName();
 
     private int mPageIndex;
 
     private ListView mListView;
-    private WordAdapter mAdapter;
+    private NameBitAdapter mAdapter;
 
     private WordManager mWordManager;
 
@@ -53,15 +53,15 @@ public class WordBookFragment extends Fragment {
      * @param pageIndex
      * @return A new instance of fragment WordBookFragment.
      */
-    public static WordBookFragment newInstance(int pageIndex) {
-        WordBookFragment fragment = new WordBookFragment();
+    public static NameBitFragment newInstance(int pageIndex) {
+        NameBitFragment fragment = new NameBitFragment();
         Bundle args = new Bundle();
         args.putInt(ARG_PARAM1, pageIndex);
         fragment.setArguments(args);
         return fragment;
     }
 
-    public WordBookFragment() {
+    public NameBitFragment() {
     }
 
     @Override
@@ -76,7 +76,7 @@ public class WordBookFragment extends Fragment {
     @Override
     public View onCreateView(LayoutInflater inflater, ViewGroup container, Bundle savedInstanceState) {
 
-        return inflater.inflate(R.layout.fragment_word_book, container, false);
+        return inflater.inflate(R.layout.fragment_namebit, container, false);
     }
 
     @Override
@@ -91,8 +91,8 @@ public class WordBookFragment extends Fragment {
 
     private void queryWord(){
         String word = ((EditText) getActivity().findViewById(R.id.et_wordbook)).getText().toString();
-        ParseQuery<ParseObject> query = new ParseQuery("Word");
-        query.whereEqualTo("Word", word);
+        ParseQuery<ParseObject> query = new ParseQuery("NameWord");
+        query.whereContains("meaning", word);
         query.findInBackground(new FindCallback<ParseObject>() {
             @Override
             public void done(List<ParseObject> parseObjects, ParseException e) {
@@ -133,16 +133,16 @@ public class WordBookFragment extends Fragment {
         mListView.setOnItemClickListener(new AdapterView.OnItemClickListener() {
             @Override
             public void onItemClick(AdapterView<?> parent, View view, int position, long id) {
-                launchWordDialog(position);
+                launchNameDialog(position);
             }
         });
-        mAdapter = new WordAdapter(getActivity(), mWordManager.getWordList());
+        mAdapter = new NameBitAdapter(getActivity(), mWordManager.getWordList());
         mListView.setAdapter(mAdapter);
     }
 
-    private void launchWordDialog(int position) {
+    private void launchNameDialog(int position) {
         FragmentManager fm = getActivity().getSupportFragmentManager();
-        WordDialog wordDialog = WordDialog.createFragment(position);
+        NameBitDialog wordDialog = NameBitDialog.createFragment(position);
         wordDialog.show(fm, MainActivity.FRAG_TAG_WORD);
     }
 
