@@ -1,0 +1,27 @@
+{ "results": [
+	{
+        "by": {
+            "__type": "Pointer",
+            "className": "_User",
+            "objectId": "TyeUpnrLdw"
+        },
+        "createdAt": "2015-05-19T00:53:50.112Z",
+        "data": "Test Comment do not read. ",
+        "downvotes": 0,
+        "flags": 0,
+        "isTopLevel": true,
+        "objectId": "Sew2MPHk57",
+        "parentComment": {
+            "__type": "Pointer",
+            "className": "Comment",
+            "objectId": "null"
+        },
+        "parentWord": {
+            "__type": "Pointer",
+            "className": "Word",
+            "objectId": "9TT2Qfz77z"
+        },
+        "updatedAt": "2015-05-19T00:57:09.496Z",
+        "upvotes": 99999999
+    }
+] }

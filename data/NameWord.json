@@ -1,0 +1,3558 @@
+{ "results": [
+	{
+        "ACL": {
+            "*": {
+                "read": true
+            }
+        },
+        "createdAt": "2015-05-21T01:47:53.356Z",
+        "meaning": "['Beautiful\\n']",
+        "ne": "Flad\n",
+        "objectId": "0GBBxRdtwc",
+        "oe": "Flaéd",
+        "pronounce": "(flad)",
+        "updatedAt": "2015-05-21T21:56:33.151Z"
+    },
+	{
+        "ACL": {
+            "*": {
+                "read": true
+            }
+        },
+        "createdAt": "2015-05-21T01:48:47.387Z",
+        "meaning": "['Stone\\n']",
+        "ne": "Stan\n",
+        "objectId": "0OytY9MfEL",
+        "oe": "Stán",
+        "pronounce": "(stahn)",
+        "updatedAt": "2015-05-21T21:56:34.169Z"
+    },
+	{
+        "ACL": {
+            "*": {
+                "read": true
+            }
+        },
+        "createdAt": "2015-05-21T01:48:43.433Z",
+        "meaning": "['[to]', 'Sell;', '[to]', 'Give\\n']",
+        "ne": "Sel\n",
+        "objectId": "0PdRcagsb1",
+        "oe": "Sellan",
+        "pronounce": "(sel-lahn)",
+        "updatedAt": "2015-05-21T21:56:34.088Z"
+    },
+	{
+        "ACL": {
+            "*": {
+                "read": true
+            }
+        },
+        "createdAt": "2015-05-21T01:48:41.393Z",
+        "meaning": "['Man;', 'Servant\\n']",
+        "ne": "Shelk\n",
+        "objectId": "0pDQ8d8rFi",
+        "oe": "Scealc",
+        "pronounce": "(sheh-ahlk)",
+        "updatedAt": "2015-05-21T21:56:34.310Z"
+    },
+	{
+        "ACL": {
+            "*": {
+                "read": true
+            }
+        },
+        "createdAt": "2015-05-21T01:48:53.377Z",
+        "meaning": "['Town\\n']",
+        "ne": "Ton\n",
+        "objectId": "1Dk96wQ8Og",
+        "oe": "Tún",
+        "pronounce": "(toon)",
+        "updatedAt": "2015-05-21T21:56:33.622Z"
+    },
+	{
+        "ACL": {
+            "*": {
+                "read": true
+            }
+        },
+        "createdAt": "2015-05-21T01:47:47.629Z",
+        "meaning": "['Horse\\n']",
+        "ne": "Ee\n",
+        "objectId": "1EK967oeXW",
+        "oe": "Éo",
+        "pronounce": "(ei-oh)",
+        "updatedAt": "2015-05-21T21:56:32.833Z"
+    },
+	{
+        "ACL": {
+            "*": {
+                "read": true
+            }
+        },
+        "createdAt": "2015-05-21T01:47:51.649Z",
+        "meaning": "['Far', '(fahr)', '[to]', 'Fare;', 'Way;', 'Road\\n']",
+        "ne": "Far; Fardi; Ver\n",
+        "objectId": "1Ou1Hx8f8c",
+        "oe": "Fær",
+        "pronounce": "(far);",
+        "updatedAt": "2015-05-21T21:56:32.950Z"
+    },
+	{
+        "ACL": {
+            "*": {
+                "read": true
+            }
+        },
+        "createdAt": "2015-05-21T01:48:23.220Z",
+        "meaning": "['Mighty\\n']",
+        "ne": "Mat, Mit\n",
+        "objectId": "1oXTFYZUSS",
+        "oe": "Miht",
+        "pronounce": "(mi-ght)",
+        "updatedAt": "2015-05-21T21:56:33.784Z"
+    },
+	{
+        "ACL": {
+            "*": {
+                "read": true
+            }
+        },
+        "createdAt": "2015-05-21T01:47:36.722Z",
+        "meaning": "['Child\\n']",
+        "ne": "Child\n",
+        "objectId": "2T2BSqde2r",
+        "oe": "Ċild",
+        "pronounce": "(chihld)",
+        "updatedAt": "2015-05-21T21:56:32.413Z"
+    },
+	{
+        "ACL": {
+            "*": {
+                "read": true
+            }
+        },
+        "createdAt": "2015-05-21T01:48:20.457Z",
+        "meaning": "['Ship;', 'Sailor\\n']",
+        "ne": "Lid\n",
+        "objectId": "2zbmF1fMef",
+        "oe": "Lida",
+        "pronounce": "(li-dah)",
+        "updatedAt": "2015-05-21T21:56:33.733Z"
+    },
+	{
+        "ACL": {
+            "*": {
+                "read": true
+            }
+        },
+        "createdAt": "2015-05-21T01:48:11.146Z",
+        "meaning": "['[a]', 'Low', '(hill)\\n']",
+        "ne": "Low\n",
+        "objectId": "31nmc3laNE",
+        "oe": "Hlaéƿ",
+        "pronounce": "(hlaw)",
+        "updatedAt": "2015-05-21T21:56:33.747Z"
+    },
+	{
+        "ACL": {
+            "*": {
+                "read": true
+            }
+        },
+        "createdAt": "2015-05-21T01:48:22.535Z",
+        "meaning": "['Talkative\\n']",
+        "ne": "Mathel\n",
+        "objectId": "3TvWiFffDw",
+        "oe": "Mæþel",
+        "pronounce": "(ma-thel)",
+        "updatedAt": "2015-05-21T21:56:33.803Z"
+    },
+	{
+        "ACL": {
+            "*": {
+                "read": true
+            }
+        },
+        "createdAt": "2015-05-21T01:48:16.048Z",
+        "meaning": "['Young', 'Man;', 'Warrior\\n']",
+        "ne": "His\n",
+        "objectId": "3luMXc2f7U",
+        "oe": "Hyse",
+        "pronounce": "(hø-zeh)",
+        "updatedAt": "2015-05-21T21:56:33.483Z"
+    },
+	{
+        "ACL": {
+            "*": {
+                "read": true
+            }
+        },
+        "createdAt": "2015-05-21T01:47:29.015Z",
+        "meaning": "['Bee\\n']",
+        "ne": "Bee\n",
+        "objectId": "3mB3JCLaTY",
+        "oe": "Beó",
+        "pronounce": "(beh-oh)",
+        "updatedAt": "2015-05-21T21:56:32.083Z"
+    },
+	{
+        "ACL": {
+            "*": {
+                "read": true
+            }
+        },
+        "createdAt": "2015-05-21T01:48:04.741Z",
+        "meaning": "['Broken;', 'Rugged\\n']",
+        "ne": "Hamil\n",
+        "objectId": "3mcPReJH01",
+        "oe": "Hamel",
+        "pronounce": "(hahm-el)",
+        "updatedAt": "2015-05-21T21:56:33.357Z"
+    },
+	{
+        "ACL": {
+            "*": {
+                "read": true
+            }
+        },
+        "createdAt": "2015-05-21T01:49:04.646Z",
+        "meaning": "['Wise\\n']",
+        "ne": "Wise\n",
+        "objectId": "3uaHZTrCJf",
+        "oe": "Ƿíse",
+        "pronounce": "(wee-zeh)",
+        "updatedAt": "2015-05-21T21:58:15.314Z"
+    },
+	{
+        "ACL": {
+            "*": {
+                "read": true
+            }
+        },
+        "createdAt": "2015-05-21T01:48:44.141Z",
+        "meaning": "['Side;', 'Wide\\n']",
+        "ne": "Sid\n",
+        "objectId": "413ns0ismw",
+        "oe": "Síde",
+        "pronounce": "(see-deh)",
+        "updatedAt": "2015-05-21T21:56:34.139Z"
+    },
+	{
+        "ACL": {
+            "*": {
+                "read": true
+            }
+        },
+        "createdAt": "2015-05-21T01:48:29.427Z",
+        "meaning": "['Point;', 'Spear-tip\\n']",
+        "ne": "Ord\n",
+        "objectId": "42iuXnsdpd",
+        "oe": "Ord",
+        "pronounce": "(ord)",
+        "updatedAt": "2015-05-21T21:56:33.934Z"
+    },
+	{
+        "ACL": {
+            "*": {
+                "read": true
+            }
+        },
+        "createdAt": "2015-05-21T01:47:36.056Z",
+        "meaning": "['Coal;', 'Swarthy\\n']",
+        "ne": "Col\n",
+        "objectId": "4OiTDdCPyw",
+        "oe": "Cól",
+        "pronounce": "(kohl)",
+        "updatedAt": "2015-05-21T21:56:32.535Z"
+    },
+	{
+        "ACL": {
+            "*": {
+                "read": true
+            }
+        },
+        "createdAt": "2015-05-21T01:47:42.566Z",
+        "meaning": "['Ditch\\n']",
+        "ne": "Day\n",
+        "objectId": "4SdBEUjgSd",
+        "oe": "Díċ",
+        "pronounce": "(dich)",
+        "updatedAt": "2015-05-21T21:56:32.653Z"
+    },
+	{
+        "ACL": {
+            "*": {
+                "read": true
+            }
+        },
+        "createdAt": "2015-05-21T01:48:19.102Z",
+        "meaning": "['Lea', '(field)\\n']",
+        "ne": "Leigh, Ley\n",
+        "objectId": "4YxozMey8S",
+        "oe": "Leáh",
+        "pronounce": "(leh-ahgh)",
+        "updatedAt": "2015-05-21T21:56:33.730Z"
+    },
+	{
+        "ACL": {
+            "*": {
+                "read": true
+            }
+        },
+        "createdAt": "2015-05-21T01:48:48.422Z",
+        "meaning": "['Summer\\n']",
+        "ne": "Summer\n",
+        "objectId": "5DpgF8iJmW",
+        "oe": "Sumer",
+        "pronounce": "(soo-mer)",
+        "updatedAt": "2015-05-21T21:56:34.188Z"
+    },
+	{
+        "ACL": {
+            "*": {
+                "read": true
+            }
+        },
+        "createdAt": "2015-05-21T01:48:24.630Z",
+        "meaning": "['[The]', 'Moon', '(satellite', '\u0026', 'god)\\n']",
+        "ne": "Mon\n",
+        "objectId": "5FLbpKZRC8",
+        "oe": "Móna",
+        "pronounce": "(mo-nah)",
+        "updatedAt": "2015-05-21T21:56:33.849Z"
+    },
+	{
+        "ACL": {
+            "*": {
+                "read": true
+            }
+        },
+        "createdAt": "2015-05-21T01:48:03.730Z",
+        "meaning": "['Heath;', 'Heather\\n']",
+        "ne": "Heath\n",
+        "objectId": "5IW78xs44x",
+        "oe": "Haéþ",
+        "pronounce": "(hath)",
+        "updatedAt": "2015-05-21T21:56:33.454Z"
+    },
+	{
+        "ACL": {
+            "*": {
+                "read": true
+            }
+        },
+        "createdAt": "2015-05-21T01:48:04.070Z",
+        "meaning": "['-Hood', '(a', 'kind)\\n']",
+        "ne": "Aide, Heid, Heidi, Hood\n",
+        "objectId": "5cAzbpVIHx",
+        "oe": "Hád",
+        "pronounce": "(hahd)",
+        "updatedAt": "2015-05-21T21:56:31.921Z"
+    },
+	{
+        "ACL": {
+            "*": {
+                "read": true
+            }
+        },
+        "createdAt": "2015-05-21T01:48:57.879Z",
+        "meaning": "['Woad\\n']",
+        "ne": "Od\n",
+        "objectId": "5rXWPmBVrU",
+        "oe": "Ƿád",
+        "pronounce": "(wahd)",
+        "updatedAt": "2015-05-21T21:56:33.881Z"
+    },
+	{
+        "ACL": {
+            "*": {
+                "read": true
+            }
+        },
+        "createdAt": "2015-05-21T01:48:18.097Z",
+        "meaning": "['Left;', 'Living;', 'Heir\\n']",
+        "ne": "Laf\n",
+        "objectId": "5yBJQSBfTK",
+        "oe": "Láf",
+        "pronounce": "(lahf)",
+        "updatedAt": "2015-05-21T21:56:33.713Z"
+    },
+	{
+        "ACL": {
+            "*": {
+                "read": true
+            }
+        },
+        "createdAt": "2015-05-21T01:48:12.162Z",
+        "meaning": "['[to]', 'Hold;', 'Friendly\\n']",
+        "ne": "Hold\n",
+        "objectId": "67AgroCDPg",
+        "oe": "Hold",
+        "pronounce": "(hold)",
+        "updatedAt": "2015-05-21T21:56:33.574Z"
+    },
+	{
+        "ACL": {
+            "*": {
+                "read": true
+            }
+        },
+        "createdAt": "2015-05-21T01:48:59.246Z",
+        "meaning": "['Way;', '[to]', 'Fare;', 'Road\\n']",
+        "ne": "Way\n",
+        "objectId": "6HLpdZXpDa",
+        "oe": "Ƿeġ",
+        "pronounce": "(wey)",
+        "updatedAt": "2015-05-21T21:56:34.297Z"
+    },
+	{
+        "ACL": {
+            "*": {
+                "read": true
+            }
+        },
+        "createdAt": "2015-05-21T01:47:36.392Z",
+        "meaning": "['Churl', '(freeman)\\n']",
+        "ne": "Carl, Charl\n",
+        "objectId": "6Jgg4cL99P",
+        "oe": "Ċeorl",
+        "pronounce": "(cheh-orl)",
+        "updatedAt": "2015-05-21T21:56:32.400Z"
+    },
+	{
+        "ACL": {
+            "*": {
+                "read": true
+            }
+        },
+        "createdAt": "2015-05-21T01:48:02.716Z",
+        "meaning": "['\\xc4\\xa0\\xc3\\xba\\xc3\\xbe', '(yooth);', '\\xc4\\xa0y\\xcc\\x81\\xc3\\xbe', '(y\\xc3\\xb8th)', 'War;', 'Warrior\\n']",
+        "ne": "Ith, Yith\n",
+        "objectId": "6Qk1szYiZM",
+        "oe": "Ġûdh",
+        "pronounce": "(yoodgh);",
+        "updatedAt": "2015-05-21T21:56:33.601Z"
+    },
+	{
+        "ACL": {
+            "*": {
+                "read": true
+            }
+        },
+        "createdAt": "2015-05-21T01:47:54.801Z",
+        "meaning": "['[a/The]', 'Lord;', 'Ingwe\\n']",
+        "ne": "Fre\n",
+        "objectId": "6SbGqTKeXa",
+        "oe": "Freá",
+        "pronounce": "(frey-ah)",
+        "updatedAt": "2015-05-21T21:56:33.121Z"
+    },
+	{
+        "ACL": {
+            "*": {
+                "read": true
+            }
+        },
+        "createdAt": "2015-05-21T01:47:45.287Z",
+        "meaning": "['Fertile\\n']",
+        "ne": "En\n",
+        "objectId": "6ZWyDDK3hl",
+        "oe": "Eán",
+        "pronounce": "(eh-ahn)",
+        "updatedAt": "2015-05-21T21:56:32.832Z"
+    },
+	{
+        "ACL": {
+            "*": {
+                "read": true
+            }
+        },
+        "createdAt": "2015-05-21T01:48:47.050Z",
+        "meaning": "['Staff\\n']",
+        "ne": "Staf\n",
+        "objectId": "6hDTeZ7fA6",
+        "oe": "Stæf",
+        "pronounce": "(staf)",
+        "updatedAt": "2015-05-21T21:56:34.169Z"
+    },
+	{
+        "ACL": {
+            "*": {
+                "read": true
+            }
+        },
+        "createdAt": "2015-05-21T01:49:03.653Z",
+        "meaning": "['Well;', 'Spring\\n']",
+        "ne": "Wel\n",
+        "objectId": "74v7OVyfF2",
+        "oe": "Ƿille",
+        "pronounce": "(wil-leh)",
+        "updatedAt": "2015-05-21T21:56:34.390Z"
+    },
+	{
+        "ACL": {
+            "*": {
+                "read": true
+            }
+        },
+        "createdAt": "2015-05-21T01:49:02.624Z",
+        "meaning": "['Wight;', 'Elf;', 'Creature\\n']",
+        "ne": "Wit\n",
+        "objectId": "7HdN8ew1Pg",
+        "oe": "Ƿiht",
+        "pronounce": "(wight)",
+        "updatedAt": "2015-05-21T21:58:15.290Z"
+    },
+	{
+        "ACL": {
+            "*": {
+                "read": true
+            }
+        },
+        "createdAt": "2015-05-21T01:47:39.180Z",
+        "meaning": "['Woman;', 'Wife;', 'Queen\\n']",
+        "ne": "Queen\n",
+        "objectId": "7Hj9jSCXOU",
+        "oe": "Cƿén",
+        "pronounce": "(kweyn)",
+        "updatedAt": "2015-05-21T21:56:33.959Z"
+    },
+	{
+        "ACL": {
+            "*": {
+                "read": true
+            }
+        },
+        "createdAt": "2015-05-21T01:47:58.196Z",
+        "meaning": "['Gate\\n']",
+        "ne": "Yat\n",
+        "objectId": "7a5KfeY37o",
+        "oe": "Ġeat",
+        "pronounce": "(yeh-aht)",
+        "updatedAt": "2015-05-21T21:58:15.398Z"
+    },
+	{
+        "ACL": {
+            "*": {
+                "read": true
+            }
+        },
+        "createdAt": "2015-05-21T01:48:30.108Z",
+        "meaning": "['Pile', '(spike);', 'Arrow\\n']",
+        "ne": "Pil\n",
+        "objectId": "7qOfR7Jf4A",
+        "oe": "Píl",
+        "pronounce": "(peel)",
+        "updatedAt": "2015-05-21T21:56:33.942Z"
+    },
+	{
+        "ACL": {
+            "*": {
+                "read": true
+            }
+        },
+        "createdAt": "2015-05-21T01:48:04.411Z",
+        "meaning": "['Home;', 'Farm;', 'Settlement\\n']",
+        "ne": "Ham, Hen\n",
+        "objectId": "8q6GpMsyiB",
+        "oe": "Hám",
+        "pronounce": "(hahm)",
+        "updatedAt": "2015-05-21T21:56:33.362Z"
+    },
+	{
+        "ACL": {
+            "*": {
+                "read": true
+            }
+        },
+        "createdAt": "2015-05-21T01:47:56.150Z",
+        "meaning": "['Bold;', 'Eager\\n']",
+        "ne": "Fus\n",
+        "objectId": "8sJW2zagSP",
+        "oe": "Fús",
+        "pronounce": "(foos)",
+        "updatedAt": "2015-05-21T21:56:33.136Z"
+    },
+	{
+        "ACL": {
+            "*": {
+                "read": true
+            }
+        },
+        "createdAt": "2015-05-21T01:47:33.991Z",
+        "meaning": "['Fort;', 'Strong;', 'Protective\\n']",
+        "ne": "Bur, Bura\n",
+        "objectId": "8w4h5Igp54",
+        "oe": "Burg",
+        "pronounce": "(burgh)",
+        "updatedAt": "2015-05-21T21:56:32.308Z"
+    },
+	{
+        "ACL": {
+            "*": {
+                "read": true
+            }
+        },
+        "createdAt": "2015-05-21T01:48:26.983Z",
+        "meaning": "['New\\n']",
+        "ne": "New\n",
+        "objectId": "97w9m8aqsq",
+        "oe": "Neoƿe",
+        "pronounce": "(ne-oh-weh)",
+        "updatedAt": "2015-05-21T21:56:33.822Z"
+    },
+	{
+        "ACL": {
+            "*": {
+                "read": true
+            }
+        },
+        "createdAt": "2015-05-21T01:47:48.301Z",
+        "meaning": "['Tiw;', 'Dear;', 'Great\\n']",
+        "ne": "Ercon\n",
+        "objectId": "9A1MeCMU99",
+        "oe": "Eorcon",
+        "pronounce": "(eh-or-kon)",
+        "updatedAt": "2015-05-21T21:56:32.879Z"
+    },
+	{
+        "ACL": {
+            "*": {
+                "read": true
+            }
+        },
+        "createdAt": "2015-05-21T01:48:29.020Z",
+        "meaning": "['Border;', 'Edge;', 'Bank\\n']",
+        "ne": "Or\n",
+        "objectId": "9SCekdCOHW",
+        "oe": "Óra",
+        "pronounce": "(oh-rah)",
+        "updatedAt": "2015-05-21T21:56:33.931Z"
+    },
+	{
+        "ACL": {
+            "*": {
+                "read": true
+            }
+        },
+        "createdAt": "2015-05-21T01:47:46.620Z",
+        "meaning": "['Sword-edge\\n']",
+        "ne": "Eg\n",
+        "objectId": "9hwvoiGxGA",
+        "oe": "Ecg",
+        "pronounce": "(edj)",
+        "updatedAt": "2015-05-21T21:56:32.830Z"
+    },
+	{
+        "ACL": {
+            "*": {
+                "read": true
+            }
+        },
+        "createdAt": "2015-05-21T01:48:19.779Z",
+        "meaning": "['[the]', 'Folk;', '[a]', 'Kinsman\\n']",
+        "ne": "Leed\n",
+        "objectId": "9nEVy78e8h",
+        "oe": "Leód",
+        "pronounce": "(ley-od)",
+        "updatedAt": "2015-05-21T21:56:33.715Z"
+    },
+	{
+        "ACL": {
+            "*": {
+                "read": true
+            }
+        },
+        "createdAt": "2015-05-21T01:48:52.687Z",
+        "meaning": "['True;', 'Trustworthy\\n']",
+        "ne": "True\n",
+        "objectId": "9sLfNi6ivw",
+        "oe": "Tryƿe",
+        "pronounce": "(trø-weh)",
+        "updatedAt": "2015-05-21T21:56:33.632Z"
+    },
+	{
+        "ACL": {
+            "*": {
+                "read": true
+            }
+        },
+        "createdAt": "2015-05-21T01:49:00.594Z",
+        "meaning": "['Willow\\n']",
+        "ne": "Wil\n",
+        "objectId": "BCHCYAiYTj",
+        "oe": "Ƿeliġ",
+        "pronounce": "(wel-ee)",
+        "updatedAt": "2015-05-21T21:58:15.271Z"
+    },
+	{
+        "ACL": {
+            "*": {
+                "read": true
+            }
+        },
+        "createdAt": "2015-05-21T01:48:58.562Z",
+        "meaning": "['Warden;', 'Powerful\\n']",
+        "ne": "Ward\n",
+        "objectId": "BSkQkOCQB5",
+        "oe": "Ƿeard",
+        "pronounce": "(weh-ahrd)",
+        "updatedAt": "2015-05-21T21:56:34.307Z"
+    },
+	{
+        "ACL": {
+            "*": {
+                "read": true
+            }
+        },
+        "createdAt": "2015-05-21T01:48:52.012Z",
+        "meaning": "['the', 'Honourable/Warrior', 'God,\\n']['Tue', 'the', 'One-handed,', 'Sky', 'God;\\n']",
+        "ne": "Tir,",
+        "objectId": "BWbE6qvAkZ",
+        "oe": "Tíƿ",
+        "pronounce": "(tiw)",
+        "updatedAt": "2015-05-21T21:56:34.306Z"
+    },
+	{
+        "ACL": {
+            "*": {
+                "read": true
+            }
+        },
+        "createdAt": "2015-05-21T01:48:15.028Z",
+        "meaning": "['White\\n']",
+        "ne": "Whit\n",
+        "objectId": "BrqnDQm5J9",
+        "oe": "Hƿít",
+        "pronounce": "(hweet)",
+        "updatedAt": "2015-05-21T21:58:15.250Z"
+    },
+	{
+        "ACL": {
+            "*": {
+                "read": true
+            }
+        },
+        "createdAt": "2015-05-21T01:47:28.320Z",
+        "meaning": "['Beonot', '(beh-oh-not)', 'Bent', '(course', 'grass)\\n']",
+        "ne": "Bent\n",
+        "objectId": "C3HolnHTGN",
+        "oe": "Beonet",
+        "pronounce": "(beh-oh-net);",
+        "updatedAt": "2015-05-21T21:56:32.130Z"
+    },
+	{
+        "ACL": {
+            "*": {
+                "read": true
+            }
+        },
+        "createdAt": "2015-05-21T01:47:23.846Z",
+        "meaning": "['[the]', 'Sea\\n']",
+        "ne": "Ayn\n",
+        "objectId": "C9iV519Pw4",
+        "oe": "Æġen",
+        "pronounce": "(ay-en)",
+        "updatedAt": "2015-05-21T21:56:32.049Z"
+    },
+	{
+        "ACL": {
+            "*": {
+                "read": true
+            }
+        },
+        "createdAt": "2015-05-21T01:47:52.323Z",
+        "meaning": "['Field\\n']",
+        "ne": "Field; Velt\n",
+        "objectId": "CFj1BKXgai",
+        "oe": "Feld",
+        "pronounce": "(feld)",
+        "updatedAt": "2015-05-21T21:56:33.134Z"
+    },
+	{
+        "ACL": {
+            "*": {
+                "read": true
+            }
+        },
+        "createdAt": "2015-05-21T01:48:21.139Z",
+        "meaning": "['Love\\n']",
+        "ne": "Love\n",
+        "objectId": "CR6Ii9DzzS",
+        "oe": "Lufu",
+        "pronounce": "(loo-voo)",
+        "updatedAt": "2015-05-21T21:56:33.745Z"
+    },
+	{
+        "ACL": {
+            "*": {
+                "read": true
+            }
+        },
+        "createdAt": "2015-05-21T01:48:07.965Z",
+        "meaning": "['Hay\\n']",
+        "ne": "Hay\n",
+        "objectId": "Cbnzt1MmnT",
+        "oe": "Heġe",
+        "pronounce": "(heh-yeh)",
+        "updatedAt": "2015-05-21T21:56:33.375Z"
+    },
+	{
+        "ACL": {
+            "*": {
+                "read": true
+            }
+        },
+        "createdAt": "2015-05-21T01:47:57.857Z",
+        "meaning": "['Yard', '(field)\\n']",
+        "ne": "Yard\n",
+        "objectId": "Co6zGsWLCp",
+        "oe": "Ġeard",
+        "pronounce": "(yeh-ahrd)",
+        "updatedAt": "2015-05-21T21:58:15.364Z"
+    },
+	{
+        "ACL": {
+            "*": {
+                "read": true
+            }
+        },
+        "createdAt": "2015-05-21T01:47:47.968Z",
+        "meaning": "['Boar\\n']",
+        "ne": "Ever, Ir\n",
+        "objectId": "D3cbHfbmYA",
+        "oe": "Eofor",
+        "pronounce": "(eh-oh-vor)",
+        "updatedAt": "2015-05-21T21:56:32.962Z"
+    },
+	{
+        "ACL": {
+            "*": {
+                "read": true
+            }
+        },
+        "createdAt": "2015-05-21T01:48:10.812Z",
+        "meaning": "['War;', 'Warrior\\n']",
+        "ne": "Hild, Hilda, Ilda\n",
+        "objectId": "D9BxN4EiG3",
+        "oe": "Hild",
+        "pronounce": "(hild)",
+        "updatedAt": "2015-05-21T21:56:33.474Z"
+    },
+	{
+        "ACL": {
+            "*": {
+                "read": true
+            }
+        },
+        "createdAt": "2015-05-21T01:47:33.304Z",
+        "meaning": "['Burning;', 'Fiery\\n']",
+        "ne": "Brin\n",
+        "objectId": "DMkkYzV3xO",
+        "oe": "Bryne",
+        "pronounce": "(brøneh)",
+        "updatedAt": "2015-05-21T21:56:32.291Z"
+    },
+	{
+        "ACL": {
+            "*": {
+                "read": true
+            }
+        },
+        "createdAt": "2015-05-21T01:47:58.534Z",
+        "meaning": "['\\xc4\\xa0ifu', '(yi-vu)', 'Gift;', 'Dowry\\n']",
+        "ne": "Ift, Yift; Iva, Yiva\n",
+        "objectId": "Dd8hVkqguv",
+        "oe": "Ġift",
+        "pronounce": "(yift);",
+        "updatedAt": "2015-05-21T21:56:33.592Z"
+    },
+	{
+        "ACL": {
+            "*": {
+                "read": true
+            }
+        },
+        "createdAt": "2015-05-21T01:47:55.132Z",
+        "meaning": "['Freo\\xc3\\xbeu', '(fre-oh-thoo)', 'Free;', 'Peaceful\\n']",
+        "ne": "Fred, Frey\n",
+        "objectId": "EOibRCoDWD",
+        "oe": "Friðu",
+        "pronounce": "(frih-thoo);",
+        "updatedAt": "2015-05-21T21:56:33.117Z"
+    },
+	{
+        "ACL": {
+            "*": {
+                "read": true
+            }
+        },
+        "createdAt": "2015-05-21T01:49:04.976Z",
+        "meaning": "['Wolf;', 'Hunter\\n']",
+        "ne": "Wolf\n",
+        "objectId": "EesJXOZYb8",
+        "oe": "Ƿulf",
+        "pronounce": "(wolf)",
+        "updatedAt": "2015-05-21T21:58:15.334Z"
+    },
+	{
+        "ACL": {
+            "*": {
+                "read": true
+            }
+        },
+        "createdAt": "2015-05-21T01:48:22.878Z",
+        "meaning": "['Mere', '(water;', 'sea)\\n']",
+        "ne": "Mer\n",
+        "objectId": "EhQdpy6CHM",
+        "oe": "Mere",
+        "pronounce": "(meh-reh)",
+        "updatedAt": "2015-05-21T21:56:33.826Z"
+    },
+	{
+        "ACL": {
+            "*": {
+                "read": true
+            }
+        },
+        "createdAt": "2015-05-21T01:48:55.479Z",
+        "meaning": "['Thing\\n']",
+        "ne": "Thing\n",
+        "objectId": "F0A4zxmVIh",
+        "oe": "Ϸing",
+        "pronounce": "(thing)",
+        "updatedAt": "2015-05-21T21:56:34.249Z"
+    },
+	{
+        "ACL": {
+            "*": {
+                "read": true
+            }
+        },
+        "createdAt": "2015-05-21T01:48:16.399Z",
+        "meaning": "['I', '(the', 'self)\\n']",
+        "ne": "Ic\n",
+        "objectId": "FAMo6AcsWn",
+        "oe": "Iċ",
+        "pronounce": "(ich)",
+        "updatedAt": "2015-05-21T21:56:33.581Z"
+    },
+	{
+        "ACL": {
+            "*": {
+                "read": true
+            }
+        },
+        "createdAt": "2015-05-21T01:49:03.307Z",
+        "meaning": "['Will\\n']",
+        "ne": "Wil, Will\n",
+        "objectId": "FMYnaPn3ud",
+        "oe": "Ƿill",
+        "pronounce": "(will)",
+        "updatedAt": "2015-05-21T21:58:15.287Z"
+    },
+	{
+        "ACL": {
+            "*": {
+                "read": true
+            }
+        },
+        "createdAt": "2015-05-21T01:47:35.722Z",
+        "meaning": "['Keel;', 'Sailor\\n']",
+        "ne": "Cheel\n",
+        "objectId": "FUZ45f6Du5",
+        "oe": "Ċéol",
+        "pronounce": "(chey-ol)",
+        "updatedAt": "2015-05-21T21:56:32.409Z"
+    },
+	{
+        "ACL": {
+            "*": {
+                "read": true
+            }
+        },
+        "createdAt": "2015-05-21T01:47:31.470Z",
+        "meaning": "['Ruler;', 'Powerful\\n']",
+        "ne": "Brey\n",
+        "objectId": "FVrZaKsdPR",
+        "oe": "Breġo",
+        "pronounce": "(breh-yoh)",
+        "updatedAt": "2015-05-21T21:56:32.247Z"
+    },
+	{
+        "ACL": {
+            "*": {
+                "read": true
+            }
+        },
+        "createdAt": "2015-05-21T01:48:18.430Z",
+        "meaning": "['Land\\n']",
+        "ne": "Land\n",
+        "objectId": "FXXilkPyfl",
+        "oe": "Land",
+        "pronounce": "(lahnd)",
+        "updatedAt": "2015-05-21T21:56:33.723Z"
+    },
+	{
+        "ACL": {
+            "*": {
+                "read": true
+            }
+        },
+        "createdAt": "2015-05-21T01:47:41.890Z",
+        "meaning": "['Dena', '(deh-nah)', 'Danish\\n']",
+        "ne": "Dan, Dane\n",
+        "objectId": "Fbv3MJuuLd",
+        "oe": "Dene",
+        "pronounce": "(deh-neh);",
+        "updatedAt": "2015-05-21T21:56:32.587Z"
+    },
+	{
+        "ACL": {
+            "*": {
+                "read": true
+            }
+        },
+        "createdAt": "2015-05-21T01:48:55.145Z",
+        "meaning": "['Servant\\n']",
+        "ne": "Thee\n",
+        "objectId": "FxtRDJ0QVG",
+        "oe": "Ϸeóƿ",
+        "pronounce": "(they-oh)",
+        "updatedAt": "2015-05-21T21:56:34.251Z"
+    },
+	{
+        "ACL": {
+            "*": {
+                "read": true
+            }
+        },
+        "createdAt": "2015-05-21T01:48:46.024Z",
+        "meaning": "['Victorious\\n']",
+        "ne": "Sey\n",
+        "objectId": "GWNpaPvohy",
+        "oe": "Siġe",
+        "pronounce": "(see-yeh)",
+        "updatedAt": "2015-05-21T21:56:34.119Z"
+    },
+	{
+        "ACL": {
+            "*": {
+                "read": true
+            }
+        },
+        "createdAt": "2015-05-21T01:48:21.479Z",
+        "meaning": "['Man\\n']",
+        "ne": "Man\n",
+        "objectId": "Gc1xfOnmrZ",
+        "oe": "Mann",
+        "pronounce": "(mahn)",
+        "updatedAt": "2015-05-21T21:56:33.791Z"
+    },
+	{
+        "ACL": {
+            "*": {
+                "read": true
+            }
+        },
+        "createdAt": "2015-05-21T01:47:52.676Z",
+        "meaning": "['Fen', '(marsh)\\n']",
+        "ne": "Fen\n",
+        "objectId": "HMGWCkFNh1",
+        "oe": "Fenn",
+        "pronounce": "(fen)",
+        "updatedAt": "2015-05-21T21:56:32.982Z"
+    },
+	{
+        "ACL": {
+            "*": {
+                "read": true
+            }
+        },
+        "createdAt": "2015-05-21T01:47:42.907Z",
+        "meaning": "['Folk;', 'Kinsmen\\n']",
+        "ne": "Drit\n",
+        "objectId": "HXg4JF1Rit",
+        "oe": "Dryht",
+        "pronounce": "(drøght)",
+        "updatedAt": "2015-05-21T21:56:32.707Z"
+    },
+	{
+        "ACL": {
+            "*": {
+                "read": true
+            }
+        },
+        "createdAt": "2015-05-21T01:48:28.341Z",
+        "meaning": "['Fear;', 'Foe\\n']",
+        "ne": "Ot\n",
+        "objectId": "HnUTZRVvAH",
+        "oe": "Óht",
+        "pronounce": "(oght)",
+        "updatedAt": "2015-05-21T21:56:33.943Z"
+    },
+	{
+        "ACL": {
+            "*": {
+                "read": true
+            }
+        },
+        "createdAt": "2015-05-21T01:48:51.671Z",
+        "meaning": "['Able/Fit\\n']",
+        "ne": "Til\n",
+        "objectId": "HrElEH2l85",
+        "oe": "Til",
+        "pronounce": "(til)",
+        "updatedAt": "2015-05-21T21:56:34.278Z"
+    },
+	{
+        "ACL": {
+            "*": {
+                "read": true
+            }
+        },
+        "createdAt": "2015-05-21T01:48:10.477Z",
+        "meaning": "['Helm', '(protection)\\n']",
+        "ne": "Elm, Helm, Iam\n",
+        "objectId": "IQTjW1JplH",
+        "oe": "Helm",
+        "pronounce": "(helm)",
+        "updatedAt": "2015-05-21T21:56:32.838Z"
+    },
+	{
+        "ACL": {
+            "*": {
+                "read": true
+            }
+        },
+        "createdAt": "2015-05-21T01:48:35.476Z",
+        "meaning": "['Sand\\n']",
+        "ne": "Sand\n",
+        "objectId": "IVO9xeShEd",
+        "oe": "Sand",
+        "pronounce": "(sahnd)",
+        "updatedAt": "2015-05-21T21:56:34.075Z"
+    },
+	{
+        "ACL": {
+            "*": {
+                "read": true
+            }
+        },
+        "createdAt": "2015-05-21T01:47:53.006Z",
+        "meaning": "['Heart;', 'Mind\\n']",
+        "ne": "Ferth\n",
+        "objectId": "J3SC5mKok7",
+        "oe": "Ferþ",
+        "pronounce": "(ferth)",
+        "updatedAt": "2015-05-21T21:56:33.025Z"
+    },
+	{
+        "ACL": {
+            "*": {
+                "read": true
+            }
+        },
+        "createdAt": "2015-05-21T01:47:32.958Z",
+        "meaning": "['Brown\\n']",
+        "ne": "Brun\n",
+        "objectId": "J4AvCl6xgm",
+        "oe": "Brún",
+        "pronounce": "(broon)",
+        "updatedAt": "2015-05-21T21:56:32.302Z"
+    },
+	{
+        "ACL": {
+            "*": {
+                "read": true
+            }
+        },
+        "createdAt": "2015-05-21T01:47:43.248Z",
+        "meaning": "['Dark;', 'Brown;', 'Black\\n']",
+        "ne": "Dun\n",
+        "objectId": "JIfIxqXkSY",
+        "oe": "Dun",
+        "pronounce": "(doon)",
+        "updatedAt": "2015-05-21T21:56:32.717Z"
+    },
+	{
+        "ACL": {
+            "*": {
+                "read": true
+            }
+        },
+        "createdAt": "2015-05-21T01:47:35.388Z",
+        "meaning": "['Coen', '(koh-en)', 'Keen', '(bold;', 'smart;', 'able)\\n']",
+        "ne": "Con, Kel\n",
+        "objectId": "JKwQdlROXf",
+        "oe": "Céne",
+        "pronounce": "(kei-neh);",
+        "updatedAt": "2015-05-21T21:56:32.489Z"
+    },
+	{
+        "ACL": {
+            "*": {
+                "read": true
+            }
+        },
+        "createdAt": "2015-05-21T01:49:03.982Z",
+        "meaning": "['Windlass\\n']",
+        "ne": "Winds\n",
+        "objectId": "JOKCYEx75k",
+        "oe": "Ƿindles",
+        "pronounce": "(wind-less)",
+        "updatedAt": "2015-05-21T21:58:15.284Z"
+    },
+	{
+        "ACL": {
+            "*": {
+                "read": true
+            }
+        },
+        "createdAt": "2015-05-21T01:47:38.826Z",
+        "meaning": "['Couth', '(well-known)\\n']",
+        "ne": "Cuth\n",
+        "objectId": "KFuZdBe9p8",
+        "oe": "Cúþ",
+        "pronounce": "(kooth)",
+        "updatedAt": "2015-05-21T21:56:32.584Z"
+    },
+	{
+        "ACL": {
+            "*": {
+                "read": true
+            }
+        },
+        "createdAt": "2015-05-21T01:47:24.187Z",
+        "meaning": "['High-born\\n']",
+        "ne": "Ad, Adel, Al, Athel\n",
+        "objectId": "KoPe4BU6lv",
+        "oe": "Æðel",
+        "pronounce": "(a-thel)",
+        "updatedAt": "2015-05-21T21:56:32.030Z"
+    },
+	{
+        "ACL": {
+            "*": {
+                "read": true
+            }
+        },
+        "createdAt": "2015-05-21T01:47:45.954Z",
+        "meaning": "['East\\n']",
+        "ne": "Es\n",
+        "objectId": "L7G8Z1O2zR",
+        "oe": "Eást",
+        "pronounce": "(ey-ahst)",
+        "updatedAt": "2015-05-21T21:56:32.980Z"
+    },
+	{
+        "ACL": {
+            "*": {
+                "read": true
+            }
+        },
+        "createdAt": "2015-05-21T01:48:01.298Z",
+        "meaning": "['Ground;', 'Crushed;', 'Gravel\\n']",
+        "ne": "Gra\n",
+        "objectId": "LoMPz3bAZP",
+        "oe": "Grand",
+        "pronounce": "(grahnd)",
+        "updatedAt": "2015-05-21T21:56:33.628Z"
+    },
+	{
+        "ACL": {
+            "*": {
+                "read": true
+            }
+        },
+        "createdAt": "2015-05-21T01:47:38.098Z",
+        "meaning": "['Crow\\n']",
+        "ne": "Craw, Crow\n",
+        "objectId": "MPjanoWIyW",
+        "oe": "Cráƿa",
+        "pronounce": "(krah-wah)",
+        "updatedAt": "2015-05-21T21:56:32.586Z"
+    },
+	{
+        "ACL": {
+            "*": {
+                "read": true
+            }
+        },
+        "createdAt": "2015-05-21T01:47:54.043Z",
+        "meaning": "['Ford', '(crossing)\\n']",
+        "ne": "Ford\n",
+        "objectId": "MUnpraU1Ln",
+        "oe": "Ford",
+        "pronounce": "(ford)",
+        "updatedAt": "2015-05-21T21:56:33.116Z"
+    },
+	{
+        "ACL": {
+            "*": {
+                "read": true
+            }
+        },
+        "createdAt": "2015-05-21T01:47:45.618Z",
+        "meaning": "['Erne', '(eagle)\\n']",
+        "ne": "Arn, Ern\n",
+        "objectId": "MbQiWFyXpz",
+        "oe": "Earn",
+        "pronounce": "(eh-ahrn)",
+        "updatedAt": "2015-05-21T21:56:32.037Z"
+    },
+	{
+        "ACL": {
+            "*": {
+                "read": true
+            }
+        },
+        "createdAt": "2015-05-21T01:48:16.727Z",
+        "meaning": "['-Ing', '(a', 'kind)\\n']",
+        "ne": "Ing\n",
+        "objectId": "MeEIajH7rc",
+        "oe": "Ing",
+        "pronounce": "(ing)",
+        "updatedAt": "2015-05-21T21:56:33.590Z"
+    },
+	{
+        "ACL": {
+            "*": {
+                "read": true
+            }
+        },
+        "createdAt": "2015-05-21T01:48:22.161Z",
+        "meaning": "['Well-known\\n']",
+        "ne": "Mer\n",
+        "objectId": "N3Jc4C58gv",
+        "oe": "Maér",
+        "pronounce": "(mar)",
+        "updatedAt": "2015-05-21T21:56:33.825Z"
+    },
+	{
+        "ACL": {
+            "*": {
+                "read": true
+            }
+        },
+        "createdAt": "2015-05-21T01:48:29.771Z",
+        "meaning": "['One', 'of', 'the', 'gods', '[Ese];', 'Woden\\n']",
+        "ne": "Os\n",
+        "objectId": "NI7Aa0vqhz",
+        "oe": "Ós",
+        "pronounce": "(ows)",
+        "updatedAt": "2015-05-21T21:56:33.934Z"
+    },
+	{
+        "ACL": {
+            "*": {
+                "read": true
+            }
+        },
+        "createdAt": "2015-05-21T01:47:30.422Z",
+        "meaning": "['Help\\n']",
+        "ne": "Boot\n",
+        "objectId": "Nhl3ZJK9Ef",
+        "oe": "Bót",
+        "pronounce": "(bowt)",
+        "updatedAt": "2015-05-21T21:56:32.189Z"
+    },
+	{
+        "ACL": {
+            "*": {
+                "read": true
+            }
+        },
+        "createdAt": "2015-05-21T01:47:28.656Z",
+        "meaning": "['Bera', '(beh-rah)', 'Bear\\n']",
+        "ne": "Ber, Bern\n",
+        "objectId": "NkAYVKyp69",
+        "oe": "Beorn",
+        "pronounce": "(beh-orn);",
+        "updatedAt": "2015-05-21T21:56:32.141Z"
+    },
+	{
+        "ACL": {
+            "*": {
+                "read": true
+            }
+        },
+        "createdAt": "2015-05-21T01:48:05.076Z",
+        "meaning": "['Hond', '(hond)', 'Hand;', 'Side;', 'Power\\n']",
+        "ne": "Hand\n",
+        "objectId": "NtofVwAopf",
+        "oe": "Hand",
+        "pronounce": "(hahnd);",
+        "updatedAt": "2015-05-21T21:56:33.373Z"
+    },
+	{
+        "ACL": {
+            "*": {
+                "read": true
+            }
+        },
+        "createdAt": "2015-05-21T01:48:33.844Z",
+        "meaning": "['Rye\\n']",
+        "ne": "Ri\n",
+        "objectId": "O3HdSuzJEk",
+        "oe": "Ryge",
+        "pronounce": "(rø-yeh)",
+        "updatedAt": "2015-05-21T21:56:34.008Z"
+    },
+	{
+        "ACL": {
+            "*": {
+                "read": true
+            }
+        },
+        "createdAt": "2015-05-21T01:47:25.536Z",
+        "meaning": "['Ash-tree\\n']",
+        "ne": "Ash\n",
+        "objectId": "OHHdO2QN7h",
+        "oe": "Æsc",
+        "pronounce": "(ash)",
+        "updatedAt": "2015-05-21T21:56:32.047Z"
+    },
+	{
+        "ACL": {
+            "*": {
+                "read": true
+            }
+        },
+        "createdAt": "2015-05-21T01:49:05.313Z",
+        "meaning": "['Wood;', 'Forest\\n']",
+        "ne": "Wood\n",
+        "objectId": "OPqBkiNQD6",
+        "oe": "Ƿudu",
+        "pronounce": "(woo-doo)",
+        "updatedAt": "2015-05-21T21:58:15.318Z"
+    },
+	{
+        "ACL": {
+            "*": {
+                "read": true
+            }
+        },
+        "createdAt": "2015-05-21T01:48:10.136Z",
+        "meaning": "['Army;', 'Warrior\\n']",
+        "ne": "Ar, Er, Har, Her\n",
+        "objectId": "OdwIJk8gOd",
+        "oe": "Here",
+        "pronounce": "(heh-reh)",
+        "updatedAt": "2015-05-21T21:56:31.959Z"
+    },
+	{
+        "ACL": {
+            "*": {
+                "read": true
+            }
+        },
+        "createdAt": "2015-05-21T01:48:11.482Z",
+        "meaning": "['Loud', '(well-known)\\n']",
+        "ne": "Le, Lud\n",
+        "objectId": "OlA8YMv94h",
+        "oe": "Hlúd",
+        "pronounce": "(hlood)",
+        "updatedAt": "2015-05-21T21:56:33.739Z"
+    },
+	{
+        "ACL": {
+            "*": {
+                "read": true
+            }
+        },
+        "createdAt": "2015-05-21T01:47:37.413Z",
+        "meaning": "['Clay\\n']",
+        "ne": "Clay\n",
+        "objectId": "PGZeRbcN0y",
+        "oe": "Claéġ",
+        "pronounce": "(klay)",
+        "updatedAt": "2015-05-21T21:56:32.415Z"
+    },
+	{
+        "ACL": {
+            "*": {
+                "read": true
+            }
+        },
+        "createdAt": "2015-05-21T01:48:43.098Z",
+        "meaning": "['Hall\\n']",
+        "ne": "Sel\n",
+        "objectId": "PpU1QPVNQl",
+        "oe": "Sele",
+        "pronounce": "(seh-leh)",
+        "updatedAt": "2015-05-21T21:56:34.071Z"
+    },
+	{
+        "ACL": {
+            "*": {
+                "read": true
+            }
+        },
+        "createdAt": "2015-05-21T01:47:26.933Z",
+        "meaning": "['Bold;', 'the', 'Fair-haired', 'god\\n']",
+        "ne": "Bald\n",
+        "objectId": "Qeuafo2ASI",
+        "oe": "Beald",
+        "pronounce": "(beh-ahld)",
+        "updatedAt": "2015-05-21T21:56:32.080Z"
+    },
+	{
+        "ACL": {
+            "*": {
+                "read": true
+            }
+        },
+        "createdAt": "2015-05-21T01:47:46.283Z",
+        "meaning": "['The', 'god', 'of', 'spring', '\u0026', 'fertility\\n']",
+        "ne": "Easter\n",
+        "objectId": "QldHVZQ1Ui",
+        "oe": "Eáster",
+        "pronounce": "(ey-ahs-ter)",
+        "updatedAt": "2015-05-21T21:56:32.768Z"
+    },
+	{
+        "ACL": {
+            "*": {
+                "read": true
+            }
+        },
+        "createdAt": "2015-05-21T01:47:41.553Z",
+        "meaning": "['Deer;', 'Animal;', 'Bold\\n']",
+        "ne": "Der\n",
+        "objectId": "QnzaP1zFIC",
+        "oe": "Deór",
+        "pronounce": "(day-or)",
+        "updatedAt": "2015-05-21T21:56:32.712Z"
+    },
+	{
+        "ACL": {
+            "*": {
+                "read": true
+            }
+        },
+        "createdAt": "2015-05-21T01:48:54.463Z",
+        "meaning": "['Thane\\n']",
+        "ne": "Thane\n",
+        "objectId": "QqUjbplBdE",
+        "oe": "Ϸeġn",
+        "pronounce": "(theyn)",
+        "updatedAt": "2015-05-21T21:56:34.259Z"
+    },
+	{
+        "ACL": {
+            "*": {
+                "read": true
+            }
+        },
+        "createdAt": "2015-05-21T01:47:26.590Z",
+        "meaning": "['Boar\\n']",
+        "ne": "Bur\n",
+        "objectId": "RMVxf4TwlW",
+        "oe": "Bár",
+        "pronounce": "(bahr)",
+        "updatedAt": "2015-05-21T21:56:32.300Z"
+    },
+	{
+        "ACL": {
+            "*": {
+                "read": true
+            }
+        },
+        "createdAt": "2015-05-21T01:48:31.477Z",
+        "meaning": "['Row', '(line)\\n']",
+        "ne": "Row\n",
+        "objectId": "RNGATSDL9V",
+        "oe": "Raéƿ",
+        "pronounce": "(ra-w)",
+        "updatedAt": "2015-05-21T21:56:34.047Z"
+    },
+	{
+        "ACL": {
+            "*": {
+                "read": true
+            }
+        },
+        "createdAt": "2015-05-21T01:48:43.762Z",
+        "meaning": "['Shaft;', 'Spear\\n']",
+        "ne": "Shaft\n",
+        "objectId": "RQpUdzefUI",
+        "oe": "Sceaft",
+        "pronounce": "(sheh-ahft)",
+        "updatedAt": "2015-05-21T21:56:34.105Z"
+    },
+	{
+        "ACL": {
+            "*": {
+                "read": true
+            }
+        },
+        "createdAt": "2015-05-21T01:47:51.291Z",
+        "meaning": "['Dark;', 'Brown\\n']",
+        "ne": "Erp\n",
+        "objectId": "RXPaFUDxJu",
+        "oe": "Eorp",
+        "pronounce": "(eh-orp)",
+        "updatedAt": "2015-05-21T21:56:32.975Z"
+    },
+	{
+        "ACL": {
+            "*": {
+                "read": true
+            }
+        },
+        "createdAt": "2015-05-21T01:48:25.637Z",
+        "meaning": "['Mill\\n']",
+        "ne": "Mill\n",
+        "objectId": "RlFdqUKbDH",
+        "oe": "Mylen",
+        "pronounce": "(mø-len)",
+        "updatedAt": "2015-05-21T21:56:33.862Z"
+    },
+	{
+        "ACL": {
+            "*": {
+                "read": true
+            }
+        },
+        "createdAt": "2015-05-21T01:48:30.799Z",
+        "meaning": "['Priest\\n']",
+        "ne": "Pres\n",
+        "objectId": "RsE6lz6pR3",
+        "oe": "Preóst",
+        "pronounce": "(preh-ost)",
+        "updatedAt": "2015-05-21T21:56:33.958Z"
+    },
+	{
+        "ACL": {
+            "*": {
+                "read": true
+            }
+        },
+        "createdAt": "2015-05-21T01:48:28.007Z",
+        "meaning": "['North\\n']",
+        "ne": "Nor, North\n",
+        "objectId": "RzoCotlhwf",
+        "oe": "Norþ",
+        "pronounce": "(north)",
+        "updatedAt": "2015-05-21T21:56:33.878Z"
+    },
+	{
+        "ACL": {
+            "*": {
+                "read": true
+            }
+        },
+        "createdAt": "2015-05-21T01:48:41.736Z",
+        "meaning": "['Sheer;', 'Bright\\n']",
+        "ne": "Sher, Shir\n",
+        "objectId": "SFdcx8GxjG",
+        "oe": "Scír",
+        "pronounce": "(sheer)",
+        "updatedAt": "2015-05-21T21:56:34.121Z"
+    },
+	{
+        "ACL": {
+            "*": {
+                "read": true
+            }
+        },
+        "createdAt": "2015-05-21T01:48:48.764Z",
+        "meaning": "['[The]', 'Sun\\n']",
+        "ne": "Sun\n",
+        "objectId": "SPbj1djL6g",
+        "oe": "Sunne",
+        "pronounce": "(soon-neh)",
+        "updatedAt": "2015-05-21T21:56:34.199Z"
+    },
+	{
+        "ACL": {
+            "*": {
+                "read": true
+            }
+        },
+        "createdAt": "2015-05-21T01:48:06.503Z",
+        "meaning": "['Hard\\n']",
+        "ne": "Ard, Hard\n",
+        "objectId": "SbIP9wBVEi",
+        "oe": "Heard",
+        "pronounce": "(heh-ahrd)",
+        "updatedAt": "2015-05-21T21:56:32.018Z"
+    },
+	{
+        "ACL": {
+            "*": {
+                "read": true
+            }
+        },
+        "createdAt": "2015-05-21T01:48:17.064Z",
+        "meaning": "['[the', 'hero/god]', 'Ingwe\\n']",
+        "ne": "Ing\n",
+        "objectId": "Tbik55kBaI",
+        "oe": "Ingƿe",
+        "pronounce": "(ing-weh)",
+        "updatedAt": "2015-05-21T21:56:33.584Z"
+    },
+	{
+        "ACL": {
+            "*": {
+                "read": true
+            }
+        },
+        "createdAt": "2015-05-21T01:48:12.988Z",
+        "meaning": "['Reed\\n']",
+        "ne": "Rid\n",
+        "objectId": "UFK7UaDRfw",
+        "oe": "Hreód",
+        "pronounce": "(hreh-od)",
+        "updatedAt": "2015-05-21T21:56:34.004Z"
+    },
+	{
+        "ACL": {
+            "*": {
+                "read": true
+            }
+        },
+        "createdAt": "2015-05-21T01:48:20.120Z",
+        "meaning": "['Lief', '(dear);', 'Leman\\n']",
+        "ne": "Leef, Leeva\n",
+        "objectId": "UZfQ31ih8D",
+        "oe": "Leóf",
+        "pronounce": "(lay-off)",
+        "updatedAt": "2015-05-21T21:56:33.735Z"
+    },
+	{
+        "ACL": {
+            "*": {
+                "read": true
+            }
+        },
+        "createdAt": "2015-05-21T01:47:35.047Z",
+        "meaning": "['Fire;', 'Torch\\n']",
+        "ne": "Ken\n",
+        "objectId": "Uez2O01b8q",
+        "oe": "Cén",
+        "pronounce": "(ken)",
+        "updatedAt": "2015-05-21T21:56:33.649Z"
+    },
+	{
+        "ACL": {
+            "*": {
+                "read": true
+            }
+        },
+        "createdAt": "2015-05-21T01:48:54.125Z",
+        "meaning": "['Thankful\\n']",
+        "ne": "Thank\n",
+        "objectId": "UqoNC0JR2F",
+        "oe": "Ϸanc",
+        "pronounce": "(thahnk)",
+        "updatedAt": "2015-05-21T21:56:34.258Z"
+    },
+	{
+        "ACL": {
+            "*": {
+                "read": true
+            }
+        },
+        "createdAt": "2015-05-21T01:48:51.335Z",
+        "meaning": "['Tide', '(time;', 'season)\\n']",
+        "ne": "Tid\n",
+        "objectId": "VS6GF1bYOy",
+        "oe": "Tíd",
+        "pronounce": "(teed)",
+        "updatedAt": "2015-05-21T21:56:34.278Z"
+    },
+	{
+        "ACL": {
+            "*": {
+                "read": true
+            }
+        },
+        "createdAt": "2015-05-21T01:48:27.654Z",
+        "meaning": "['Bold\\n']",
+        "ne": "Noth\n",
+        "objectId": "VqjO7Letwu",
+        "oe": "Nóþ",
+        "pronounce": "(nowth)",
+        "updatedAt": "2015-05-21T21:56:33.892Z"
+    },
+	{
+        "ACL": {
+            "*": {
+                "read": true
+            }
+        },
+        "createdAt": "2015-05-21T01:48:11.820Z",
+        "meaning": "['Hole;', '[a]', 'Hollow\\n']",
+        "ne": "Hol\n",
+        "objectId": "VzIUnJNQHL",
+        "oe": "Hol",
+        "pronounce": "(hol)",
+        "updatedAt": "2015-05-21T21:56:33.487Z"
+    },
+	{
+        "ACL": {
+            "*": {
+                "read": true
+            }
+        },
+        "createdAt": "2015-05-21T01:48:19.442Z",
+        "meaning": "['Lion\\n']",
+        "ne": "Leon, Lion\n",
+        "objectId": "WC1OO9W1Ff",
+        "oe": "Leó",
+        "pronounce": "(le-oh)",
+        "updatedAt": "2015-05-21T21:56:33.727Z"
+    },
+	{
+        "ACL": {
+            "*": {
+                "read": true
+            }
+        },
+        "createdAt": "2015-05-21T01:47:56.486Z",
+        "meaning": "['Magic\\n']",
+        "ne": "Yan\n",
+        "objectId": "WVQSraKLj1",
+        "oe": "Ġæn",
+        "pronounce": "(yan)",
+        "updatedAt": "2015-05-21T21:58:15.369Z"
+    },
+	{
+        "ACL": {
+            "*": {
+                "read": true
+            }
+        },
+        "createdAt": "2015-05-21T01:48:00.953Z",
+        "meaning": "['Grassy\\n']",
+        "ne": "Gres\n",
+        "objectId": "WmzYu7wve5",
+        "oe": "Græs",
+        "pronounce": "(gras)",
+        "updatedAt": "2015-05-21T21:56:33.248Z"
+    },
+	{
+        "ACL": {
+            "*": {
+                "read": true
+            }
+        },
+        "createdAt": "2015-05-21T01:47:37.084Z",
+        "meaning": "['Church\\n']",
+        "ne": "Kir\n",
+        "objectId": "X5v9R7W8kB",
+        "oe": "Ċirce",
+        "pronounce": "(chir-cheh)",
+        "updatedAt": "2015-05-21T21:56:33.679Z"
+    },
+	{
+        "ACL": {
+            "*": {
+                "read": true
+            }
+        },
+        "createdAt": "2015-05-21T01:48:34.183Z",
+        "meaning": "['[the]', 'Sea\\n']",
+        "ne": "Sa\n",
+        "objectId": "XGkOUl2yMg",
+        "oe": "Saé",
+        "pronounce": "(sa)",
+        "updatedAt": "2015-05-21T21:56:34.062Z"
+    },
+	{
+        "ACL": {
+            "*": {
+                "read": true
+            }
+        },
+        "createdAt": "2015-05-21T01:47:37.751Z",
+        "meaning": "['Cliff\\n']",
+        "ne": "Clif, Cliff\n",
+        "objectId": "XQU8ZCxXCr",
+        "oe": "Clif",
+        "pronounce": "(kliff)",
+        "updatedAt": "2015-05-21T21:56:32.446Z"
+    },
+	{
+        "ACL": {
+            "*": {
+                "read": true
+            }
+        },
+        "createdAt": "2015-05-21T01:48:32.145Z",
+        "meaning": "['Rud', '(rood)', 'Red,', 'Ruddy;', 'Rudd', 'Fish\\n']",
+        "ne": "Rad; Red; Rud\n",
+        "objectId": "Y0j2H6XMBZ",
+        "oe": "Reád",
+        "pronounce": "(reh-ahd);",
+        "updatedAt": "2015-05-21T21:56:33.955Z"
+    },
+	{
+        "ACL": {
+            "*": {
+                "read": true
+            }
+        },
+        "createdAt": "2015-05-21T01:48:15.364Z",
+        "meaning": "['Thought/Mind\\n']",
+        "ne": "Hiy, Ho, Hu\n",
+        "objectId": "Y75Eqgyu2t",
+        "oe": "Hyġe",
+        "pronounce": "(hø-yeh)",
+        "updatedAt": "2015-05-21T21:56:33.476Z"
+    },
+	{
+        "ACL": {
+            "*": {
+                "read": true
+            }
+        },
+        "createdAt": "2015-05-21T01:48:52.350Z",
+        "meaning": "['Bright\\n']",
+        "ne": "Tort\n",
+        "objectId": "Y7Jf8kDS5f",
+        "oe": "Torht",
+        "pronounce": "(torght)",
+        "updatedAt": "2015-05-21T21:56:33.638Z"
+    },
+	{
+        "ACL": {
+            "*": {
+                "read": true
+            }
+        },
+        "createdAt": "2015-05-21T01:47:59.900Z",
+        "meaning": "['Fence;', 'Enclosure\\n']",
+        "ne": "Clin\n",
+        "objectId": "YEHa0Kp8T1",
+        "oe": "Glind",
+        "pronounce": "(glind)",
+        "updatedAt": "2015-05-21T21:56:32.447Z"
+    },
+	{
+        "ACL": {
+            "*": {
+                "read": true
+            }
+        },
+        "createdAt": "2015-05-21T01:47:25.897Z",
+        "meaning": "['Oak\\n']",
+        "ne": "Ack, Oak\n",
+        "objectId": "YXF3VclDNq",
+        "oe": "Ác",
+        "pronounce": "(ahk)",
+        "updatedAt": "2015-05-21T21:56:31.896Z"
+    },
+	{
+        "ACL": {
+            "*": {
+                "read": true
+            }
+        },
+        "createdAt": "2015-05-21T01:49:01.271Z",
+        "meaning": "['Wick', '(settlement)\\n']",
+        "ne": "Wic, Wich, Wick\n",
+        "objectId": "Yj9WytsWWO",
+        "oe": "Ƿíċ",
+        "pronounce": "(weech)",
+        "updatedAt": "2015-05-21T21:56:34.361Z"
+    },
+	{
+        "ACL": {
+            "*": {
+                "read": true
+            }
+        },
+        "createdAt": "2015-05-21T01:47:29.368Z",
+        "meaning": "['Bright\\n']",
+        "ne": "Bert, Berta\n",
+        "objectId": "Z5vhukOsKq",
+        "oe": "Beorht",
+        "pronounce": "(beh-orght)",
+        "updatedAt": "2015-05-21T21:56:32.159Z"
+    },
+	{
+        "ACL": {
+            "*": {
+                "read": true
+            }
+        },
+        "createdAt": "2015-05-21T01:47:40.537Z",
+        "meaning": "['Dell', '(del)', 'Dale;', 'Dell\\n']",
+        "ne": "Dal, Dale; Dell\n",
+        "objectId": "ZgiIStdTmY",
+        "oe": "Dæl",
+        "pronounce": "(dal);",
+        "updatedAt": "2015-05-21T21:56:32.589Z"
+    },
+	{
+        "ACL": {
+            "*": {
+                "read": true
+            }
+        },
+        "createdAt": "2015-05-21T01:48:15.711Z",
+        "meaning": "['Hill\\n']",
+        "ne": "Ell\n",
+        "objectId": "ZkDDUv0rZN",
+        "oe": "Hyll",
+        "pronounce": "(høl)",
+        "updatedAt": "2015-05-21T21:56:32.872Z"
+    },
+	{
+        "ACL": {
+            "*": {
+                "read": true
+            }
+        },
+        "createdAt": "2015-05-21T01:47:33.644Z",
+        "meaning": "['Dwelling;', 'Farmstead\\n']",
+        "ne": "By\n",
+        "objectId": "aG5Ukps5mw",
+        "oe": "Búr",
+        "pronounce": "(boor)",
+        "updatedAt": "2015-05-21T21:56:32.370Z"
+    },
+	{
+        "ACL": {
+            "*": {
+                "read": true
+            }
+        },
+        "createdAt": "2015-05-21T01:48:07.625Z",
+        "meaning": "['War;', 'Fight\\n']",
+        "ne": "Hed\n",
+        "objectId": "aM6HfNn2Ax",
+        "oe": "Heaðu",
+        "pronounce": "(heh-ah-thoo)",
+        "updatedAt": "2015-05-21T21:56:33.470Z"
+    },
+	{
+        "ACL": {
+            "*": {
+                "read": true
+            }
+        },
+        "createdAt": "2015-05-21T01:48:17.415Z",
+        "meaning": "['Leek\\n']",
+        "ne": "Lay\n",
+        "objectId": "aN1kIQLlZj",
+        "oe": "Læc",
+        "pronounce": "(lak)",
+        "updatedAt": "2015-05-21T21:56:33.711Z"
+    },
+	{
+        "ACL": {
+            "*": {
+                "read": true
+            }
+        },
+        "createdAt": "2015-05-21T01:48:54.803Z",
+        "meaning": "['[the]', 'Folk\\n']",
+        "ne": "De, Theed\n",
+        "objectId": "aN3ho5OkXK",
+        "oe": "Ϸeód",
+        "pronounce": "(they-od)",
+        "updatedAt": "2015-05-21T21:56:32.702Z"
+    },
+	{
+        "ACL": {
+            "*": {
+                "read": true
+            }
+        },
+        "createdAt": "2015-05-21T01:49:00.262Z",
+        "meaning": "['Well;', 'Healthy;', 'Skilled\\n']",
+        "ne": "Wayl\n",
+        "objectId": "aPAZMOEc0l",
+        "oe": "Ƿel",
+        "pronounce": "(wel)",
+        "updatedAt": "2015-05-21T21:56:34.367Z"
+    },
+	{
+        "ACL": {
+            "*": {
+                "read": true
+            }
+        },
+        "createdAt": "2015-05-21T01:48:05.412Z",
+        "meaning": "['Hare\\n']",
+        "ne": "Har\n",
+        "objectId": "aaa6vDp5TW",
+        "oe": "Hara",
+        "pronounce": "(hah-rah)",
+        "updatedAt": "2015-05-21T21:56:33.367Z"
+    },
+	{
+        "ACL": {
+            "*": {
+                "read": true
+            }
+        },
+        "createdAt": "2015-05-21T01:47:31.828Z",
+        "meaning": "['Bridge\\n']",
+        "ne": "Bri, Brig\n",
+        "objectId": "abCLtuML1X",
+        "oe": "Brycg",
+        "pronounce": "(bridge)",
+        "updatedAt": "2015-05-21T21:56:32.279Z"
+    },
+	{
+        "ACL": {
+            "*": {
+                "read": true
+            }
+        },
+        "createdAt": "2015-05-21T01:48:08.304Z",
+        "meaning": "['The', 'underworld;', 'The', 'god', 'of\\n']",
+        "ne": "Hel the underworld\n",
+        "objectId": "abY2LjFAbF",
+        "oe": "Hel",
+        "pronounce": "(hell)",
+        "updatedAt": "2015-05-21T21:56:33.471Z"
+    },
+	{
+        "ACL": {
+            "*": {
+                "read": true
+            }
+        },
+        "createdAt": "2015-05-21T01:48:57.206Z",
+        "meaning": "['Dawn;', 'Dusk;', 'Twilight\\n']",
+        "ne": "Ut\n",
+        "objectId": "ap8N4UsApe",
+        "oe": "Úht",
+        "pronounce": "(ught)",
+        "updatedAt": "2015-05-21T21:56:33.617Z"
+    },
+	{
+        "ACL": {
+            "*": {
+                "read": true
+            }
+        },
+        "createdAt": "2015-05-21T01:47:59.560Z",
+        "meaning": "['Glad\\n']",
+        "ne": "Glad\n",
+        "objectId": "b9zEq8e8up",
+        "oe": "Glæd",
+        "pronounce": "(glad)",
+        "updatedAt": "2015-05-21T21:56:33.252Z"
+    },
+	{
+        "ACL": {
+            "*": {
+                "read": true
+            }
+        },
+        "createdAt": "2015-05-21T01:48:42.413Z",
+        "meaning": "['Shelf;', 'Slope;', 'Peak\\n']",
+        "ne": "Shel\n",
+        "objectId": "bM0fwdTkR6",
+        "oe": "Scylf",
+        "pronounce": "(shølf)",
+        "updatedAt": "2015-05-21T21:56:34.087Z"
+    },
+	{
+        "ACL": {
+            "*": {
+                "read": true
+            }
+        },
+        "createdAt": "2015-05-21T01:48:56.183Z",
+        "meaning": "['Strong\\n']",
+        "ne": "Dred, Thrith, Trid, Trude\n",
+        "objectId": "bSdQKD6DlY",
+        "oe": "Ϸrýð",
+        "pronounce": "(thrøth)",
+        "updatedAt": "2015-05-21T21:56:32.712Z"
+    },
+	{
+        "ACL": {
+            "*": {
+                "read": true
+            }
+        },
+        "createdAt": "2015-05-21T01:47:26.243Z",
+        "meaning": "['Lone', 'Settlement\\n']",
+        "ne": "Ains\n",
+        "objectId": "bT8eLGIQI3",
+        "oe": "Ánsetl",
+        "pronounce": "(ahn-set-el)",
+        "updatedAt": "2015-05-21T21:56:31.949Z"
+    },
+	{
+        "ACL": {
+            "*": {
+                "read": true
+            }
+        },
+        "createdAt": "2015-05-21T01:48:09.796Z",
+        "meaning": "['Sword\\n']",
+        "ne": "Heer\n",
+        "objectId": "beLP7ztXTp",
+        "oe": "Heoru",
+        "pronounce": "(heh-oh-roo)",
+        "updatedAt": "2015-05-21T21:56:33.471Z"
+    },
+	{
+        "ACL": {
+            "*": {
+                "read": true
+            }
+        },
+        "createdAt": "2015-05-21T01:48:50.637Z",
+        "meaning": "['Strong\\n']",
+        "ne": "Swith\n",
+        "objectId": "biVIqvwu5q",
+        "oe": "Sƿið",
+        "pronounce": "(swith)",
+        "updatedAt": "2015-05-21T21:56:34.224Z"
+    },
+	{
+        "ACL": {
+            "*": {
+                "read": true
+            }
+        },
+        "createdAt": "2015-05-21T01:48:31.811Z",
+        "meaning": "['Rand', '(edge);', 'Shield-rim\\n']",
+        "ne": "Rand\n",
+        "objectId": "btZ3t1p1ca",
+        "oe": "Rand",
+        "pronounce": "(rahnd)",
+        "updatedAt": "2015-05-21T21:56:33.974Z"
+    },
+	{
+        "ACL": {
+            "*": {
+                "read": true
+            }
+        },
+        "createdAt": "2015-05-21T01:47:27.640Z",
+        "meaning": "['Bight;', 'Bow;', 'Bent;', 'Ring\\n']",
+        "ne": "Bag\n",
+        "objectId": "bwbHR7FDGQ",
+        "oe": "Beág",
+        "pronounce": "(beh-ahgh)",
+        "updatedAt": "2015-05-21T21:56:32.071Z"
+    },
+	{
+        "ACL": {
+            "*": {
+                "read": true
+            }
+        },
+        "createdAt": "2015-05-21T01:48:18.767Z",
+        "meaning": "['Long;', 'Tall\\n']",
+        "ne": "Lan, Lang\n",
+        "objectId": "cDvLkHVAPw",
+        "oe": "Lang",
+        "pronounce": "(lahng)",
+        "updatedAt": "2015-05-21T21:56:33.699Z"
+    },
+	{
+        "ACL": {
+            "*": {
+                "read": true
+            }
+        },
+        "createdAt": "2015-05-21T01:47:24.534Z",
+        "meaning": "['Elf;', 'Smart\\n']",
+        "ne": "Al, Alf\n",
+        "objectId": "cYEflpKoRO",
+        "oe": "Ælf",
+        "pronounce": "(alf)",
+        "updatedAt": "2015-05-21T21:56:31.943Z"
+    },
+	{
+        "ACL": {
+            "*": {
+                "read": true
+            }
+        },
+        "createdAt": "2015-05-21T01:48:20.794Z",
+        "meaning": "['Lock', '(hair)\\n']",
+        "ne": "Lock\n",
+        "objectId": "ccWzOtVVva",
+        "oe": "Locc",
+        "pronounce": "(lok)",
+        "updatedAt": "2015-05-21T21:56:33.739Z"
+    },
+	{
+        "ACL": {
+            "*": {
+                "read": true
+            }
+        },
+        "createdAt": "2015-05-21T01:47:57.512Z",
+        "meaning": "['Spear;', 'Triangular\\n']",
+        "ne": "Car, Gar, Ger\n",
+        "objectId": "cvIGdYkcY6",
+        "oe": "Gár",
+        "pronounce": "(gahr)",
+        "updatedAt": "2015-05-21T21:56:32.401Z"
+    },
+	{
+        "ACL": {
+            "*": {
+                "read": true
+            }
+        },
+        "createdAt": "2015-05-21T01:48:33.505Z",
+        "meaning": "['Rune;', 'Secret;', 'Whisper\\n']",
+        "ne": "Runa\n",
+        "objectId": "cxEQgfDJ8N",
+        "oe": "Rún",
+        "pronounce": "(roon)",
+        "updatedAt": "2015-05-21T21:56:34.066Z"
+    },
+	{
+        "ACL": {
+            "*": {
+                "read": true
+            }
+        },
+        "createdAt": "2015-05-21T01:47:38.439Z",
+        "meaning": "['Croft', '(field)\\n']",
+        "ne": "Croft\n",
+        "objectId": "d7OvWJbm5X",
+        "oe": "Croft",
+        "pronounce": "(kroft)",
+        "updatedAt": "2015-05-21T21:56:32.601Z"
+    },
+	{
+        "ACL": {
+            "*": {
+                "read": true
+            }
+        },
+        "createdAt": "2015-05-21T01:47:31.108Z",
+        "meaning": "['Brand', '(fire;', 'torch);', 'Sword\\n']",
+        "ne": "Brand\n",
+        "objectId": "dscsslbm05",
+        "oe": "Brand",
+        "pronounce": "(brahnd)",
+        "updatedAt": "2015-05-21T21:56:32.204Z"
+    },
+	{
+        "ACL": {
+            "*": {
+                "read": true
+            }
+        },
+        "createdAt": "2015-05-21T01:48:49.104Z",
+        "meaning": "['Son\\n']",
+        "ne": "Son\n",
+        "objectId": "dv3KQeua5c",
+        "oe": "Sunu",
+        "pronounce": "(soo-noo)",
+        "updatedAt": "2015-05-21T21:56:34.207Z"
+    },
+	{
+        "ACL": {
+            "*": {
+                "read": true
+            }
+        },
+        "createdAt": "2015-05-21T01:49:01.613Z",
+        "meaning": "['Wide;', 'Far\\n']",
+        "ne": "Wid; Oise\n",
+        "objectId": "e6ZGIkeGrs",
+        "oe": "Ƿíde",
+        "pronounce": "(wee-deh)",
+        "updatedAt": "2015-05-21T21:58:15.306Z"
+    },
+	{
+        "ACL": {
+            "*": {
+                "read": true
+            }
+        },
+        "createdAt": "2015-05-21T01:48:14.693Z",
+        "meaning": "['What\\n']",
+        "ne": "What\n",
+        "objectId": "eCxUkEy51h",
+        "oe": "Hƿæt",
+        "pronounce": "(hwat)",
+        "updatedAt": "2015-05-21T21:56:34.362Z"
+    },
+	{
+        "ACL": {
+            "*": {
+                "read": true
+            }
+        },
+        "createdAt": "2015-05-21T01:47:59.224Z",
+        "meaning": "['\\xc4\\xa0\\xc3\\xadsl', '(yeez-el)', 'Hostage;', 'Guest\\n']",
+        "ne": "Yils; Gil, Yil\n",
+        "objectId": "eFwcnycq4w",
+        "oe": "Ġils",
+        "pronounce": "(yils);",
+        "updatedAt": "2015-05-21T21:58:15.411Z"
+    },
+	{
+        "ACL": {
+            "*": {
+                "read": true
+            }
+        },
+        "createdAt": "2015-05-21T01:48:33.162Z",
+        "meaning": "['Rose\\n']",
+        "ne": "Roose\n",
+        "objectId": "eLzJS8sYyX",
+        "oe": "Róse",
+        "pronounce": "(ro-zeh)",
+        "updatedAt": "2015-05-21T21:56:34.048Z"
+    },
+	{
+        "ACL": {
+            "*": {
+                "read": true
+            }
+        },
+        "createdAt": "2015-05-21T01:48:42.075Z",
+        "meaning": "['Scio', '(shee-oh)', 'Shoe\\n']",
+        "ne": "Shoe\n",
+        "objectId": "eQ0V2dh5Aa",
+        "oe": "Scóh",
+        "pronounce": "(shoh);",
+        "updatedAt": "2015-05-21T21:56:34.146Z"
+    },
+	{
+        "ACL": {
+            "*": {
+                "read": true
+            }
+        },
+        "createdAt": "2015-05-21T01:49:02.285Z",
+        "meaning": "['War;', 'Warrior\\n']",
+        "ne": "Wis; Wy\n",
+        "objectId": "eS8zmHExhj",
+        "oe": "Ƿíġ",
+        "pronounce": "(wee)",
+        "updatedAt": "2015-05-21T21:58:15.296Z"
+    },
+	{
+        "ACL": {
+            "*": {
+                "read": true
+            }
+        },
+        "createdAt": "2015-05-21T01:48:26.642Z",
+        "meaning": "['Nigh/Near;', 'Island\\n']",
+        "ne": "Ney\n",
+        "objectId": "f6R9iAZcJB",
+        "oe": "Neáh",
+        "pronounce": "(neh-agh)",
+        "updatedAt": "2015-05-21T21:56:33.852Z"
+    },
+	{
+        "ACL": {
+            "*": {
+                "read": true
+            }
+        },
+        "createdAt": "2015-05-21T01:48:14.354Z",
+        "meaning": "['Young', 'Bear\\n']",
+        "ne": "Hun, Un\n",
+        "objectId": "fc4dLNIUYJ",
+        "oe": "Hún",
+        "pronounce": "(hoon)",
+        "updatedAt": "2015-05-21T21:56:33.591Z"
+    },
+	{
+        "ACL": {
+            "*": {
+                "read": true
+            }
+        },
+        "createdAt": "2015-05-21T01:48:47.747Z",
+        "meaning": "['Stow', '(a', 'spot)\\n']",
+        "ne": "Stol\n",
+        "objectId": "fsnVpyGoYs",
+        "oe": "Stóƿ",
+        "pronounce": "(stow)",
+        "updatedAt": "2015-05-21T21:56:34.178Z"
+    },
+	{
+        "ACL": {
+            "*": {
+                "read": true
+            }
+        },
+        "createdAt": "2015-05-21T01:47:29.724Z",
+        "meaning": "['Bill', '(beak);', 'Sharp;', 'Smart\\n']",
+        "ne": "Bill\n",
+        "objectId": "g1f4rVhcit",
+        "oe": "Bill",
+        "pronounce": "(bihl)",
+        "updatedAt": "2015-05-21T21:56:32.171Z"
+    },
+	{
+        "ACL": {
+            "*": {
+                "read": true
+            }
+        },
+        "createdAt": "2015-05-21T01:48:26.302Z",
+        "meaning": "['Daring\\n']",
+        "ne": "Nand\n",
+        "objectId": "gZsFH489te",
+        "oe": "Naéðan",
+        "pronounce": "(na-thahn)",
+        "updatedAt": "2015-05-21T21:56:33.841Z"
+    },
+	{
+        "ACL": {
+            "*": {
+                "read": true
+            }
+        },
+        "createdAt": "2015-05-21T01:48:00.590Z",
+        "meaning": "['[a/The]', 'God\\n']",
+        "ne": "God\n",
+        "objectId": "ge3J4TRQnP",
+        "oe": "God",
+        "pronounce": "(god)",
+        "updatedAt": "2015-05-21T21:56:33.249Z"
+    },
+	{
+        "ACL": {
+            "*": {
+                "read": true
+            }
+        },
+        "createdAt": "2015-05-21T01:48:27.318Z",
+        "meaning": "['Hateful\\n']",
+        "ne": "Nith\n",
+        "objectId": "ggGqCu3c5c",
+        "oe": "Níþ",
+        "pronounce": "(neeth)",
+        "updatedAt": "2015-05-21T21:56:33.862Z"
+    },
+	{
+        "ACL": {
+            "*": {
+                "read": true
+            }
+        },
+        "createdAt": "2015-05-21T01:47:27.274Z",
+        "meaning": "['Fight\\n']",
+        "ne": "Beed\n",
+        "objectId": "gmaZ2ivPmu",
+        "oe": "Beadu",
+        "pronounce": "(beh-ah-doo)",
+        "updatedAt": "2015-05-21T21:56:32.053Z"
+    },
+	{
+        "ACL": {
+            "*": {
+                "read": true
+            }
+        },
+        "createdAt": "2015-05-21T01:48:31.137Z",
+        "meaning": "['R\\xc3\\xa9d', '(reyd)', '[to', 'be]', 'Read', '(wise)\\n']",
+        "ne": "Red\n",
+        "objectId": "grp533Xu6H",
+        "oe": "Raéd",
+        "pronounce": "(rad);",
+        "updatedAt": "2015-05-21T21:56:33.988Z"
+    },
+	{
+        "ACL": {
+            "*": {
+                "read": true
+            }
+        },
+        "createdAt": "2015-05-21T01:47:55.812Z",
+        "meaning": "['Full\\n']",
+        "ne": "Ful\n",
+        "objectId": "htgonlprjn",
+        "oe": "Ful",
+        "pronounce": "(fool)",
+        "updatedAt": "2015-05-21T21:56:33.127Z"
+    },
+	{
+        "ACL": {
+            "*": {
+                "read": true
+            }
+        },
+        "createdAt": "2015-05-21T01:47:34.687Z",
+        "meaning": "['Sorrowful;', 'Anxious\\n']",
+        "ne": "Car\n",
+        "objectId": "iEzXuTWEEe",
+        "oe": "Cár",
+        "pronounce": "(kahr)",
+        "updatedAt": "2015-05-21T21:56:32.374Z"
+    },
+	{
+        "ACL": {
+            "*": {
+                "read": true
+            }
+        },
+        "createdAt": "2015-05-21T01:48:05.749Z",
+        "meaning": "['High\\n']",
+        "ne": "Ha, Hey, Ho\n",
+        "objectId": "iqpMomX6OJ",
+        "oe": "Heáh",
+        "pronounce": "(heh-agh)",
+        "updatedAt": "2015-05-21T21:56:33.251Z"
+    },
+	{
+        "ACL": {
+            "*": {
+                "read": true
+            }
+        },
+        "createdAt": "2015-05-21T01:48:46.364Z",
+        "meaning": "['[to]', 'Go/Fare;', 'Way\\n']",
+        "ne": "Sith\n",
+        "objectId": "lOiPBP3011",
+        "oe": "Síþ",
+        "pronounce": "(seeth)",
+        "updatedAt": "2015-05-21T21:56:34.170Z"
+    },
+	{
+        "ACL": {
+            "*": {
+                "read": true
+            }
+        },
+        "createdAt": "2015-05-21T01:48:30.446Z",
+        "meaning": "['Play;', 'Actor;', 'Poet\\n']",
+        "ne": "Play\n",
+        "objectId": "lSzTZbSKmx",
+        "oe": "Pleġa",
+        "pronounce": "(play-ah)",
+        "updatedAt": "2015-05-21T21:56:33.950Z"
+    },
+	{
+        "ACL": {
+            "*": {
+                "read": true
+            }
+        },
+        "createdAt": "2015-05-21T01:47:42.232Z",
+        "meaning": "['Den;', 'Valley\\n']",
+        "ne": "Den\n",
+        "objectId": "lVMK0i60Ij",
+        "oe": "Denu",
+        "pronounce": "(deh-noo)",
+        "updatedAt": "2015-05-21T21:56:32.724Z"
+    },
+	{
+        "ACL": {
+            "*": {
+                "read": true
+            }
+        },
+        "createdAt": "2015-05-21T01:48:59.926Z",
+        "meaning": "['Weir', '(dam)\\n']",
+        "ne": "War\n",
+        "objectId": "lZaM9NKStg",
+        "oe": "Ƿer",
+        "pronounce": "(wer)",
+        "updatedAt": "2015-05-21T21:56:33.248Z"
+    },
+	{
+        "ACL": {
+            "*": {
+                "read": true
+            }
+        },
+        "createdAt": "2015-05-21T01:48:03.395Z",
+        "meaning": "['Healthy\\n']",
+        "ne": "El\n",
+        "objectId": "leeup4K1jB",
+        "oe": "Haél",
+        "pronounce": "(hal)",
+        "updatedAt": "2015-05-21T21:56:32.839Z"
+    },
+	{
+        "ACL": {
+            "*": {
+                "read": true
+            }
+        },
+        "createdAt": "2015-05-21T01:47:44.608Z",
+        "meaning": "['Old\\n']",
+        "ne": "Ald, Aud, El, Eld\n",
+        "objectId": "leg55Ni34y",
+        "oe": "Eald",
+        "pronounce": "(eh-ahld)",
+        "updatedAt": "2015-05-21T21:56:31.939Z"
+    },
+	{
+        "ACL": {
+            "*": {
+                "read": true
+            }
+        },
+        "createdAt": "2015-05-21T01:48:00.243Z",
+        "meaning": "['Good\\n']",
+        "ne": "God, Good\n",
+        "objectId": "lfAlHfWmxA",
+        "oe": "Gód",
+        "pronounce": "(gowd)",
+        "updatedAt": "2015-05-21T21:56:33.245Z"
+    },
+	{
+        "ACL": {
+            "*": {
+                "read": true
+            }
+        },
+        "createdAt": "2015-05-21T01:49:00.931Z",
+        "meaning": "['West\\n']",
+        "ne": "Wes\n",
+        "objectId": "lxH0Nxr0wd",
+        "oe": "Ƿest",
+        "pronounce": "(west)",
+        "updatedAt": "2015-05-21T21:56:34.361Z"
+    },
+	{
+        "ACL": {
+            "*": {
+                "read": true
+            }
+        },
+        "createdAt": "2015-05-21T01:48:48.089Z",
+        "meaning": "['Stripped;', '[to]', 'Strip\\n']",
+        "ne": "Rip\n",
+        "objectId": "mBir8OrXh2",
+        "oe": "Strípan",
+        "pronounce": "(stri-pan)",
+        "updatedAt": "2015-05-21T21:56:34.036Z"
+    },
+	{
+        "ACL": {
+            "*": {
+                "read": true
+            }
+        },
+        "createdAt": "2015-05-21T01:48:21.824Z",
+        "meaning": "['Main', '(mighty)\\n']",
+        "ne": "Main, Mayn\n",
+        "objectId": "mJCZ1utKYd",
+        "oe": "Mæġen",
+        "pronounce": "(ma-yen)",
+        "updatedAt": "2015-05-21T21:56:33.771Z"
+    },
+	{
+        "ACL": {
+            "*": {
+                "read": true
+            }
+        },
+        "createdAt": "2015-05-21T01:48:25.302Z",
+        "meaning": "['Hand;', 'Protective\\n']",
+        "ne": "Mond, Mund\n",
+        "objectId": "mL0JdOTi2n",
+        "oe": "Mund",
+        "pronounce": "(moond)",
+        "updatedAt": "2015-05-21T21:56:33.839Z"
+    },
+	{
+        "ACL": {
+            "*": {
+                "read": true
+            }
+        },
+        "createdAt": "2015-05-21T01:47:48.681Z",
+        "meaning": "['Yrmen', '(\\xc3\\xb8r-men)', 'Whole;', 'Universal;', 'Immense\\n']",
+        "ne": "Ermen\n",
+        "objectId": "mRZz9Og1kN",
+        "oe": "Eormen",
+        "pronounce": "(eh-or-men);",
+        "updatedAt": "2015-05-21T21:56:32.984Z"
+    },
+	{
+        "ACL": {
+            "*": {
+                "read": true
+            }
+        },
+        "createdAt": "2015-05-21T01:47:55.472Z",
+        "meaning": "['Fowl', '(any', 'bird)\\n']",
+        "ne": "Ful\n",
+        "objectId": "nIK2DeAd89",
+        "oe": "Fugol",
+        "pronounce": "(foo-ghol)",
+        "updatedAt": "2015-05-21T21:56:33.117Z"
+    },
+	{
+        "ACL": {
+            "*": {
+                "read": true
+            }
+        },
+        "createdAt": "2015-05-21T01:47:39.871Z",
+        "meaning": "['Cyne', '(k\\xc3\\xb8h-neh)', 'Kingly;', 'Royal\\n']",
+        "ne": "King; Kin\n",
+        "objectId": "nPjl602jrE",
+        "oe": "Cyning",
+        "pronounce": "(køhn-ing);",
+        "updatedAt": "2015-05-21T21:56:33.679Z"
+    },
+	{
+        "ACL": {
+            "*": {
+                "read": true
+            }
+        },
+        "createdAt": "2015-05-21T01:47:51.988Z",
+        "meaning": "['Fast', '(firm)\\n']",
+        "ne": "Fast\n",
+        "objectId": "nhoCPLnINY",
+        "oe": "Fast",
+        "pronounce": "(fahst)",
+        "updatedAt": "2015-05-21T21:56:32.971Z"
+    },
+	{
+        "ACL": {
+            "*": {
+                "read": true
+            }
+        },
+        "createdAt": "2015-05-21T01:48:32.824Z",
+        "meaning": "['Rich;', 'Powerful\\n']",
+        "ne": "Rek, Ric, Rich, Rick, Ry\n",
+        "objectId": "nwg3IruDfP",
+        "oe": "Ríċ",
+        "pronounce": "(reech)",
+        "updatedAt": "2015-05-21T21:56:33.990Z"
+    },
+	{
+        "ACL": {
+            "*": {
+                "read": true
+            }
+        },
+        "createdAt": "2015-05-21T01:48:58.900Z",
+        "meaning": "['Welsh;', 'Outlandish\\n']",
+        "ne": "Wal\n",
+        "objectId": "o1Zly8kDk9",
+        "oe": "Ƿealh",
+        "pronounce": "(we-ahlgh)",
+        "updatedAt": "2015-05-21T21:56:33.602Z"
+    },
+	{
+        "ACL": {
+            "*": {
+                "read": true
+            }
+        },
+        "createdAt": "2015-05-21T01:48:42.752Z",
+        "meaning": "['Knife;', 'Saxon\\n']",
+        "ne": "Sax, Sex\n",
+        "objectId": "oMEUwaQ5qj",
+        "oe": "Seax",
+        "pronounce": "(seh-ax)",
+        "updatedAt": "2015-05-21T21:56:34.078Z"
+    },
+	{
+        "ACL": {
+            "*": {
+                "read": true
+            }
+        },
+        "createdAt": "2015-05-21T01:48:06.165Z",
+        "meaning": "['Half\\n']",
+        "ne": "Half\n",
+        "objectId": "oeD2rLtwIh",
+        "oe": "Healf",
+        "pronounce": "(heh-ahlf)",
+        "updatedAt": "2015-05-21T21:56:33.364Z"
+    },
+	{
+        "ACL": {
+            "*": {
+                "read": true
+            }
+        },
+        "createdAt": "2015-05-21T01:48:13.663Z",
+        "meaning": "['Ring\\n']",
+        "ne": "Ring\n",
+        "objectId": "oi1B8Wrh56",
+        "oe": "Hring",
+        "pronounce": "(hring)",
+        "updatedAt": "2015-05-21T21:56:34.057Z"
+    },
+	{
+        "ACL": {
+            "*": {
+                "read": true
+            }
+        },
+        "createdAt": "2015-05-21T01:47:44.943Z",
+        "meaning": "['Hall;', 'Temple\\n']",
+        "ne": "El\n",
+        "objectId": "oogM2LUgiF",
+        "oe": "Ealh",
+        "pronounce": "(eh-ahlgh)",
+        "updatedAt": "2015-05-21T21:56:32.840Z"
+    },
+	{
+        "ACL": {
+            "*": {
+                "read": true
+            }
+        },
+        "createdAt": "2015-05-21T01:48:28.679Z",
+        "meaning": "['On\\xc4\\xa1en', '(on-yen)', 'Ongoing', '(onward)\\n']",
+        "ne": "Onyen\n",
+        "objectId": "opgD2OAjtU",
+        "oe": "Ongán",
+        "pronounce": "(on-ghahn);",
+        "updatedAt": "2015-05-21T21:56:33.903Z"
+    },
+	{
+        "ACL": {
+            "*": {
+                "read": true
+            }
+        },
+        "createdAt": "2015-05-21T01:48:55.843Z",
+        "meaning": "['Thorn\\n']",
+        "ne": "Thorn\n",
+        "objectId": "oxwgo2qJEU",
+        "oe": "Þorn",
+        "pronounce": "(thorn)",
+        "updatedAt": "2015-05-21T21:56:34.277Z"
+    },
+	{
+        "ACL": {
+            "*": {
+                "read": true
+            }
+        },
+        "createdAt": "2015-05-21T01:47:46.959Z",
+        "meaning": "['Island\\n']",
+        "ne": "Ey\n",
+        "objectId": "pMktfTH2T0",
+        "oe": "Eíġ",
+        "pronounce": "(eh-ee)",
+        "updatedAt": "2015-05-21T21:56:32.985Z"
+    },
+	{
+        "ACL": {
+            "*": {
+                "read": true
+            }
+        },
+        "createdAt": "2015-05-21T01:47:56.830Z",
+        "meaning": "['Gang', '(to', 'go)\\n']",
+        "ne": "Gang\n",
+        "objectId": "pMnrXf84JM",
+        "oe": "Gang",
+        "pronounce": "(gahng)",
+        "updatedAt": "2015-05-21T21:56:33.251Z"
+    },
+	{
+        "ACL": {
+            "*": {
+                "read": true
+            }
+        },
+        "createdAt": "2015-05-21T01:47:34.337Z",
+        "meaning": "['Burning;', 'Fiery\\n']",
+        "ne": "Burn\n",
+        "objectId": "pR7JmhzRvO",
+        "oe": "Byrne",
+        "pronounce": "(bør-neh)",
+        "updatedAt": "2015-05-21T21:56:32.313Z"
+    },
+	{
+        "ACL": {
+            "*": {
+                "read": true
+            }
+        },
+        "createdAt": "2015-05-21T01:48:08.637Z",
+        "meaning": "['Hem', '(border)\\n']",
+        "ne": "Hem\n",
+        "objectId": "pUcQoLb9Px",
+        "oe": "Hem",
+        "pronounce": "(hem)",
+        "updatedAt": "2015-05-21T21:56:33.531Z"
+    },
+	{
+        "ACL": {
+            "*": {
+                "read": true
+            }
+        },
+        "createdAt": "2015-05-21T01:48:49.435Z",
+        "meaning": "['Sleep;', 'Death;', 'Unwatchful\\n']",
+        "ne": "Swaf\n",
+        "objectId": "pW2diqPuHA",
+        "oe": "Sƿaéf",
+        "pronounce": "(swaf)",
+        "updatedAt": "2015-05-21T21:56:34.190Z"
+    },
+	{
+        "ACL": {
+            "*": {
+                "read": true
+            }
+        },
+        "createdAt": "2015-05-21T01:47:30.080Z",
+        "meaning": "['Bli\\xc3\\xbes', '(bliths)', 'Bliss\\n']",
+        "ne": "Bliss\n",
+        "objectId": "q8DoWkEKIU",
+        "oe": "Blis",
+        "pronounce": "(bliss);",
+        "updatedAt": "2015-05-21T21:56:32.181Z"
+    },
+	{
+        "ACL": {
+            "*": {
+                "read": true
+            }
+        },
+        "createdAt": "2015-05-21T01:47:39.523Z",
+        "meaning": "['Quick', '(lively)\\n']",
+        "ne": "Quick\n",
+        "objectId": "qFIEmUsfFR",
+        "oe": "Cƿic",
+        "pronounce": "(kwik)",
+        "updatedAt": "2015-05-21T21:56:33.963Z"
+    },
+	{
+        "ACL": {
+            "*": {
+                "read": true
+            }
+        },
+        "createdAt": "2015-05-21T01:48:13.328Z",
+        "meaning": "['Ridge;', 'Back;', 'Hills\\n']",
+        "ne": "Rig\n",
+        "objectId": "qPKblusaCP",
+        "oe": "Hrycg",
+        "pronounce": "(hrødj)",
+        "updatedAt": "2015-05-21T21:56:34.033Z"
+    },
+	{
+        "ACL": {
+            "*": {
+                "read": true
+            }
+        },
+        "createdAt": "2015-05-21T01:48:57.547Z",
+        "meaning": "['\\xc7\\xb7aru', '(wah-roo)', 'Aware;', 'Wary;', 'Wise\\n']",
+        "ne": "Wara\n",
+        "objectId": "qQ6B1zv28y",
+        "oe": "Ƿær",
+        "pronounce": "(war);",
+        "updatedAt": "2015-05-21T21:56:34.293Z"
+    },
+	{
+        "ACL": {
+            "*": {
+                "read": true
+            }
+        },
+        "createdAt": "2015-05-21T01:47:41.214Z",
+        "meaning": "['Dear\\n']",
+        "ne": "Dar\n",
+        "objectId": "qTE7jnFa7T",
+        "oe": "Deóre",
+        "pronounce": "(day-or)",
+        "updatedAt": "2015-05-21T21:56:32.589Z"
+    },
+	{
+        "ACL": {
+            "*": {
+                "read": true
+            }
+        },
+        "createdAt": "2015-05-21T01:47:23.510Z",
+        "meaning": "['Acre;', 'Field;', 'Farmland\\n']",
+        "ne": "Aker\n",
+        "objectId": "qjCICKSr61",
+        "oe": "Æcer",
+        "pronounce": "(a-ker)",
+        "updatedAt": "2015-05-21T21:56:31.932Z"
+    },
+	{
+        "ACL": {
+            "*": {
+                "read": true
+            }
+        },
+        "createdAt": "2015-05-21T01:48:17.756Z",
+        "meaning": "['Offering;', 'Gift\\n']",
+        "ne": "Lack\n",
+        "objectId": "qk4sRBWPYV",
+        "oe": "Lác",
+        "pronounce": "(lahk)",
+        "updatedAt": "2015-05-21T21:56:33.698Z"
+    },
+	{
+        "ACL": {
+            "*": {
+                "read": true
+            }
+        },
+        "createdAt": "2015-05-21T01:48:56.528Z",
+        "meaning": "['\\xcf\\xb7unor', '(thoo-nor)', 'Thunder;', 'the', 'Thunder', 'God,\\n']['son', 'of', 'Woden', 'and', 'Earth;\\n']",
+        "ne": "Thur",
+        "objectId": "qwjT2ClzYq",
+        "oe": "Ϸuner",
+        "pronounce": "(thoo-ner);",
+        "updatedAt": "2015-05-21T21:56:34.276Z"
+    },
+	{
+        "ACL": {
+            "*": {
+                "read": true
+            }
+        },
+        "createdAt": "2015-05-21T01:48:24.295Z",
+        "meaning": "['Spirit\\n']",
+        "ne": "Mod\n",
+        "objectId": "qyUH59GcLl",
+        "oe": "Mód",
+        "pronounce": "(mowd)",
+        "updatedAt": "2015-05-21T21:56:33.838Z"
+    },
+	{
+        "ACL": {
+            "*": {
+                "read": true
+            }
+        },
+        "createdAt": "2015-05-21T01:48:50.995Z",
+        "meaning": "['Sty', '(house/hall)\\n']",
+        "ne": "Ste\n",
+        "objectId": "r37f5JkpaW",
+        "oe": "Stiġ",
+        "pronounce": "(stiy)",
+        "updatedAt": "2015-05-21T21:56:34.179Z"
+    },
+	{
+        "ACL": {
+            "*": {
+                "read": true
+            }
+        },
+        "createdAt": "2015-05-21T01:47:32.201Z",
+        "meaning": "['Spike;', 'Arrow;', 'Spear\\n']",
+        "ne": "Brard\n",
+        "objectId": "rO2UU3jxLe",
+        "oe": "Brord",
+        "pronounce": "(brord)",
+        "updatedAt": "2015-05-21T21:56:32.250Z"
+    },
+	{
+        "ACL": {
+            "*": {
+                "read": true
+            }
+        },
+        "createdAt": "2015-05-21T01:48:09.460Z",
+        "meaning": "['Hart', '(stag)\\n']",
+        "ne": "Hart\n",
+        "objectId": "repc1OqLmn",
+        "oe": "Heorot",
+        "pronounce": "(he-oh-rot)",
+        "updatedAt": "2015-05-21T21:56:33.361Z"
+    },
+	{
+        "ACL": {
+            "*": {
+                "read": true
+            }
+        },
+        "createdAt": "2015-05-21T01:48:14.014Z",
+        "meaning": "['Hre\\xc3\\xb0', '(hreth)', 'Great;', 'Well-known\\n']",
+        "ne": "Ro, Rod; Red\n",
+        "objectId": "rsvITjlje3",
+        "oe": "Hróð",
+        "pronounce": "(hrowth);",
+        "updatedAt": "2015-05-21T21:56:34.049Z"
+    },
+	{
+        "ACL": {
+            "*": {
+                "read": true
+            }
+        },
+        "createdAt": "2015-05-21T01:47:30.766Z",
+        "meaning": "['Broad\\n']",
+        "ne": "Brad\n",
+        "objectId": "sDmtgH1M5N",
+        "oe": "Brád",
+        "pronounce": "(brahd)",
+        "updatedAt": "2015-05-21T21:56:32.196Z"
+    },
+	{
+        "ACL": {
+            "*": {
+                "read": true
+            }
+        },
+        "createdAt": "2015-05-21T01:48:32.482Z",
+        "meaning": "['Mighty;', 'Advice\\n']",
+        "ne": "Rain, Regin, Reyn, Ron\n",
+        "objectId": "t7kKBm5Z5I",
+        "oe": "Reġen",
+        "pronounce": "(ray-en)",
+        "updatedAt": "2015-05-21T21:56:33.956Z"
+    },
+	{
+        "ACL": {
+            "*": {
+                "read": true
+            }
+        },
+        "createdAt": "2015-05-21T01:48:01.631Z",
+        "meaning": "['Grim\\n']",
+        "ne": "Grim\n",
+        "objectId": "tDbkrfGILf",
+        "oe": "Grim",
+        "pronounce": "(grim)",
+        "updatedAt": "2015-05-21T21:56:33.246Z"
+    },
+	{
+        "ACL": {
+            "*": {
+                "read": true
+            }
+        },
+        "createdAt": "2015-05-21T01:47:32.597Z",
+        "meaning": "['Armour;', 'Protective\\n']",
+        "ne": "Brun\n",
+        "objectId": "trtDtftulx",
+        "oe": "Brun",
+        "pronounce": "(broon)",
+        "updatedAt": "2015-05-21T21:56:32.297Z"
+    },
+	{
+        "ACL": {
+            "*": {
+                "read": true
+            }
+        },
+        "createdAt": "2015-05-21T01:49:04.316Z",
+        "meaning": "['Friendly\\n']",
+        "ne": "Win, Wina, Wini\n",
+        "objectId": "uH5VqHidGt",
+        "oe": "Ƿine",
+        "pronounce": "(wi-neh)",
+        "updatedAt": "2015-05-21T21:58:15.325Z"
+    },
+	{
+        "ACL": {
+            "*": {
+                "read": true
+            }
+        },
+        "createdAt": "2015-05-21T01:48:46.709Z",
+        "meaning": "['Snow\\n']",
+        "ne": "Snow\n",
+        "objectId": "uHo4D49OZk",
+        "oe": "Snáƿ",
+        "pronounce": "(snahw)",
+        "updatedAt": "2015-05-21T21:56:34.169Z"
+    },
+	{
+        "ACL": {
+            "*": {
+                "read": true
+            }
+        },
+        "createdAt": "2015-05-21T01:49:01.951Z",
+        "meaning": "['Wife;', 'Woman\\n']",
+        "ne": "Wif\n",
+        "objectId": "uZ2zr5Dvn8",
+        "oe": "Ƿíf",
+        "pronounce": "(weef)",
+        "updatedAt": "2015-05-21T21:58:15.292Z"
+    },
+	{
+        "ACL": {
+            "*": {
+                "read": true
+            }
+        },
+        "createdAt": "2015-05-21T01:49:02.958Z",
+        "meaning": "['Wild\\n']",
+        "ne": "Wil, Wild\n",
+        "objectId": "vLefjiqrkk",
+        "oe": "Ƿilde",
+        "pronounce": "(wil-deh)",
+        "updatedAt": "2015-05-21T21:58:15.322Z"
+    },
+	{
+        "ACL": {
+            "*": {
+                "read": true
+            }
+        },
+        "createdAt": "2015-05-21T01:47:40.881Z",
+        "meaning": "['Proud\\n']",
+        "ne": "Dal\n",
+        "objectId": "vvX0xCuyRl",
+        "oe": "Deal",
+        "pronounce": "(deh-ahl)",
+        "updatedAt": "2015-05-21T21:56:32.598Z"
+    },
+	{
+        "ACL": {
+            "*": {
+                "read": true
+            }
+        },
+        "createdAt": "2015-05-21T01:47:40.200Z",
+        "meaning": "['Day\\n']",
+        "ne": "Day\n",
+        "objectId": "wXMa6Bhhn4",
+        "oe": "Dæġ",
+        "pronounce": "(day)",
+        "updatedAt": "2015-05-21T21:56:32.603Z"
+    },
+	{
+        "ACL": {
+            "*": {
+                "read": true
+            }
+        },
+        "createdAt": "2015-05-21T01:48:25.969Z",
+        "meaning": "['River-Mouth\\n']",
+        "ne": "My\n",
+        "objectId": "wXQfKMN8YT",
+        "oe": "Mýðe",
+        "pronounce": "(mø-theh)",
+        "updatedAt": "2015-05-21T21:56:33.843Z"
+    },
+	{
+        "ACL": {
+            "*": {
+                "read": true
+            }
+        },
+        "createdAt": "2015-05-21T01:47:53.702Z",
+        "meaning": "['[the]', 'Folk\\n']",
+        "ne": "Folk\n",
+        "objectId": "wf2Tuk6bbX",
+        "oe": "Folc",
+        "pronounce": "(folk)",
+        "updatedAt": "2015-05-21T21:56:33.125Z"
+    },
+	{
+        "ACL": {
+            "*": {
+                "read": true
+            }
+        },
+        "createdAt": "2015-05-21T01:48:59.581Z",
+        "meaning": "['\\xc7\\xb7\\xc3\\xadh', '(weegh)', 'Blessed;', 'Hallowed\\n']",
+        "ne": "Wee\n",
+        "objectId": "wpbgFZKvFt",
+        "oe": "Ƿéoh",
+        "pronounce": "(wey-ogh);",
+        "updatedAt": "2015-05-21T21:56:34.360Z"
+    },
+	{
+        "ACL": {
+            "*": {
+                "read": true
+            }
+        },
+        "createdAt": "2015-05-21T01:47:47.298Z",
+        "meaning": "['English;', 'Anglo-Saxon\\n']",
+        "ne": "Ing\n",
+        "objectId": "wxqCII1dsp",
+        "oe": "Englan",
+        "pronounce": "(en-glahn)",
+        "updatedAt": "2015-05-21T21:56:33.590Z"
+    },
+	{
+        "ACL": {
+            "*": {
+                "read": true
+            }
+        },
+        "createdAt": "2015-05-21T01:47:58.870Z",
+        "meaning": "['Yield;', 'Payment;', 'Fellowship\\n']",
+        "ne": "Yild\n",
+        "objectId": "x1A2JnQHzk",
+        "oe": "Ġilde",
+        "pronounce": "(yil-deh)",
+        "updatedAt": "2015-05-21T21:58:15.382Z"
+    },
+	{
+        "ACL": {
+            "*": {
+                "read": true
+            }
+        },
+        "createdAt": "2015-05-21T01:48:03.053Z",
+        "meaning": "['Fence;', 'Enclosure\\n']",
+        "ne": "Hay\n",
+        "objectId": "xCvGT4CYml",
+        "oe": "Hæġ",
+        "pronounce": "(hay)",
+        "updatedAt": "2015-05-21T21:56:33.372Z"
+    },
+	{
+        "ACL": {
+            "*": {
+                "read": true
+            }
+        },
+        "createdAt": "2015-05-21T01:48:12.509Z",
+        "meaning": "['Raven\\n']",
+        "ne": "Ram, Raven\n",
+        "objectId": "xFuu99PcJf",
+        "oe": "Hræfn",
+        "pronounce": "(hravn)",
+        "updatedAt": "2015-05-21T21:56:33.970Z"
+    },
+	{
+        "ACL": {
+            "*": {
+                "read": true
+            }
+        },
+        "createdAt": "2015-05-21T01:47:44.278Z",
+        "meaning": "['Wealthy\\n']",
+        "ne": "Ed\n",
+        "objectId": "xcJLsxWGKi",
+        "oe": "Eád",
+        "pronounce": "(eh-ahd)",
+        "updatedAt": "2015-05-21T21:56:32.841Z"
+    },
+	{
+        "ACL": {
+            "*": {
+                "read": true
+            }
+        },
+        "createdAt": "2015-05-21T01:48:23.956Z",
+        "meaning": "['Mild\\n']",
+        "ne": "Mild\n",
+        "objectId": "xfc13AQrrq",
+        "oe": "Milde",
+        "pronounce": "(mil-deh)",
+        "updatedAt": "2015-05-21T21:56:33.830Z"
+    },
+	{
+        "ACL": {
+            "*": {
+                "read": true
+            }
+        },
+        "createdAt": "2015-05-21T01:47:57.170Z",
+        "meaning": "['Spike;', 'Arrow;', 'Spear\\n']",
+        "ne": "Gad\n",
+        "objectId": "xw4fH3kPjH",
+        "oe": "Gád",
+        "pronounce": "(gahd)",
+        "updatedAt": "2015-05-21T21:56:33.253Z"
+    },
+	{
+        "ACL": {
+            "*": {
+                "read": true
+            }
+        },
+        "createdAt": "2015-05-21T01:48:53.036Z",
+        "meaning": "['Firm;', 'Strong\\n']",
+        "ne": "Trum\n",
+        "objectId": "xy5jA2qEa7",
+        "oe": "Trum",
+        "pronounce": "(troom)",
+        "updatedAt": "2015-05-21T21:56:33.637Z"
+    },
+	{
+        "ACL": {
+            "*": {
+                "read": true
+            }
+        },
+        "createdAt": "2015-05-21T01:48:24.967Z",
+        "meaning": "['Moor\\n']",
+        "ne": "Mor\n",
+        "objectId": "y6wltvELj1",
+        "oe": "Mór",
+        "pronounce": "(moor)",
+        "updatedAt": "2015-05-21T21:56:33.846Z"
+    },
+	{
+        "ACL": {
+            "*": {
+                "read": true
+            }
+        },
+        "createdAt": "2015-05-21T01:47:43.937Z",
+        "meaning": "['Door\\n']",
+        "ne": "Dur\n",
+        "objectId": "yn2zAsX5Pm",
+        "oe": "Dúr",
+        "pronounce": "(door)",
+        "updatedAt": "2015-05-21T21:56:32.707Z"
+    },
+	{
+        "ACL": {
+            "*": {
+                "read": true
+            }
+        },
+        "createdAt": "2015-05-21T01:48:56.867Z",
+        "meaning": "['Up/Above\\n']",
+        "ne": "Up\n",
+        "objectId": "zEF7C3Csjf",
+        "oe": "Up",
+        "pronounce": "(oop)",
+        "updatedAt": "2015-05-21T21:56:33.600Z"
+    },
+	{
+        "ACL": {
+            "*": {
+                "read": true
+            }
+        },
+        "createdAt": "2015-05-21T01:48:58.221Z",
+        "meaning": "['[to]', 'Wield', '[power];', 'Ruler\\n']",
+        "ne": "Ald, Old, Wald, Walt\n",
+        "objectId": "zEqzkyoT50",
+        "oe": "Ƿeald",
+        "pronounce": "(weh-ahld)",
+        "updatedAt": "2015-05-21T21:56:31.961Z"
+    },
+	{
+        "ACL": {
+            "*": {
+                "read": true
+            }
+        },
+        "createdAt": "2015-05-21T01:47:43.591Z",
+        "meaning": "['[a]', 'Down;', 'Mound\\n']",
+        "ne": "Don\n",
+        "objectId": "ze2gm9ZxnI",
+        "oe": "Dún",
+        "pronounce": "(doon)",
+        "updatedAt": "2015-05-21T21:56:32.706Z"
+    },
+	{
+        "ACL": {
+            "*": {
+                "read": true
+            }
+        },
+        "createdAt": "2015-05-21T01:47:27.986Z",
+        "meaning": "['Beaver\\n']",
+        "ne": "Bever\n",
+        "objectId": "zgry6IDWQp",
+        "oe": "Beofor",
+        "pronounce": "(beh-oh-vor)",
+        "updatedAt": "2015-05-21T21:56:32.171Z"
+    }
+] }

@@ -1,0 +1,2932 @@
+{ "results": [
+	{
+        "ACL": {
+            "*": {
+                "read": true
+            }
+        },
+        "breakdown": [
+            "Fire;",
+            "Torch;",
+            "Light",
+            "Strong\n"
+        ],
+        "createdAt": "2015-05-21T01:55:38.159Z",
+        "explain": "NE shaping from OE Cénþrýþ.\n",
+        "name": "Kenthrith",
+        "objectId": "0DAvWWpHPC",
+        "updatedAt": "2015-05-21T21:37:19.928Z"
+    },
+	{
+        "ACL": {
+            "*": {
+                "read": true
+            }
+        },
+        "breakdown": [
+            "Friendly",
+            "Beautiful\n"
+        ],
+        "createdAt": "2015-05-21T01:55:57.614Z",
+        "explain": "NE shaping from OE Ƿineflaéd.\n",
+        "name": "Winflad",
+        "objectId": "0FT4RiMJtr",
+        "updatedAt": "2015-05-21T21:37:20.740Z"
+    },
+	{
+        "ACL": {
+            "*": {
+                "read": true
+            }
+        },
+        "breakdown": [
+            "Elf;",
+            "Smart",
+            "Beautiful\n"
+        ],
+        "createdAt": "2015-05-21T01:55:01.604Z",
+        "explain": "NE shaping from OE Ælfġýþ.\n",
+        "name": "Alvith",
+        "objectId": "0h6FpBd96M",
+        "updatedAt": "2015-05-21T21:23:47.388Z"
+    },
+	{
+        "ACL": {
+            "*": {
+                "read": true
+            }
+        },
+        "breakdown": [
+            "One;",
+            "Always",
+            "Rich;",
+            "Powerful\n"
+        ],
+        "createdAt": "2015-05-21T01:55:23.640Z",
+        "explain": "Living name introduced by Danish settlers, from ON Eiríkr. Went out of use in the Middle\nAges. Revived in the 19th C. and popularised by Frederic William Farrar's novel Eric, or\n",
+        "name": "Erica",
+        "objectId": "14VaIFYogx",
+        "updatedAt": "2015-05-21T21:24:02.146Z"
+    },
+	{
+        "ACL": {
+            "*": {
+                "read": true
+            }
+        },
+        "breakdown": [
+            "War;",
+            "Warrior",
+            "Friendly\n"
+        ],
+        "createdAt": "2015-05-21T01:54:57.400Z",
+        "explain": "NE shaping from OE Gúþƿine.\n",
+        "name": "Yithwin",
+        "objectId": "1G73h7FazK",
+        "updatedAt": "2015-05-21T21:23:44.897Z"
+    },
+	{
+        "ACL": {
+            "*": {
+                "read": true
+            }
+        },
+        "breakdown": [
+            "Aware;",
+            "Wary;",
+            "Wise",
+            "Fort;",
+            "Strong;",
+            "Protective\n"
+        ],
+        "createdAt": "2015-05-21T01:55:54.811Z",
+        "explain": "NE shaping from OE Ƿærburg.\n",
+        "name": "Warbura",
+        "objectId": "1oAQKHfjPt",
+        "updatedAt": "2015-05-21T21:37:20.629Z"
+    },
+	{
+        "ACL": {
+            "*": {
+                "read": true
+            }
+        },
+        "breakdown": [
+            "Victorious",
+            "Fort;",
+            "Strong;",
+            "Protective\n"
+        ],
+        "createdAt": "2015-05-21T01:55:50.866Z",
+        "explain": "NE shaping from OE Siġeburg.\n",
+        "name": "Seybura",
+        "objectId": "2oSFTZR1fD",
+        "updatedAt": "2015-05-21T21:37:20.486Z"
+    },
+	{
+        "ACL": {
+            "*": {
+                "read": true
+            }
+        },
+        "breakdown": [
+            "[the]",
+            "Sea",
+            "Strong\n"
+        ],
+        "createdAt": "2015-05-21T01:55:49.812Z",
+        "explain": "NE shaping from OE Saéþrýþ.\n",
+        "name": "Sathrith",
+        "objectId": "2xrM2vsoDb",
+        "updatedAt": "2015-05-21T21:37:20.380Z"
+    },
+	{
+        "ACL": {
+            "*": {
+                "read": true
+            }
+        },
+        "breakdown": [
+            "Good",
+            "Wife;",
+            "Woman\n"
+        ],
+        "createdAt": "2015-05-21T01:55:31.906Z",
+        "explain": "NE shaping from OE Gódƿíf.\n",
+        "name": "Goodwif",
+        "objectId": "3MZIW2S4pi",
+        "updatedAt": "2015-05-21T21:24:04.398Z"
+    },
+	{
+        "ACL": {
+            "*": {
+                "read": true
+            }
+        },
+        "breakdown": [
+            "Hall;",
+            "Temple",
+            "Fort;",
+            "Strong;",
+            "Protective\n"
+        ],
+        "createdAt": "2015-05-21T01:55:18.763Z",
+        "explain": "NE shaping from OE Ealhburg.\n",
+        "name": "Elbura",
+        "objectId": "3SI4tVxc7M",
+        "updatedAt": "2015-05-21T21:23:58.952Z"
+    },
+	{
+        "ACL": {
+            "*": {
+                "read": true
+            }
+        },
+        "breakdown": [
+            "Wolf;",
+            "Hunter",
+            "Rune;",
+            "Secret\n"
+        ],
+        "createdAt": "2015-05-21T01:55:59.688Z",
+        "explain": "NE shaping from OE Ƿulfrún.\n",
+        "name": "Wolfruna",
+        "objectId": "3XUU29XSpY",
+        "updatedAt": "2015-05-21T21:37:20.764Z"
+    },
+	{
+        "ACL": {
+            "*": {
+                "read": true
+            }
+        },
+        "breakdown": [
+            "Couth",
+            "(well-known)",
+            "Fort;",
+            "Strong;",
+            "Protective\n"
+        ],
+        "createdAt": "2015-05-21T01:55:14.905Z",
+        "explain": "NE shaping from OE Cúðburg.\n",
+        "name": "Cuthbura",
+        "objectId": "45qQmw5acN",
+        "updatedAt": "2015-05-21T21:23:56.731Z"
+    },
+	{
+        "ACL": {
+            "*": {
+                "read": true
+            }
+        },
+        "breakdown": [
+            "High-born",
+            "Bright\n"
+        ],
+        "createdAt": "2015-05-21T01:54:58.432Z",
+        "explain": "Living name introduced by the Normans, from FN Albert, from WG Adalbert. Cognate with\nOE Æþelbeorht. Female form of Albert.\n",
+        "name": "Alberta",
+        "objectId": "4kJmUXLSdC",
+        "updatedAt": "2015-05-21T21:23:45.458Z"
+    },
+	{
+        "ACL": {
+            "*": {
+                "read": true
+            }
+        },
+        "breakdown": [
+            "Bright",
+            "Gift;",
+            "Dowry\n"
+        ],
+        "createdAt": "2015-05-21T01:55:08.333Z",
+        "explain": "NE shaping from OE Beorhtġifu.\n",
+        "name": "Bertiva",
+        "objectId": "5VUTbYX90r",
+        "updatedAt": "2015-05-21T21:23:53.163Z"
+    },
+	{
+        "ACL": {
+            "*": {
+                "read": true
+            }
+        },
+        "breakdown": [
+            "High-born",
+            "Gift;",
+            "Dowry\n"
+        ],
+        "createdAt": "2015-05-21T01:55:04.875Z",
+        "explain": "NE shaping from OE Æþelġifu.\n",
+        "name": "Atheliva",
+        "objectId": "5ydCuwnKdK",
+        "updatedAt": "2015-05-21T21:23:50.209Z"
+    },
+	{
+        "ACL": {
+            "*": {
+                "read": true
+            }
+        },
+        "breakdown": [
+            "Hall;",
+            "Temple",
+            "Aware;",
+            "Wary;",
+            "Wise\n"
+        ],
+        "createdAt": "2015-05-21T01:55:21.212Z",
+        "explain": "NE shaping from OE Ealhƿaru.\n",
+        "name": "Elwara",
+        "objectId": "67hl6Tl8Ex",
+        "updatedAt": "2015-05-21T21:24:00.649Z"
+    },
+	{
+        "ACL": {
+            "*": {
+                "read": true
+            },
+            "role:admin": {
+                "read": true,
+                "write": true
+            }
+        },
+        "breakdown": [
+            "High-born",
+            "-Hood",
+            "(a",
+            "kind)\n"
+        ],
+        "createdAt": "2015-05-21T01:54:57.742Z",
+        "explain": "Living name introduced by the Normans, from WG Adalheidis. OE cognate would be\nÆþelhad.\n",
+        "name": "Adelaide",
+        "objectId": "6SoZksfXH3",
+        "updatedAt": "2015-05-21T21:28:31.404Z"
+    },
+	{
+        "ACL": {
+            "*": {
+                "read": true
+            }
+        },
+        "breakdown": [
+            "Free;",
+            "Peaceful",
+            "Beautiful\n"
+        ],
+        "createdAt": "2015-05-21T01:55:29.143Z",
+        "explain": "NE shaping from OE Freoðuġýþ.\n",
+        "name": "Fredith",
+        "objectId": "6q0ghEFhQl",
+        "updatedAt": "2015-05-21T21:24:03.224Z"
+    },
+	{
+        "ACL": {
+            "*": {
+                "read": true
+            }
+        },
+        "breakdown": [
+            "Wolf;",
+            "Hunter",
+            "Aware;",
+            "Wary;",
+            "Wise\n"
+        ],
+        "createdAt": "2015-05-21T01:56:00.726Z",
+        "explain": "NE shaping from OE Ƿulfƿaru.\n",
+        "name": "Wolvara",
+        "objectId": "7Guk3wAdJs",
+        "updatedAt": "2015-05-21T21:37:20.903Z"
+    },
+	{
+        "ACL": {
+            "*": {
+                "read": true
+            }
+        },
+        "breakdown": [
+            "High-born",
+            "Strong\n"
+        ],
+        "createdAt": "2015-05-21T01:55:07.289Z",
+        "explain": "Living name from OE Æþelþrýþ. Went out of use at the end of the Middle Ages due to\nassociation with the word tawdry. Revived in the 19th C. and popularised by Audrey\n",
+        "name": "Audrey",
+        "objectId": "7MmSueBr5O",
+        "updatedAt": "2015-05-21T21:23:52.576Z"
+    },
+	{
+        "ACL": {
+            "*": {
+                "read": true
+            }
+        },
+        "breakdown": [
+            "Elf;",
+            "Smart",
+            "Aware;",
+            "Wary;",
+            "Wise\n"
+        ],
+        "createdAt": "2015-05-21T01:55:00.908Z",
+        "explain": "NE shaping from OE Ælfƿaru.\n",
+        "name": "Alvara",
+        "objectId": "7Qbf4Wz66b",
+        "updatedAt": "2015-05-21T21:23:46.717Z"
+    },
+	{
+        "ACL": {
+            "*": {
+                "read": true
+            }
+        },
+        "breakdown": [
+            "Fort;",
+            "Strong;",
+            "Protective",
+            "War;",
+            "Warrior\n"
+        ],
+        "createdAt": "2015-05-21T01:55:12.140Z",
+        "explain": "NE shaping from OE Burghild.\n",
+        "name": "Burghilda",
+        "objectId": "7XWhPtIBPY",
+        "updatedAt": "2015-05-21T21:23:55.135Z"
+    },
+	{
+        "ACL": {
+            "*": {
+                "read": true
+            }
+        },
+        "breakdown": [
+            "Elf;",
+            "Smart",
+            "Rune;",
+            "Secret\n"
+        ],
+        "createdAt": "2015-05-21T01:54:59.518Z",
+        "explain": "NE shaping from OE Ælfrún.\n",
+        "name": "Alfruna",
+        "objectId": "8TnAEdyrwD",
+        "updatedAt": "2015-05-21T21:23:46.048Z"
+    },
+	{
+        "ACL": {
+            "*": {
+                "read": true
+            }
+        },
+        "breakdown": [
+            "War;",
+            "Warrior",
+            "[to",
+            "be]",
+            "Read",
+            "(wise)\n"
+        ],
+        "createdAt": "2015-05-21T01:55:36.057Z",
+        "explain": "Living name from OE Hildræd. Revived in the 19th C.\n",
+        "name": "Hildred",
+        "objectId": "9OipY7buH7",
+        "updatedAt": "2015-05-21T21:24:07.553Z"
+    },
+	{
+        "ACL": {
+            "*": {
+                "read": true
+            }
+        },
+        "breakdown": [
+            "Fire;",
+            "Torch;",
+            "Light",
+            "Strong\n"
+        ],
+        "createdAt": "2015-05-21T01:55:37.805Z",
+        "explain": "NE shaping from OE Cénswíþ.\n",
+        "name": "Kenswith",
+        "objectId": "9hGJyi5U07",
+        "updatedAt": "2015-05-21T21:37:19.890Z"
+    },
+	{
+        "ACL": {
+            "*": {
+                "read": true
+            }
+        },
+        "breakdown": [
+            "Bold",
+            "Beautiful\n"
+        ],
+        "createdAt": "2015-05-21T01:55:46.675Z",
+        "explain": "NE shaping from OE Nóþġýþ.\n",
+        "name": "Nothith",
+        "objectId": "9sRu3PkEtG",
+        "updatedAt": "2015-05-21T21:37:20.265Z"
+    },
+	{
+        "ACL": {
+            "*": {
+                "read": true
+            }
+        },
+        "breakdown": [
+            "Elf;",
+            "Smart",
+            "Strong\n"
+        ],
+        "createdAt": "2015-05-21T01:54:59.864Z",
+        "explain": "NE shaping from OE Ælfswíþ.\n",
+        "name": "Alfswith",
+        "objectId": "9uLwzniJZ0",
+        "updatedAt": "2015-05-21T21:23:46.208Z"
+    },
+	{
+        "ACL": {
+            "*": {
+                "read": true
+            }
+        },
+        "breakdown": [
+            "Mighty",
+            "War;",
+            "Warrior\n"
+        ],
+        "createdAt": "2015-05-21T01:55:44.952Z",
+        "explain": "Living name introduced by the Normans, from FN Mathilde , from WG Mahthildis. OE\ncognate would be Mihthild.. Popularised by the wife of William the Conqueror. Lost\n",
+        "name": "Matilda",
+        "objectId": "9vTpw2Mx8X",
+        "updatedAt": "2015-05-21T21:37:20.222Z"
+    },
+	{
+        "ACL": {
+            "*": {
+                "read": true
+            }
+        },
+        "breakdown": [
+            "War;",
+            "Fight",
+            "War;",
+            "Warrior\n"
+        ],
+        "createdAt": "2015-05-21T01:55:33.993Z",
+        "explain": "Living name from German Hedwig. OE cognate would be Heaðuƿíġ.\n",
+        "name": "Hedwig",
+        "objectId": "A3yWfiujry",
+        "updatedAt": "2015-05-21T21:24:05.765Z"
+    },
+	{
+        "ACL": {
+            "*": {
+                "read": true
+            }
+        },
+        "breakdown": [
+            "Hall;",
+            "Temple",
+            "Strong\n"
+        ],
+        "createdAt": "2015-05-21T01:55:20.866Z",
+        "explain": "NE shaping from OE Ealhþrýþ.\n",
+        "name": "Elthrith",
+        "objectId": "AcDqUbMS7Q",
+        "updatedAt": "2015-05-21T21:24:00.423Z"
+    },
+	{
+        "ACL": {
+            "*": {
+                "read": true
+            }
+        },
+        "breakdown": [
+            "Lief",
+            "(dear);",
+            "Leman",
+            "Rune;",
+            "Secret\n"
+        ],
+        "createdAt": "2015-05-21T01:55:43.529Z",
+        "explain": "NE shaping from OE Léofrún.\n",
+        "name": "Leefruna",
+        "objectId": "AvYO6CiF0C",
+        "updatedAt": "2015-05-21T21:37:20.126Z"
+    },
+	{
+        "ACL": {
+            "*": {
+                "read": true
+            }
+        },
+        "breakdown": [
+            "Fire;",
+            "Torch;",
+            "Light",
+            "Winsome",
+            "(happy)\n"
+        ],
+        "createdAt": "2015-05-21T01:55:38.509Z",
+        "explain": "NE shaping from OE Cénƿynn.\n",
+        "name": "Kenwyna",
+        "objectId": "B7cMtSDIct",
+        "updatedAt": "2015-05-21T21:37:19.925Z"
+    },
+	{
+        "ACL": {
+            "*": {
+                "read": true
+            }
+        },
+        "breakdown": [
+            "Fight",
+            "War;",
+            "Warrior\n"
+        ],
+        "createdAt": "2015-05-21T01:55:07.988Z",
+        "explain": "NE shaping from OE Beaduhild. Daughter of the king Nothad in Germanic folklore.\n",
+        "name": "Beedhilda",
+        "objectId": "Cl8QH8LfrR",
+        "updatedAt": "2015-05-21T21:23:52.998Z"
+    },
+	{
+        "ACL": {
+            "*": {
+                "read": true
+            }
+        },
+        "breakdown": [
+            "Ash-tree",
+            "Winsome",
+            "(happy)\n"
+        ],
+        "createdAt": "2015-05-21T01:55:02.648Z",
+        "explain": "NE shaping from OE Æscƿynn.\n",
+        "name": "Ashwyna",
+        "objectId": "DU7ABiSpY7",
+        "updatedAt": "2015-05-21T21:23:48.100Z"
+    },
+	{
+        "ACL": {
+            "*": {
+                "read": true
+            }
+        },
+        "breakdown": [
+            "Kingly;",
+            "Royal",
+            "Love\n"
+        ],
+        "createdAt": "2015-05-21T01:55:39.888Z",
+        "explain": "NE shaping from OE Cyneleofu.\n",
+        "name": "Kinleeva",
+        "objectId": "Daml8eMJ2R",
+        "updatedAt": "2015-05-21T21:37:20.021Z"
+    },
+	{
+        "ACL": {
+            "*": {
+                "read": true
+            }
+        },
+        "breakdown": [
+            "Aware;",
+            "Wary;",
+            "Wise",
+            "Strong\n"
+        ],
+        "createdAt": "2015-05-21T01:55:55.158Z",
+        "explain": "NE shaping from OE Ƿærþrýþ.\n",
+        "name": "Warthrith",
+        "objectId": "DdH9E180qm",
+        "updatedAt": "2015-05-21T21:37:20.618Z"
+    },
+	{
+        "ACL": {
+            "*": {
+                "read": true
+            }
+        },
+        "breakdown": [
+            "Lief",
+            "(dear);",
+            "Leman",
+            "Gift;",
+            "Dowry\n"
+        ],
+        "createdAt": "2015-05-21T01:55:44.230Z",
+        "explain": "NE shaping from OE Léofġifu.\n",
+        "name": "Leeviva",
+        "objectId": "DfnGtl3GPA",
+        "updatedAt": "2015-05-21T21:37:20.149Z"
+    },
+	{
+        "ACL": {
+            "*": {
+                "read": true
+            }
+        },
+        "breakdown": [
+            "Kingly;",
+            "Royal",
+            "Love\n"
+        ],
+        "createdAt": "2015-05-21T01:55:40.234Z",
+        "explain": "NE shaping from OE Cynelufu.\n",
+        "name": "Kinlove",
+        "objectId": "FvKGHeIQcC",
+        "updatedAt": "2015-05-21T21:37:20.029Z"
+    },
+	{
+        "ACL": {
+            "*": {
+                "read": true
+            }
+        },
+        "breakdown": [
+            "Bear",
+            "Winsome",
+            "(happy)\n"
+        ],
+        "createdAt": "2015-05-21T01:55:10.412Z",
+        "explain": "NE shaping from OE Beornƿynn.\n",
+        "name": "Bernwyna",
+        "objectId": "GvVkfO2ieK",
+        "updatedAt": "2015-05-21T21:23:54.236Z"
+    },
+	{
+        "ACL": {
+            "*": {
+                "read": true
+            }
+        },
+        "breakdown": [
+            "Mere",
+            "(water;",
+            "sea)",
+            "Winsome",
+            "(happy)\n"
+        ],
+        "createdAt": "2015-05-21T01:55:45.299Z",
+        "explain": "NE shaping from OE Mereƿynn.\n",
+        "name": "Merwyna",
+        "objectId": "H37q6IFRme",
+        "updatedAt": "2015-05-21T21:37:20.214Z"
+    },
+	{
+        "ACL": {
+            "*": {
+                "read": true
+            }
+        },
+        "breakdown": [
+            "Fire;",
+            "Torch;",
+            "Light",
+            "Fort;",
+            "Strong;",
+            "Protective\n"
+        ],
+        "createdAt": "2015-05-21T01:55:37.467Z",
+        "explain": "NE shaping from OE Cénburg.\n",
+        "name": "Kenbura",
+        "objectId": "HHXeKygkyJ",
+        "updatedAt": "2015-05-21T21:37:19.880Z"
+    },
+	{
+        "ACL": {
+            "*": {
+                "read": true
+            }
+        },
+        "breakdown": [
+            "Old",
+            "Beautiful\n"
+        ],
+        "createdAt": "2015-05-21T01:55:19.109Z",
+        "explain": "NE shaping from OE Ealdġýþ.\n",
+        "name": "Eldith",
+        "objectId": "HywqieIsef",
+        "updatedAt": "2015-05-21T21:23:59.202Z"
+    },
+	{
+        "ACL": {
+            "*": {
+                "read": true
+            }
+        },
+        "breakdown": [
+            "Mild",
+            "Strong\n"
+        ],
+        "createdAt": "2015-05-21T01:55:45.983Z",
+        "explain": "Living name from OE Mildþrýþ.\n",
+        "name": "Mildred",
+        "objectId": "IojUKXUO7p",
+        "updatedAt": "2015-05-21T21:37:20.259Z"
+    },
+	{
+        "ACL": {
+            "*": {
+                "read": true
+            }
+        },
+        "breakdown": [
+            "Lief",
+            "(dear);",
+            "Leman",
+            "Aware;",
+            "Wary;",
+            "Wise\n"
+        ],
+        "createdAt": "2015-05-21T01:55:43.878Z",
+        "explain": "NE shaping from OE Léofƿaru.\n",
+        "name": "Leevara",
+        "objectId": "JAavQIA6lV",
+        "updatedAt": "2015-05-21T21:37:20.145Z"
+    },
+	{
+        "ACL": {
+            "*": {
+                "read": true
+            }
+        },
+        "breakdown": [
+            "Protective",
+            "War;",
+            "Warrior\n"
+        ],
+        "createdAt": "2015-05-21T01:55:11.792Z",
+        "explain": "Living name from German Brünhild. Popularised by the character Brynhildr (ON cognate)\nfrom the Volsung Saga and Brunhilda of the Nibelung Saga; both of which are likely based\n",
+        "name": "Brunhilda",
+        "objectId": "JQQooA0BAz",
+        "updatedAt": "2015-05-21T21:23:54.983Z"
+    },
+	{
+        "ACL": {
+            "*": {
+                "read": true
+            }
+        },
+        "breakdown": [
+            "Free;",
+            "Peaceful",
+            "Strong\n"
+        ],
+        "createdAt": "2015-05-21T01:55:29.489Z",
+        "explain": "NE shaping from OE Freoðuswíþ.\n",
+        "name": "Fredswith",
+        "objectId": "JST0jAqIFI",
+        "updatedAt": "2015-05-21T21:24:03.395Z"
+    },
+	{
+        "ACL": {
+            "*": {
+                "read": true
+            }
+        },
+        "breakdown": [
+            "Kingly;",
+            "Royal",
+            "Strong\n"
+        ],
+        "createdAt": "2015-05-21T01:55:40.995Z",
+        "explain": "NE shaping from OE Cyneswíþ.\n",
+        "name": "Kinswith",
+        "objectId": "JXZdDtpxnS",
+        "updatedAt": "2015-05-21T21:37:20.072Z"
+    },
+	{
+        "ACL": {
+            "*": {
+                "read": true
+            }
+        },
+        "breakdown": [
+            "Wide",
+            "Nigh/Near;",
+            "Island\n"
+        ],
+        "createdAt": "2015-05-21T01:55:51.560Z",
+        "explain": "Living name from the English surname Sidney, from OE Sídnéah.\n",
+        "name": "Sidney",
+        "objectId": "JZ0L2ahXjn",
+        "updatedAt": "2015-05-21T21:37:20.495Z"
+    },
+	{
+        "ACL": {
+            "*": {
+                "read": true
+            }
+        },
+        "breakdown": [
+            "Hay",
+            "Den;",
+            "Valley\n"
+        ],
+        "createdAt": "2015-05-21T01:55:33.297Z",
+        "explain": "Living name from the English surname Hayden, from OE Heġedenu. Not to be confused\nwith the German Haydn (popularised by composer Joseph Haydn (1732-1809)), which\n",
+        "name": "Hayden",
+        "objectId": "Jj9QrCqXVL",
+        "updatedAt": "2015-05-21T21:24:05.260Z"
+    },
+	{
+        "ACL": {
+            "*": {
+                "read": true
+            }
+        },
+        "breakdown": [
+            "Hall",
+            "Fort;",
+            "Strong;",
+            "Protective\n"
+        ],
+        "createdAt": "2015-05-21T01:55:50.155Z",
+        "explain": "NE shaping from OE Seleburg.\n",
+        "name": "Selbura",
+        "objectId": "JviB7qo1uU",
+        "updatedAt": "2015-05-21T21:37:20.423Z"
+    },
+	{
+        "ACL": {
+            "*": {
+                "read": true
+            }
+        },
+        "breakdown": [
+            "Sheer",
+            "Lea",
+            "(field)\n"
+        ],
+        "createdAt": "2015-05-21T01:55:53.419Z",
+        "explain": "Living name from OE Scírleah. From the English surname Shirley. Borne by Charlotte\nBronte's semi-autobiographical novel Shirley (1849), and the child actress Shirley Temple\n",
+        "name": "Shirley",
+        "objectId": "KSGgkNuhK1",
+        "updatedAt": "2015-05-21T21:37:20.516Z"
+    },
+	{
+        "ACL": {
+            "*": {
+                "read": true
+            }
+        },
+        "breakdown": [
+            "Tide",
+            "(time;",
+            "season)",
+            "Fort;",
+            "Strong;",
+            "Protective\n"
+        ],
+        "createdAt": "2015-05-21T01:55:53.082Z",
+        "explain": "NE shaping from OE Tídburg.\n",
+        "name": "Tidbura",
+        "objectId": "KcW81n8cmp",
+        "updatedAt": "2015-05-21T21:37:20.510Z"
+    },
+	{
+        "ACL": {
+            "*": {
+                "read": true
+            }
+        },
+        "breakdown": [
+            "Hall",
+            "Strong\n"
+        ],
+        "createdAt": "2015-05-21T01:55:50.500Z",
+        "explain": "NE shaping from OE Seleþrýþ.\n",
+        "name": "Selthrith",
+        "objectId": "Kn38fzBhrq",
+        "updatedAt": "2015-05-21T21:37:20.449Z"
+    },
+	{
+        "ACL": {
+            "*": {
+                "read": true
+            }
+        },
+        "breakdown": [
+            "Whole;",
+            "Universal",
+            "War;",
+            "Warrior\n"
+        ],
+        "createdAt": "2015-05-21T01:55:24.334Z",
+        "explain": "NE shaping from OE Eormenhild.\n",
+        "name": "Ermenhilda",
+        "objectId": "L0cpwePxwQ",
+        "updatedAt": "2015-05-21T21:24:02.606Z"
+    },
+	{
+        "ACL": {
+            "*": {
+                "read": true
+            }
+        },
+        "breakdown": [
+            "High-born",
+            "War;",
+            "Warrior\n"
+        ],
+        "createdAt": "2015-05-21T01:55:05.559Z",
+        "explain": "NE shaping from OE Æþelhild.\n",
+        "name": "Athelhilda",
+        "objectId": "LSgsIFwL6b",
+        "updatedAt": "2015-05-21T21:23:51.752Z"
+    },
+	{
+        "ACL": {
+            "*": {
+                "read": true
+            }
+        },
+        "breakdown": [
+            "Lief",
+            "(dear);",
+            "Leman",
+            "Beautiful\n"
+        ],
+        "createdAt": "2015-05-21T01:55:42.837Z",
+        "explain": "NE shaping from OE Léofflaéd.\n",
+        "name": "Leeflad",
+        "objectId": "LlmtYaPtSX",
+        "updatedAt": "2015-05-21T21:37:20.166Z"
+    },
+	{
+        "ACL": {
+            "*": {
+                "read": true
+            }
+        },
+        "breakdown": [
+            "Will",
+            "Beautiful\n"
+        ],
+        "createdAt": "2015-05-21T01:55:56.556Z",
+        "explain": "NE shaping from OE Ƿilflaéd.\n",
+        "name": "Wilflad",
+        "objectId": "MrhFi7XOBn",
+        "updatedAt": "2015-05-21T21:37:20.633Z"
+    },
+	{
+        "ACL": {
+            "*": {
+                "read": true
+            }
+        },
+        "breakdown": [
+            "Bear",
+            "Beautiful\n"
+        ],
+        "createdAt": "2015-05-21T01:55:09.722Z",
+        "explain": "NE shaping from OE Beornġýþ.\n",
+        "name": "Bernith",
+        "objectId": "NGiiFOTSAM",
+        "updatedAt": "2015-05-21T21:23:53.897Z"
+    },
+	{
+        "ACL": {
+            "*": {
+                "read": true
+            }
+        },
+        "breakdown": [
+            "Fertile",
+            "Strong\n"
+        ],
+        "createdAt": "2015-05-21T01:55:22.944Z",
+        "explain": "NE shaping from OE Éanswíþ.\n",
+        "name": "Enswith",
+        "objectId": "NNKu0tbMfj",
+        "updatedAt": "2015-05-21T21:24:01.715Z"
+    },
+	{
+        "ACL": {
+            "*": {
+                "read": true
+            }
+        },
+        "breakdown": [
+            "Wolf;",
+            "Hunter",
+            "Strong\n"
+        ],
+        "createdAt": "2015-05-21T01:56:00.385Z",
+        "explain": "NE shaping from OE Ƿulfþrýþ.\n",
+        "name": "Wolfthrith",
+        "objectId": "NcJ4Q9nvAz",
+        "updatedAt": "2015-05-21T21:37:20.978Z"
+    },
+	{
+        "ACL": {
+            "*": {
+                "read": true
+            }
+        },
+        "breakdown": [
+            "Fertile",
+            "Beautiful\n"
+        ],
+        "createdAt": "2015-05-21T01:55:22.241Z",
+        "explain": "NE shaping from OE Éanflaéd.\n",
+        "name": "Enflad",
+        "objectId": "NyKajk9u86",
+        "updatedAt": "2015-05-21T21:24:01.269Z"
+    },
+	{
+        "ACL": {
+            "*": {
+                "read": true
+            }
+        },
+        "breakdown": [
+            "Bold",
+            "War;",
+            "Warrior\n"
+        ],
+        "createdAt": "2015-05-21T01:55:07.637Z",
+        "explain": "NE shaping from OE Bealdhild.\n",
+        "name": "Baldhilda",
+        "objectId": "OEU1SklKuy",
+        "updatedAt": "2015-05-21T21:23:52.763Z"
+    },
+	{
+        "ACL": {
+            "*": {
+                "read": true
+            }
+        },
+        "breakdown": [
+            "Keel;",
+            "Sailor",
+            "Strong\n"
+        ],
+        "createdAt": "2015-05-21T01:55:13.878Z",
+        "explain": "NE shaping from OE Ċeólswíþ.\n",
+        "name": "Cheelswith",
+        "objectId": "OgPyTi2QEn",
+        "updatedAt": "2015-05-21T21:23:56.189Z"
+    },
+	{
+        "ACL": {
+            "*": {
+                "read": true
+            }
+        },
+        "breakdown": [
+            "Beaver",
+            "Lea",
+            "(field)\n"
+        ],
+        "createdAt": "2015-05-21T01:55:10.755Z",
+        "explain": "Living name from the English surname Beverley, from OE Beoforleah. Used as a male name\nin the 19th C. Popularised as a female name after the publication of George Barr\n",
+        "name": "Beverley",
+        "objectId": "P6Fv0nfMzZ",
+        "updatedAt": "2015-05-21T21:23:54.448Z"
+    },
+	{
+        "ACL": {
+            "*": {
+                "read": true
+            }
+        },
+        "breakdown": [
+            "Will",
+            "Bold\n"
+        ],
+        "createdAt": "2015-05-21T01:55:57.269Z",
+        "explain": "NE shaping from OE Ƿilnóþ.\n",
+        "name": "Wilnotha",
+        "objectId": "PVEDN4PHTf",
+        "updatedAt": "2015-05-21T21:37:20.707Z"
+    },
+	{
+        "ACL": {
+            "*": {
+                "read": true
+            }
+        },
+        "breakdown": [
+            "Hall;",
+            "Temple",
+            "Beautiful\n"
+        ],
+        "createdAt": "2015-05-21T01:55:19.796Z",
+        "explain": "NE shaping from OE Ealhġýþ.\n",
+        "name": "Elith",
+        "objectId": "PbPOB9EvW0",
+        "updatedAt": "2015-05-21T21:23:59.596Z"
+    },
+	{
+        "ACL": {
+            "*": {
+                "read": true
+            }
+        },
+        "breakdown": [
+            "High-born",
+            "Beautiful\n"
+        ],
+        "createdAt": "2015-05-21T01:55:04.533Z",
+        "explain": "NE shaping from OE Æþelflaéd.\n",
+        "name": "Athelflad",
+        "objectId": "Pepwj1R4mT",
+        "updatedAt": "2015-05-21T21:23:49.498Z"
+    },
+	{
+        "ACL": {
+            "*": {
+                "read": true
+            }
+        },
+        "breakdown": [
+            "Spear",
+            "Strong\n"
+        ],
+        "createdAt": "2015-05-21T01:55:32.251Z",
+        "explain": "Living name from ON Gertrud. OE cognate would be Gárþrýþ. Introduced to England in\nthe 15th C.\n",
+        "name": "Gertrude",
+        "objectId": "PgvtWFgJvb",
+        "updatedAt": "2015-05-21T21:24:04.607Z"
+    },
+	{
+        "ACL": {
+            "*": {
+                "read": true
+            }
+        },
+        "breakdown": [
+            "Keel;",
+            "Sailor",
+            "Beautiful\n"
+        ],
+        "createdAt": "2015-05-21T01:55:13.536Z",
+        "explain": "NE shaping from OE Ċeólflaéd.\n",
+        "name": "Cheelflad",
+        "objectId": "Qf2DNMdPJl",
+        "updatedAt": "2015-05-21T21:23:56.013Z"
+    },
+	{
+        "ACL": {
+            "*": {
+                "read": true
+            }
+        },
+        "breakdown": [
+            "Tiw;",
+            "Dear;",
+            "Great",
+            "Gate\n"
+        ],
+        "createdAt": "2015-05-21T01:55:23.290Z",
+        "explain": "NE shaping from OE Eorconġéat.\n",
+        "name": "Erconyat",
+        "objectId": "Qrj96c8kDK",
+        "updatedAt": "2015-05-21T21:24:01.947Z"
+    },
+	{
+        "ACL": {
+            "*": {
+                "read": true
+            }
+        },
+        "breakdown": [
+            "War;",
+            "Warrior",
+            "Fort;",
+            "Strong;",
+            "Protective\n"
+        ],
+        "createdAt": "2015-05-21T01:55:35.371Z",
+        "explain": "NE shaping from OE Hildburg.\n",
+        "name": "Hildbura",
+        "objectId": "Qx0AyI1THF",
+        "updatedAt": "2015-05-21T21:24:06.893Z"
+    },
+	{
+        "ACL": {
+            "*": {
+                "read": true
+            }
+        },
+        "breakdown": [
+            "Elf;",
+            "Smart",
+            "Rich;",
+            "Powerful\n"
+        ],
+        "createdAt": "2015-05-21T01:55:06.943Z",
+        "explain": "Living name introduced by the Normans, from WG Alberich. Cognate with OE Ælfríċ. See\nalso Alfrich.\n",
+        "name": "Aubrey",
+        "objectId": "ReVzZU8etX",
+        "updatedAt": "2015-05-21T21:23:52.370Z"
+    },
+	{
+        "ACL": {
+            "*": {
+                "read": true
+            }
+        },
+        "breakdown": [
+            "Elf;",
+            "Smart",
+            "Beautiful\n"
+        ],
+        "createdAt": "2015-05-21T01:54:59.153Z",
+        "explain": "NE shaping from OE Ælfflaéd.\n",
+        "name": "Alflad",
+        "objectId": "RtdlMf1aZt",
+        "updatedAt": "2015-05-21T21:23:45.857Z"
+    },
+	{
+        "ACL": {
+            "*": {
+                "read": true
+            }
+        },
+        "breakdown": [
+            "Ash-tree",
+            "Fort;",
+            "Strong;",
+            "Protective\n"
+        ],
+        "createdAt": "2015-05-21T01:55:01.951Z",
+        "explain": "NE shaping from OE Æscburg.\n",
+        "name": "Ashbura",
+        "objectId": "Sgrk5jUkCz",
+        "updatedAt": "2015-05-21T21:23:47.754Z"
+    },
+	{
+        "ACL": {
+            "*": {
+                "read": true
+            }
+        },
+        "breakdown": [
+            "Mild",
+            "Fort;",
+            "Strong;",
+            "Protective\n"
+        ],
+        "createdAt": "2015-05-21T01:55:45.640Z",
+        "explain": "NE shaping from OE Mildburg.\n",
+        "name": "Mildbura",
+        "objectId": "Sp0TpoilS6",
+        "updatedAt": "2015-05-21T21:37:20.225Z"
+    },
+	{
+        "ACL": {
+            "*": {
+                "read": true
+            }
+        },
+        "breakdown": [
+            "Fertile",
+            "Beautiful\n"
+        ],
+        "createdAt": "2015-05-21T01:55:22.599Z",
+        "explain": "NE shaping from OE Éangýþ.\n",
+        "name": "Enith",
+        "objectId": "T0lFk8QKa2",
+        "updatedAt": "2015-05-21T21:24:01.509Z"
+    },
+	{
+        "ACL": {
+            "*": {
+                "read": true
+            }
+        },
+        "breakdown": [
+            "Good",
+            "Gift;",
+            "Dowry\n"
+        ],
+        "createdAt": "2015-05-21T01:55:31.560Z",
+        "explain": "NE shaping from OE Gódġifu.\n",
+        "name": "Goodiva",
+        "objectId": "TDGIDvayAO",
+        "updatedAt": "2015-05-21T21:24:04.190Z"
+    },
+	{
+        "ACL": {
+            "*": {
+                "read": true
+            }
+        },
+        "breakdown": [
+            "High-born",
+            "Winsome",
+            "(happy)\n"
+        ],
+        "createdAt": "2015-05-21T01:55:06.597Z",
+        "explain": "NE shaping from OE Æþelƿynn.\n",
+        "name": "Athelwyna",
+        "objectId": "TUuqsmxu7k",
+        "updatedAt": "2015-05-21T21:23:52.217Z"
+    },
+	{
+        "ACL": {
+            "*": {
+                "read": true
+            }
+        },
+        "breakdown": [
+            "War;",
+            "Warrior",
+            "Yard",
+            "(field)\n"
+        ],
+        "createdAt": "2015-05-21T01:55:35.714Z",
+        "explain": "Living name from OHG Hildegard. OE cognate would be Hildġeard.\n",
+        "name": "Hildegard",
+        "objectId": "TgBenK6N4r",
+        "updatedAt": "2015-05-21T21:24:07.121Z"
+    },
+	{
+        "ACL": {
+            "*": {
+                "read": true
+            }
+        },
+        "breakdown": [
+            "Kingly;",
+            "Royal",
+            "Wise\n"
+        ],
+        "createdAt": "2015-05-21T01:55:42.129Z",
+        "explain": "NE shaping from OE Cynewíse.\n",
+        "name": "Kinwise",
+        "objectId": "UB0LB6xT25",
+        "updatedAt": "2015-05-21T21:37:20.067Z"
+    },
+	{
+        "ACL": {
+            "*": {
+                "read": true
+            }
+        },
+        "breakdown": [
+            "Bear",
+            "Strong\n"
+        ],
+        "createdAt": "2015-05-21T01:55:10.069Z",
+        "explain": "NE shaping from OE Beornþrýþ.\n",
+        "name": "Bernthrith",
+        "objectId": "UaKcYLeObD",
+        "updatedAt": "2015-05-21T21:23:54.068Z"
+    },
+	{
+        "ACL": {
+            "*": {
+                "read": true
+            }
+        },
+        "breakdown": [
+            "Young",
+            "Bear",
+            "Gift;",
+            "Dowry\n"
+        ],
+        "createdAt": "2015-05-21T01:55:36.419Z",
+        "explain": "NE shaping from OE Húnġifu.\n",
+        "name": "Huniva",
+        "objectId": "UtbDZ44V0Z",
+        "updatedAt": "2015-05-21T21:24:07.765Z"
+    },
+	{
+        "ACL": {
+            "*": {
+                "read": true
+            }
+        },
+        "breakdown": [
+            "Spear",
+            "[to]",
+            "Wield",
+            "[power];",
+            "Ruler\n"
+        ],
+        "createdAt": "2015-05-21T01:55:30.869Z",
+        "explain": "Living name introduced by the Normans, from FN Gerald, from WG Gerwald. OE cognate\nwould be Gárƿeald. Fell out of popular use in the Middle Ages, revived in the 19th C.\n",
+        "name": "Geraldine",
+        "objectId": "VeP3YbBJ6T",
+        "updatedAt": "2015-05-21T21:24:03.795Z"
+    },
+	{
+        "ACL": {
+            "*": {
+                "read": true
+            }
+        },
+        "breakdown": [
+            "Rich",
+            "Fort;",
+            "Strong;",
+            "Protective\n"
+        ],
+        "createdAt": "2015-05-21T01:55:15.608Z",
+        "explain": "NE shaping from OE Éadburg.\n",
+        "name": "Edbura",
+        "objectId": "W3iASLuJmW",
+        "updatedAt": "2015-05-21T21:23:57.123Z"
+    },
+	{
+        "ACL": {
+            "*": {
+                "read": true
+            }
+        },
+        "breakdown": [
+            "Keen",
+            "(bold;",
+            "smart;",
+            "able)",
+            "Island\n"
+        ],
+        "createdAt": "2015-05-21T01:55:37.126Z",
+        "explain": "Living name from the English surname Kelsey, from OE Cénelaseig.\n",
+        "name": "Kelsey",
+        "objectId": "W4Y7knVPVC",
+        "updatedAt": "2015-05-21T21:37:19.939Z"
+    },
+	{
+        "ACL": {
+            "*": {
+                "read": true
+            }
+        },
+        "breakdown": [
+            "Knife;",
+            "Saxon",
+            "Fort;",
+            "Strong;",
+            "Protective\n"
+        ],
+        "createdAt": "2015-05-21T01:55:49.112Z",
+        "explain": "NE shaping from OE Seaxburg.\n",
+        "name": "Saxbura",
+        "objectId": "WIkr5dsIol",
+        "updatedAt": "2015-05-21T21:37:20.383Z"
+    },
+	{
+        "ACL": {
+            "*": {
+                "read": true
+            }
+        },
+        "breakdown": [
+            "One",
+            "of",
+            "the",
+            "gods;",
+            "Woden",
+            "Strong\n"
+        ],
+        "createdAt": "2015-05-21T01:55:47.382Z",
+        "explain": "NE shaping from OE Ósþrýþ. See also Astrid.\n",
+        "name": "Osthrith",
+        "objectId": "XIuD25kbkS",
+        "updatedAt": "2015-05-21T21:37:20.292Z"
+    },
+	{
+        "ACL": {
+            "*": {
+                "read": true
+            }
+        },
+        "breakdown": [
+            "Bear",
+            "Winsome",
+            "(happy)\n"
+        ],
+        "createdAt": "2015-05-21T01:55:09.382Z",
+        "explain": "NE shaping from OE Beornflaéd.\n",
+        "name": "Bernflad",
+        "objectId": "XkE7nPkCq8",
+        "updatedAt": "2015-05-21T21:23:53.683Z"
+    },
+	{
+        "ACL": {
+            "*": {
+                "read": true
+            }
+        },
+        "breakdown": [
+            "Fort;",
+            "Strong;",
+            "Protective",
+            "Winsome",
+            "(happy)\n"
+        ],
+        "createdAt": "2015-05-21T01:55:12.494Z",
+        "explain": "NE shaping from OE Burgƿynn.\n",
+        "name": "Burgwyna",
+        "objectId": "Y9ifueVEnr",
+        "updatedAt": "2015-05-21T21:23:55.388Z"
+    },
+	{
+        "ACL": {
+            "*": {
+                "read": true
+            }
+        },
+        "breakdown": [
+            "(a",
+            "High-born)",
+            "Lady",
+            "Aware;",
+            "Wary;",
+            "Wise\n"
+        ],
+        "createdAt": "2015-05-21T01:55:30.529Z",
+        "explain": "NE shaping from OE Fréaƿaru.\n",
+        "name": "Frewara",
+        "objectId": "YYkN5t24xO",
+        "updatedAt": "2015-05-21T21:24:03.599Z"
+    },
+	{
+        "ACL": {
+            "*": {
+                "read": true
+            }
+        },
+        "breakdown": [
+            "Burning;",
+            "Fiery",
+            "Beautiful\n"
+        ],
+        "createdAt": "2015-05-21T01:55:12.838Z",
+        "explain": "NE shaping from OE Byrnflaéd.\n",
+        "name": "Burnflad",
+        "objectId": "YaVSKLQmNt",
+        "updatedAt": "2015-05-21T21:23:55.614Z"
+    },
+	{
+        "ACL": {
+            "*": {
+                "read": true
+            }
+        },
+        "breakdown": [
+            "Rich",
+            "Winsome",
+            "(happy)\n"
+        ],
+        "createdAt": "2015-05-21T01:55:18.067Z",
+        "explain": "NE shaping from OE Éadƿynn.\n",
+        "name": "Edwyna",
+        "objectId": "YoS6T25ICE",
+        "updatedAt": "2015-05-21T21:23:58.512Z"
+    },
+	{
+        "ACL": {
+            "*": {
+                "read": true
+            }
+        },
+        "breakdown": [
+            "High-born",
+            "Fort;",
+            "Strong;",
+            "Protective\n"
+        ],
+        "createdAt": "2015-05-21T01:55:03.852Z",
+        "explain": "NE shaping from OE Æþelburg.\n",
+        "name": "Athelbura",
+        "objectId": "Ytujh9Ob5D",
+        "updatedAt": "2015-05-21T21:23:48.415Z"
+    },
+	{
+        "ACL": {
+            "*": {
+                "read": true
+            }
+        },
+        "breakdown": [
+            "Army;",
+            "Warrior",
+            "Strong\n"
+        ],
+        "createdAt": "2015-05-21T01:55:34.683Z",
+        "explain": "NE shaping from OE Hereswíþ.\n",
+        "name": "Herswith",
+        "objectId": "Z14ImzQdYp",
+        "updatedAt": "2015-05-21T21:24:06.483Z"
+    },
+	{
+        "ACL": {
+            "*": {
+                "read": true
+            }
+        },
+        "breakdown": [
+            "War;",
+            "Warrior",
+            "Fort;",
+            "Strong;",
+            "Protective\n"
+        ],
+        "createdAt": "2015-05-21T01:55:58.658Z",
+        "explain": "NE shaping from OE Ƿíġburg.\n",
+        "name": "Wybura",
+        "objectId": "ZC4V1QAXkR",
+        "updatedAt": "2015-05-21T21:37:20.753Z"
+    },
+	{
+        "ACL": {
+            "*": {
+                "read": true
+            }
+        },
+        "breakdown": [
+            "Ruler;",
+            "Powerful",
+            "Strong\n"
+        ],
+        "createdAt": "2015-05-21T01:55:11.446Z",
+        "explain": "NE shaping from OE Breġoswíþ.\n",
+        "name": "Breyswith",
+        "objectId": "Zu7MwAandi",
+        "updatedAt": "2015-05-21T21:23:54.850Z"
+    },
+	{
+        "ACL": {
+            "*": {
+                "read": true
+            }
+        },
+        "breakdown": [
+            "Welsh;",
+            "Outlandish",
+            "Strong\n"
+        ],
+        "createdAt": "2015-05-21T01:55:55.503Z",
+        "explain": "NE shaping from OE Ƿealhþrýþ.\n",
+        "name": "Walthrith",
+        "objectId": "ZyLA9NdxEQ",
+        "updatedAt": "2015-05-21T21:37:20.620Z"
+    },
+	{
+        "ACL": {
+            "*": {
+                "read": true
+            }
+        },
+        "breakdown": [
+            "Hay",
+            "Lea",
+            "(field)\n"
+        ],
+        "createdAt": "2015-05-21T01:55:33.642Z",
+        "explain": "Living name from the English surname Hayley, from OE Heġeleah. Popularised by actress\nHayley Mills (1946-present.)\n",
+        "name": "Hayley",
+        "objectId": "a4VzMufVJI",
+        "updatedAt": "2015-05-21T21:24:05.472Z"
+    },
+	{
+        "ACL": {
+            "*": {
+                "read": true
+            }
+        },
+        "breakdown": [
+            "Yard",
+            "(field)",
+            "Lea",
+            "(field)\n"
+        ],
+        "createdAt": "2015-05-21T01:55:54.462Z",
+        "explain": "Living name from the English surname Yeardley, from OE Ġeardleáh. Borne by the actress\nYeardley Smith (1964-present).\n",
+        "name": "Yeardley",
+        "objectId": "ajQTtWOKcZ",
+        "updatedAt": "2015-05-21T21:37:20.601Z"
+    },
+	{
+        "ACL": {
+            "*": {
+                "read": true
+            }
+        },
+        "breakdown": [
+            "Wolf;",
+            "Hunter",
+            "Beautiful\n"
+        ],
+        "createdAt": "2015-05-21T01:56:01.403Z",
+        "explain": "NE shaping from OE Ƿulfġýþ.\n",
+        "name": "Wolvith",
+        "objectId": "b046idqLps",
+        "updatedAt": "2015-05-21T21:37:20.903Z"
+    },
+	{
+        "ACL": {
+            "*": {
+                "read": true
+            }
+        },
+        "breakdown": [
+            "Queen;",
+            "Woman",
+            "Strong\n"
+        ],
+        "createdAt": "2015-05-21T01:55:48.418Z",
+        "explain": "NE shaping from OE Cƿénþrýþ.\n",
+        "name": "Quenthrith",
+        "objectId": "bCbiwYbbtZ",
+        "updatedAt": "2015-05-21T21:37:20.375Z"
+    },
+	{
+        "ACL": {
+            "*": {
+                "read": true
+            }
+        },
+        "breakdown": [
+            "Ash-tree",
+            "Lea",
+            "(field)\n"
+        ],
+        "createdAt": "2015-05-21T01:55:02.301Z",
+        "explain": "Living name from the English surname Ashley, from OE Æscleah. Used more commonly as\na male name until the 1960s, it's now used mostly as a female name.\n",
+        "name": "Ashley",
+        "objectId": "bXjC4LvTw2",
+        "updatedAt": "2015-05-21T21:23:47.947Z"
+    },
+	{
+        "ACL": {
+            "*": {
+                "read": true
+            }
+        },
+        "breakdown": [
+            "Loud",
+            "(well-known)",
+            "War;",
+            "Warrior\n"
+        ],
+        "createdAt": "2015-05-21T01:55:44.595Z",
+        "explain": "Living name, from the French Louis, from Frankish Chlodowig. (Clovis.) OE cognate would\nbe Hlúdƿíġ. See also Lewis and Louis.\n",
+        "name": "Louise",
+        "objectId": "bcsukCWBzw",
+        "updatedAt": "2015-05-21T21:37:20.175Z"
+    },
+	{
+        "ACL": {
+            "*": {
+                "read": true
+            }
+        },
+        "breakdown": [
+            "War;",
+            "Warrior",
+            "Strong\n"
+        ],
+        "createdAt": "2015-05-21T01:55:59.000Z",
+        "explain": "NE shaping from OE Ƿíġswíþ.\n",
+        "name": "Wyswith",
+        "objectId": "bd4Q2QM0bI",
+        "updatedAt": "2015-05-21T21:37:20.769Z"
+    },
+	{
+        "ACL": {
+            "*": {
+                "read": true
+            }
+        },
+        "breakdown": [
+            "[a/The]",
+            "God",
+            "Gift;",
+            "Dowry\n"
+        ],
+        "createdAt": "2015-05-21T01:55:31.211Z",
+        "explain": "NE shaping from OE Godġifu. Borne by 11th Century noblewoman, Lady Godiva.\n",
+        "name": "Godiva",
+        "objectId": "biv2vvlM6N",
+        "updatedAt": "2015-05-21T21:24:03.998Z"
+    },
+	{
+        "ACL": {
+            "*": {
+                "read": true
+            }
+        },
+        "breakdown": [
+            "High-born",
+            "Lief",
+            "(dear);",
+            "Leman\n"
+        ],
+        "createdAt": "2015-05-21T01:55:04.189Z",
+        "explain": "NE shaping from OE Æþelléofu.\n",
+        "name": "Atheleeva",
+        "objectId": "cOqfZFHOEG",
+        "updatedAt": "2015-05-21T21:23:48.964Z"
+    },
+	{
+        "ACL": {
+            "*": {
+                "read": true
+            }
+        },
+        "breakdown": [
+            "Wolf;",
+            "Hunter",
+            "Gift;",
+            "Dowry\n"
+        ],
+        "createdAt": "2015-05-21T01:56:01.064Z",
+        "explain": "NE shaping from OE Ƿulfġifu.\n",
+        "name": "Wolviva",
+        "objectId": "cnTe0FJL63",
+        "updatedAt": "2015-05-21T21:37:20.904Z"
+    },
+	{
+        "ACL": {
+            "*": {
+                "read": true
+            }
+        },
+        "breakdown": [
+            "High-born",
+            "Beautiful\n"
+        ],
+        "createdAt": "2015-05-21T01:55:05.219Z",
+        "explain": "NE shaping from OE Æþelġýþ.\n",
+        "name": "Athelith",
+        "objectId": "cxa9MPxbIW",
+        "updatedAt": "2015-05-21T21:23:51.054Z"
+    },
+	{
+        "ACL": {
+            "*": {
+                "read": true
+            }
+        },
+        "breakdown": [
+            "Queen;",
+            "Woman",
+            "Beautiful\n"
+        ],
+        "createdAt": "2015-05-21T01:55:48.061Z",
+        "explain": "NE shaping from OE Cƿénġýþ.\n",
+        "name": "Quenith",
+        "objectId": "dJuazH3lFy",
+        "updatedAt": "2015-05-21T21:37:20.363Z"
+    },
+	{
+        "ACL": {
+            "*": {
+                "read": true
+            }
+        },
+        "breakdown": [
+            "Victorious",
+            "Beautiful\n"
+        ],
+        "createdAt": "2015-05-21T01:55:51.210Z",
+        "explain": "NE shaping from OE Siġeflaéd.\n",
+        "name": "Seyflad",
+        "objectId": "dtNnv3scRU",
+        "updatedAt": "2015-05-21T21:37:20.491Z"
+    },
+	{
+        "ACL": {
+            "*": {
+                "read": true
+            }
+        },
+        "breakdown": [
+            "Heather",
+            "Lea",
+            "(field)\n"
+        ],
+        "createdAt": "2015-05-21T01:55:32.605Z",
+        "explain": "Living name from the English surname Hadley, from OE Hæðleah.\n",
+        "name": "Hadley",
+        "objectId": "e8ESh2t6v5",
+        "updatedAt": "2015-05-21T21:24:04.814Z"
+    },
+	{
+        "ACL": {
+            "*": {
+                "read": true
+            }
+        },
+        "breakdown": [
+            "Keel;",
+            "Sailor",
+            "Winsome",
+            "(happy)\n"
+        ],
+        "createdAt": "2015-05-21T01:55:14.562Z",
+        "explain": "NE shaping from OE Ċeólƿynn.\n",
+        "name": "Cheelwyna",
+        "objectId": "eHDZxymjPq",
+        "updatedAt": "2015-05-21T21:23:56.570Z"
+    },
+	{
+        "ACL": {
+            "*": {
+                "read": true
+            }
+        },
+        "breakdown": [
+            "Kingly;",
+            "Royal",
+            "Strong\n"
+        ],
+        "createdAt": "2015-05-21T01:55:41.345Z",
+        "explain": "NE shaping from OE Cyneþrýþ.\n",
+        "name": "Kinthrith",
+        "objectId": "etjWsN6Z6b",
+        "updatedAt": "2015-05-21T21:37:20.068Z"
+    },
+	{
+        "ACL": {
+            "*": {
+                "read": true
+            }
+        },
+        "breakdown": [
+            "Rich",
+            "Gift;",
+            "Dowry\n"
+        ],
+        "createdAt": "2015-05-21T01:55:16.667Z",
+        "explain": "NE shaping from OE Éadġifu.\n",
+        "name": "Ediva",
+        "objectId": "fo1AQTqOLA",
+        "updatedAt": "2015-05-21T21:23:57.692Z"
+    },
+	{
+        "ACL": {
+            "*": {
+                "read": true
+            }
+        },
+        "breakdown": [
+            "Bright",
+            "Beautiful\n"
+        ],
+        "createdAt": "2015-05-21T01:55:53.766Z",
+        "explain": "NE shaping from OE Torhtġýþ.\n",
+        "name": "Tortith",
+        "objectId": "hGCS2528dQ",
+        "updatedAt": "2015-05-21T21:37:20.548Z"
+    },
+	{
+        "ACL": {
+            "*": {
+                "read": true
+            }
+        },
+        "breakdown": [
+            "Sun",
+            "Day\n"
+        ],
+        "createdAt": "2015-05-21T01:55:52.386Z",
+        "explain": "Living name from the English day of the week Sunday, from OE Sunnandæg.\n",
+        "name": "Sunday",
+        "objectId": "hc2H8Xn48B",
+        "updatedAt": "2015-05-21T21:37:20.501Z"
+    },
+	{
+        "ACL": {
+            "*": {
+                "read": true
+            }
+        },
+        "breakdown": [
+            "Young",
+            "Bear",
+            "Beautiful\n"
+        ],
+        "createdAt": "2015-05-21T01:55:36.777Z",
+        "explain": "NE shaping from OE Húnġýþ.\n",
+        "name": "Hunith",
+        "objectId": "hsVtXb3vGR",
+        "updatedAt": "2015-05-21T21:24:07.966Z"
+    },
+	{
+        "ACL": {
+            "*": {
+                "read": true
+            }
+        },
+        "breakdown": [
+            "Moon",
+            "Day\n"
+        ],
+        "createdAt": "2015-05-21T01:55:46.323Z",
+        "explain": "Living name from the English day of the week Monday, from OE Monandæg.\n",
+        "name": "Monday",
+        "objectId": "hsotsCWgF2",
+        "updatedAt": "2015-05-21T21:37:20.261Z"
+    },
+	{
+        "ACL": {
+            "*": {
+                "read": true
+            }
+        },
+        "breakdown": [
+            "Healthy",
+            "Wide\n"
+        ],
+        "createdAt": "2015-05-21T01:55:20.145Z",
+        "explain": "Living name introduced by the Normans, from FN Helewis, from WG Helewidis. OE\ncognate would be Haélƿíde. Died out in the 13th C., revived in the 19th C.\n",
+        "name": "Eloise",
+        "objectId": "i6X5OtbC6p",
+        "updatedAt": "2015-05-21T21:23:59.800Z"
+    },
+	{
+        "ACL": {
+            "*": {
+                "read": true
+            }
+        },
+        "breakdown": [
+            "Rich",
+            "War;",
+            "Warrior\n"
+        ],
+        "createdAt": "2015-05-21T01:55:17.013Z",
+        "explain": "NE shaping from OE Éadhild.\n",
+        "name": "Edhilda",
+        "objectId": "iikuJfNBNV",
+        "updatedAt": "2015-05-21T21:23:57.865Z"
+    },
+	{
+        "ACL": {
+            "*": {
+                "read": true
+            }
+        },
+        "breakdown": [
+            "High",
+            "Fort;",
+            "Strong;",
+            "Protective\n"
+        ],
+        "createdAt": "2015-05-21T01:55:35.029Z",
+        "explain": "NE shaping from OE Heahburg.\n",
+        "name": "Heybura",
+        "objectId": "j1we3jBN33",
+        "updatedAt": "2015-05-21T21:24:06.676Z"
+    },
+	{
+        "ACL": {
+            "*": {
+                "read": true
+            }
+        },
+        "breakdown": [
+            "Blissful",
+            "Strong\n"
+        ],
+        "createdAt": "2015-05-21T01:55:11.095Z",
+        "explain": "NE shaping from OE Blíþþrýþ.\n",
+        "name": "Blissthrith",
+        "objectId": "j4jVadsoC1",
+        "updatedAt": "2015-05-21T21:23:54.654Z"
+    },
+	{
+        "ACL": {
+            "*": {
+                "read": true
+            }
+        },
+        "breakdown": [
+            "[the]",
+            "Folk",
+            "War;",
+            "Warrior\n"
+        ],
+        "createdAt": "2015-05-21T01:55:52.737Z",
+        "explain": "NE shaping from OE Þéodhild.\n",
+        "name": "Theedhilda",
+        "objectId": "jBEqxP7oc0",
+        "updatedAt": "2015-05-21T21:37:20.513Z"
+    },
+	{
+        "ACL": {
+            "*": {
+                "read": true
+            }
+        },
+        "breakdown": [
+            "Couth",
+            "(well-known)",
+            "Strong\n"
+        ],
+        "createdAt": "2015-05-21T01:55:15.255Z",
+        "explain": "NE shaping from OE Cúþswíþ.\n",
+        "name": "Cuthswith",
+        "objectId": "jiS7dCfw7q",
+        "updatedAt": "2015-05-21T21:23:56.923Z"
+    },
+	{
+        "ACL": {
+            "*": {
+                "read": true
+            }
+        },
+        "breakdown": [
+            "Hall;",
+            "Temple",
+            "Beautiful\n"
+        ],
+        "createdAt": "2015-05-21T01:55:19.450Z",
+        "explain": "NE shaping from OE Ealhflaéd.\n",
+        "name": "Elflad",
+        "objectId": "kOjYiI1RVD",
+        "updatedAt": "2015-05-21T21:23:59.397Z"
+    },
+	{
+        "ACL": {
+            "*": {
+                "read": true
+            }
+        },
+        "breakdown": [
+            "Woad",
+            "Dell;",
+            "Valley\n"
+        ],
+        "createdAt": "2015-05-21T01:55:47.034Z",
+        "explain": "Living name from the English day of the week Odell, from OE Ƿáddell.\n",
+        "name": "Odell",
+        "objectId": "kr541dRuqL",
+        "updatedAt": "2015-05-21T21:37:20.328Z"
+    },
+	{
+        "ACL": {
+            "*": {
+                "read": true
+            }
+        },
+        "breakdown": [
+            "Will",
+            "Helm",
+            "(protection)\n"
+        ],
+        "createdAt": "2015-05-21T01:55:56.898Z",
+        "explain": "Living name, from the German Wilhelmine, from WG Willihelm. Cognate with OE Ƿilhelm.\nSee also William and Wilhelm.\n",
+        "name": "Wilhelmina",
+        "objectId": "l4tbQOqz8r",
+        "updatedAt": "2015-05-21T21:37:20.650Z"
+    },
+	{
+        "ACL": {
+            "*": {
+                "read": true
+            }
+        },
+        "breakdown": [
+            "Whole;",
+            "Universal",
+            "Strong\n"
+        ],
+        "createdAt": "2015-05-21T01:55:24.682Z",
+        "explain": "NE shaping from OE Eormenþrýþ.\n",
+        "name": "Ermenthrith",
+        "objectId": "l69Z0wiu1l",
+        "updatedAt": "2015-05-21T21:24:02.829Z"
+    },
+	{
+        "ACL": {
+            "*": {
+                "read": true
+            }
+        },
+        "breakdown": [
+            "Elf;",
+            "Smart",
+            "Strong\n"
+        ],
+        "createdAt": "2015-05-21T01:55:00.213Z",
+        "explain": "NE shaping from OE Ælfþrýþ.\n",
+        "name": "Alfthrith",
+        "objectId": "lW6Y6q8lRH",
+        "updatedAt": "2015-05-21T21:23:46.374Z"
+    },
+	{
+        "ACL": {
+            "*": {
+                "read": true
+            }
+        },
+        "breakdown": [
+            "Hall;",
+            "Temple",
+            "Winsome",
+            "(happy)\n"
+        ],
+        "createdAt": "2015-05-21T01:55:21.555Z",
+        "explain": "NE shaping from OE Ealhƿynn.\n",
+        "name": "Elwyna",
+        "objectId": "lkxxlHVAcD",
+        "updatedAt": "2015-05-21T21:24:00.845Z"
+    },
+	{
+        "ACL": {
+            "*": {
+                "read": true
+            }
+        },
+        "breakdown": [
+            "[the]",
+            "Folk",
+            "Fort;",
+            "Strong;",
+            "Protective\n"
+        ],
+        "createdAt": "2015-05-21T01:55:25.032Z",
+        "explain": "NE shaping from OE Folcburg.\n",
+        "name": "Folkbura",
+        "objectId": "mKOIMx2Xyh",
+        "updatedAt": "2015-05-21T21:24:03.038Z"
+    },
+	{
+        "ACL": {
+            "*": {
+                "read": true
+            }
+        },
+        "breakdown": [
+            "Hare",
+            "Lea",
+            "(field)\n"
+        ],
+        "createdAt": "2015-05-21T01:55:32.952Z",
+        "explain": "Living name from the English surname Harley, from OE Haraleah.\n",
+        "name": "Harley",
+        "objectId": "mLFNPM8gqX",
+        "updatedAt": "2015-05-21T21:24:05.064Z"
+    },
+	{
+        "ACL": {
+            "*": {
+                "read": true
+            }
+        },
+        "breakdown": [
+            "Elf;",
+            "Smart",
+            "War;",
+            "Warrior\n"
+        ],
+        "createdAt": "2015-05-21T01:54:58.793Z",
+        "explain": "NE shaping from OE Ælfhild.\n",
+        "name": "Alfhilda",
+        "objectId": "msxbWk8tPW",
+        "updatedAt": "2015-05-21T21:23:45.623Z"
+    },
+	{
+        "ACL": {
+            "*": {
+                "read": true
+            }
+        },
+        "breakdown": [
+            "Wight;",
+            "Elf;",
+            "Creature",
+            "Beautiful\n"
+        ],
+        "createdAt": "2015-05-21T01:55:58.307Z",
+        "explain": "NE shaping from OE Ƿihtflaéd.\n",
+        "name": "Witflad",
+        "objectId": "ob7uKLxseZ",
+        "updatedAt": "2015-05-21T21:37:20.745Z"
+    },
+	{
+        "ACL": {
+            "*": {
+                "read": true
+            }
+        },
+        "breakdown": [
+            "Will",
+            "Free;",
+            "Peaceful\n"
+        ],
+        "createdAt": "2015-05-21T01:55:56.203Z",
+        "explain": "Living name from OE Ƿilfriþ. Female form of Wilfred.\n",
+        "name": "Wilfreda",
+        "objectId": "oiaHRulTqT",
+        "updatedAt": "2015-05-21T21:37:20.636Z"
+    },
+	{
+        "ACL": {
+            "*": {
+                "read": true
+            }
+        },
+        "breakdown": [
+            "Wight;",
+            "Elf;",
+            "Creature",
+            "Fort;",
+            "Strong;",
+            "Protective\n"
+        ],
+        "createdAt": "2015-05-21T01:55:57.959Z",
+        "explain": "NE shaping from OE Ƿihtburg.\n",
+        "name": "Witbura",
+        "objectId": "paJgbs1lTu",
+        "updatedAt": "2015-05-21T21:37:20.738Z"
+    },
+	{
+        "ACL": {
+            "*": {
+                "read": true
+            }
+        },
+        "breakdown": [
+            "Keel;",
+            "Sailor",
+            "Strong\n"
+        ],
+        "createdAt": "2015-05-21T01:55:14.220Z",
+        "explain": "NE shaping from OE Ċeólþrýþ.\n",
+        "name": "Cheelthrith",
+        "objectId": "pah1gZji7c",
+        "updatedAt": "2015-05-21T21:23:56.369Z"
+    },
+	{
+        "ACL": {
+            "*": {
+                "read": true
+            }
+        },
+        "breakdown": [
+            "Wolf;",
+            "Hunter",
+            "Beautiful\n"
+        ],
+        "createdAt": "2015-05-21T01:55:59.347Z",
+        "explain": "NE shaping from OE Ƿulfflaéd.\n",
+        "name": "Wolflad",
+        "objectId": "pmlYQlqT7V",
+        "updatedAt": "2015-05-21T21:37:20.756Z"
+    },
+	{
+        "ACL": {
+            "*": {
+                "read": true
+            }
+        },
+        "breakdown": [
+            "Rich",
+            "Beautiful\n"
+        ],
+        "createdAt": "2015-05-21T01:55:15.953Z",
+        "explain": "NE shaping from OE Éadflaéd.\n",
+        "name": "Edflad",
+        "objectId": "pn3Rub3rZa",
+        "updatedAt": "2015-05-21T21:23:57.302Z"
+    },
+	{
+        "ACL": {
+            "*": {
+                "read": true
+            }
+        },
+        "breakdown": [
+            "[the]",
+            "Sea",
+            "Beautiful\n"
+        ],
+        "createdAt": "2015-05-21T01:55:49.463Z",
+        "explain": "NE shaping from OE Saéflaéd.\n",
+        "name": "Saflad",
+        "objectId": "pyLFdc8dDh",
+        "updatedAt": "2015-05-21T21:37:20.393Z"
+    },
+	{
+        "ACL": {
+            "*": {
+                "read": true
+            }
+        },
+        "breakdown": [
+            "Whole;",
+            "Universal",
+            "Fort;",
+            "Strong;",
+            "Protective\n"
+        ],
+        "createdAt": "2015-05-21T01:55:23.987Z",
+        "explain": "NE shaping from OE Eormenburg.\n",
+        "name": "Ermenbura",
+        "objectId": "q3CGMWEB1J",
+        "updatedAt": "2015-05-21T21:24:02.361Z"
+    },
+	{
+        "ACL": {
+            "*": {
+                "read": true
+            }
+        },
+        "breakdown": [
+            "Great;",
+            "Well-known",
+            "Aware;",
+            "Wary;",
+            "Wise\n"
+        ],
+        "createdAt": "2015-05-21T01:55:48.763Z",
+        "explain": "NE shaping from OE Hróðƿaru.\n",
+        "name": "Rodwara",
+        "objectId": "q3xqhf9j04",
+        "updatedAt": "2015-05-21T21:37:20.361Z"
+    },
+	{
+        "ACL": {
+            "*": {
+                "read": true
+            }
+        },
+        "breakdown": [
+            "Keel;",
+            "Sailor",
+            "Fort;",
+            "Strong;",
+            "Protective\n"
+        ],
+        "createdAt": "2015-05-21T01:55:13.190Z",
+        "explain": "NE shaping from OE Ċeólburg.\n",
+        "name": "Cheelbura",
+        "objectId": "qc7OxxmfQT",
+        "updatedAt": "2015-05-21T21:23:55.807Z"
+    },
+	{
+        "ACL": {
+            "*": {
+                "read": true
+            }
+        },
+        "breakdown": [
+            "Kingly;",
+            "Royal",
+            "Beautiful\n"
+        ],
+        "createdAt": "2015-05-21T01:55:39.546Z",
+        "explain": "NE shaping from OE Cyneġýþ.\n",
+        "name": "Kinith",
+        "objectId": "r2QdHyhC07",
+        "updatedAt": "2015-05-21T21:37:20.009Z"
+    },
+	{
+        "ACL": {
+            "*": {
+                "read": true
+            }
+        },
+        "breakdown": [
+            "Rich",
+            "Strong\n"
+        ],
+        "createdAt": "2015-05-21T01:55:17.717Z",
+        "explain": "NE shaping from OE Éadswíþ.\n",
+        "name": "Edswith",
+        "objectId": "rWnTvurDUD",
+        "updatedAt": "2015-05-21T21:23:58.251Z"
+    },
+	{
+        "ACL": {
+            "*": {
+                "read": true
+            }
+        },
+        "breakdown": [
+            "Elf;",
+            "Smart",
+            "Gift;",
+            "Dowry\n"
+        ],
+        "createdAt": "2015-05-21T01:55:01.263Z",
+        "explain": "NE shaping from OE Ælfġifu.\n",
+        "name": "Alviva",
+        "objectId": "rmYp9Feo3i",
+        "updatedAt": "2015-05-21T21:23:46.870Z"
+    },
+	{
+        "ACL": {
+            "*": {
+                "read": true
+            }
+        },
+        "breakdown": [
+            "White",
+            "Nigh/Near;",
+            "Island\n"
+        ],
+        "createdAt": "2015-05-21T01:55:55.850Z",
+        "explain": "Living name from the English surname Whitney, from OE Hƿítnéah. Popularised as a\nfemale name by actress Whitney Blake (1925-2002) and singer Whitney Houston (1963-\n",
+        "name": "Whitney",
+        "objectId": "rr0wkT6WJh",
+        "updatedAt": "2015-05-21T21:37:20.632Z"
+    },
+	{
+        "ACL": {
+            "*": {
+                "read": true
+            }
+        },
+        "breakdown": [
+            "Hall;",
+            "Temple",
+            "Strong\n"
+        ],
+        "createdAt": "2015-05-21T01:55:20.522Z",
+        "explain": "NE shaping from OE Ealhswíþ.\n",
+        "name": "Elswith",
+        "objectId": "sMQFUShFNd",
+        "updatedAt": "2015-05-21T21:24:00.070Z"
+    },
+	{
+        "ACL": {
+            "*": {
+                "read": true
+            }
+        },
+        "breakdown": [
+            "Kingly;",
+            "Royal",
+            "Winsome",
+            "(happy)\n"
+        ],
+        "createdAt": "2015-05-21T01:55:42.489Z",
+        "explain": "NE shaping from OE Cyneƿynn.\n",
+        "name": "Kinwyna",
+        "objectId": "tTd281oQ4t",
+        "updatedAt": "2015-05-21T21:37:20.109Z"
+    },
+	{
+        "ACL": {
+            "*": {
+                "read": true
+            }
+        },
+        "breakdown": [
+            "Queen;",
+            "Woman",
+            "Fort;",
+            "Strong;",
+            "Protective\n"
+        ],
+        "createdAt": "2015-05-21T01:55:47.729Z",
+        "explain": "NE shaping from OE Cƿénburg.\n",
+        "name": "Quenbura",
+        "objectId": "unzA7Lgpdl",
+        "updatedAt": "2015-05-21T21:37:20.364Z"
+    },
+	{
+        "ACL": {
+            "*": {
+                "read": true
+            }
+        },
+        "breakdown": [
+            "Bright",
+            "Aware;",
+            "Wary;",
+            "Wise\n"
+        ],
+        "createdAt": "2015-05-21T01:55:08.687Z",
+        "explain": "NE shaping from OE Beorhtƿaru.\n",
+        "name": "Bertwara",
+        "objectId": "vQBsYwepRY",
+        "updatedAt": "2015-05-21T21:23:53.352Z"
+    },
+	{
+        "ACL": {
+            "*": {
+                "read": true
+            }
+        },
+        "breakdown": [
+            "Kingly;",
+            "Royal",
+            "Fort;",
+            "Strong;",
+            "Protective\n"
+        ],
+        "createdAt": "2015-05-21T01:55:38.862Z",
+        "explain": "NE shaping from OE Cyneburg.\n",
+        "name": "Kinbura",
+        "objectId": "vmSYaUlROu",
+        "updatedAt": "2015-05-21T21:37:19.977Z"
+    },
+	{
+        "ACL": {
+            "*": {
+                "read": true
+            }
+        },
+        "breakdown": [
+            "Lief",
+            "(dear);",
+            "Leman",
+            "Queen;",
+            "Woman\n"
+        ],
+        "createdAt": "2015-05-21T01:55:43.177Z",
+        "explain": "NE shaping from OE Léofcƿén.\n",
+        "name": "Leefquen",
+        "objectId": "wES3As0pfn",
+        "updatedAt": "2015-05-21T21:37:20.130Z"
+    },
+	{
+        "ACL": {
+            "*": {
+                "read": true
+            }
+        },
+        "breakdown": [
+            "High-born",
+            "Strong\n"
+        ],
+        "createdAt": "2015-05-21T01:55:06.247Z",
+        "explain": "NE shaping from OE Æþelþrýþ. See also Audrey.\n",
+        "name": "Athelthrith",
+        "objectId": "wMsbvOgamS",
+        "updatedAt": "2015-05-21T21:23:52.074Z"
+    },
+	{
+        "ACL": {
+            "*": {
+                "read": true
+            }
+        },
+        "breakdown": [
+            "Sword-edge",
+            "Fort;",
+            "Strong;",
+            "Protective\n"
+        ],
+        "createdAt": "2015-05-21T01:55:18.409Z",
+        "explain": "NE shaping from OE Ecgburg.\n",
+        "name": "Egbura",
+        "objectId": "wXRzoY4u0d",
+        "updatedAt": "2015-05-21T21:23:58.727Z"
+    },
+	{
+        "ACL": {
+            "*": {
+                "read": true
+            }
+        },
+        "breakdown": [
+            "Kingly;",
+            "Royal",
+            "War;",
+            "Warrior\n"
+        ],
+        "createdAt": "2015-05-21T01:55:39.199Z",
+        "explain": "NE shaping from OE Cynehild.\n",
+        "name": "Kinhilda",
+        "objectId": "wtjkAlutBm",
+        "updatedAt": "2015-05-21T21:37:19.976Z"
+    },
+	{
+        "ACL": {
+            "*": {
+                "read": true
+            }
+        },
+        "breakdown": [
+            "One",
+            "of",
+            "the",
+            "gods;",
+            "Woden",
+            "Free;",
+            "Peaceful\n"
+        ],
+        "createdAt": "2015-05-21T01:55:03.512Z",
+        "explain": "Living name from NG Astrid. From ON Ástriðr, a variant of ON Ásfriðr. Cognate with OE\nÓsfriþ. See also Osfred.\n",
+        "name": "Astrid",
+        "objectId": "x0G3mNs3QF",
+        "updatedAt": "2015-05-21T21:23:48.253Z"
+    },
+	{
+        "ACL": {
+            "*": {
+                "read": true
+            }
+        },
+        "breakdown": [
+            "Bright",
+            "Winsome",
+            "(happy)\n"
+        ],
+        "createdAt": "2015-05-21T01:55:09.040Z",
+        "explain": "NE shaping from OE Æscƿynn.\n",
+        "name": "Bertwyna",
+        "objectId": "xMwe00xhWw",
+        "updatedAt": "2015-05-21T21:23:53.528Z"
+    },
+	{
+        "ACL": {
+            "*": {
+                "read": true
+            }
+        },
+        "breakdown": [
+            "Rich",
+            "Beautiful\n"
+        ],
+        "createdAt": "2015-05-21T01:55:16.322Z",
+        "explain": "Living name from OE Éadġýþ. Dropped out of popularity in the 15th C. and revived in the\n19th C.\n",
+        "name": "Edith",
+        "objectId": "xe0V6ZXgJi",
+        "updatedAt": "2015-05-21T21:23:57.486Z"
+    },
+	{
+        "ACL": {
+            "*": {
+                "read": true
+            }
+        },
+        "breakdown": [
+            "Army;",
+            "Warrior",
+            "Beautiful\n"
+        ],
+        "createdAt": "2015-05-21T01:55:34.326Z",
+        "explain": "NE shaping from OE Hereġýþ.\n",
+        "name": "Herith",
+        "objectId": "xxCgGrV2bD",
+        "updatedAt": "2015-05-21T21:24:06.277Z"
+    },
+	{
+        "ACL": {
+            "*": {
+                "read": true
+            }
+        },
+        "breakdown": [
+            "Elf;",
+            "Smart",
+            "Winsome",
+            "(happy)\n"
+        ],
+        "createdAt": "2015-05-21T01:55:00.564Z",
+        "explain": "NE shaping from OE Æscƿynn.\n",
+        "name": "Alvyna",
+        "objectId": "xzQBVSeoTI",
+        "updatedAt": "2015-05-21T21:23:46.543Z"
+    },
+	{
+        "ACL": {
+            "*": {
+                "read": true
+            }
+        },
+        "breakdown": [
+            "Rich",
+            "Lief",
+            "(dear);",
+            "Leman\n"
+        ],
+        "createdAt": "2015-05-21T01:55:17.361Z",
+        "explain": "NE shaping from OE Éadléofu.\n",
+        "name": "Edleeva",
+        "objectId": "yr507jKSM8",
+        "updatedAt": "2015-05-21T21:23:58.084Z"
+    },
+	{
+        "ACL": {
+            "*": {
+                "read": true
+            }
+        },
+        "breakdown": [
+            "Wolf;",
+            "Hunter",
+            "Strong\n"
+        ],
+        "createdAt": "2015-05-21T01:56:00.038Z",
+        "explain": "NE shaping from OE Ƿulfswíþ.\n",
+        "name": "Wolfswith",
+        "objectId": "z0IjCJWdx2",
+        "updatedAt": "2015-05-21T21:37:20.797Z"
+    },
+	{
+        "ACL": {
+            "*": {
+                "read": true
+            }
+        },
+        "breakdown": [
+            "Lone",
+            "Settlement",
+            "Lea",
+            "(field)\n"
+        ],
+        "createdAt": "2015-05-21T01:54:58.094Z",
+        "explain": "Living name from the English surname Ainsley, from OE Ánsetlleah.\n",
+        "name": "Ainsley",
+        "objectId": "z1P2lXsSO9",
+        "updatedAt": "2015-05-21T21:23:45.274Z"
+    },
+	{
+        "ACL": {
+            "*": {
+                "read": true
+            }
+        },
+        "breakdown": [
+            "High-born",
+            "Strong\n"
+        ],
+        "createdAt": "2015-05-21T01:55:05.903Z",
+        "explain": "NE shaping from OE Æþelswíþ.\n",
+        "name": "Athelswith",
+        "objectId": "zJ0gF3yevw",
+        "updatedAt": "2015-05-21T21:23:51.913Z"
+    },
+	{
+        "ACL": {
+            "*": {
+                "read": true
+            }
+        },
+        "breakdown": [
+            "Fertile",
+            "Fort;",
+            "Strong;",
+            "Protective\n"
+        ],
+        "createdAt": "2015-05-21T01:55:21.895Z",
+        "explain": "NE shaping from OE Éanburg.\n",
+        "name": "Enbura",
+        "objectId": "zR6eenLdM4",
+        "updatedAt": "2015-05-21T21:24:01.060Z"
+    },
+	{
+        "ACL": {
+            "*": {
+                "read": true
+            }
+        },
+        "breakdown": [
+            "Magic",
+            "Fort;",
+            "Strong;",
+            "Protective\n"
+        ],
+        "createdAt": "2015-05-21T01:55:54.116Z",
+        "explain": "NE shaping from OE Gænburg.\n",
+        "name": "Yanbura",
+        "objectId": "zWSDLwPTuL",
+        "updatedAt": "2015-05-21T21:37:20.591Z"
+    }
+] }

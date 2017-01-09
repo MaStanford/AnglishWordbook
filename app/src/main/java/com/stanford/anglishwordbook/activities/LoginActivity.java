@@ -52,7 +52,9 @@ public class LoginActivity extends ActionBarActivity {
 
         checkNetwork();
 
-        checkIfUserLoggedIn();
+        if(isUserLoggedIn()){
+            launchApp();
+        }
 
         // Set up the login form.
         mErrorView = (TextView) findViewById(R.id.tv_login_error);
@@ -128,11 +130,12 @@ public class LoginActivity extends ActionBarActivity {
         }
     }
 
-    private void checkIfUserLoggedIn() {
+    private boolean isUserLoggedIn() {
         ParseUser user = ParseUser.getCurrentUser();
         if (user != null && user.isAuthenticated()) {
-            launchApp();
+            return true;
         }
+        return false;
     }
 
     private void launchApp() {

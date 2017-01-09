@@ -1,0 +1,99 @@
+{ "results": [
+	{
+        "authData": {
+            "anonymous": {
+                "id": "096a88db-a4cb-4751-8d62-6098a8c299ec"
+            }
+        },
+        "bcryptPassword": "$2a$10$h5djBKFRCHkPp7qDpD.iNOXMFxn4HoQwRTx92FwgA9DRDX5RzPMaS",
+        "createdAt": "2016-06-01T02:10:19.381Z",
+        "objectId": "79Yz4T2eK0",
+        "sessionToken": "3f9ZaiFuIq9Jsbc9JsRBCJqWO",
+        "updatedAt": "2016-06-01T02:10:19.381Z",
+        "username": "75Fk9rSQvY8UgHkogMIPYVFSu"
+    },
+	{
+        "authData": {
+            "anonymous": {
+                "id": "f0141f8d-b371-4681-82dd-fce2d05f1bc1"
+            }
+        },
+        "bcryptPassword": "$2a$10$9QdPXZhAXX8x.xlzQyWwTe1LlawSLOzYpFuXYzI8JoIUYa5iHIBrG",
+        "createdAt": "2016-01-05T00:50:03.472Z",
+        "objectId": "HJzQ98xIim",
+        "sessionToken": "0N2Ev5dOHE8u1xgtFlgUHpli2",
+        "updatedAt": "2016-01-05T00:50:03.472Z",
+        "username": "GJmoswVMgXguORwEWeVkCBOP9"
+    },
+	{
+        "ACL": {
+            "TyeUpnrLdw": {
+                "read": true,
+                "write": true
+            }
+        },
+        "banEnd": {
+            "__type": "Date",
+            "iso": "2015-05-19T00:42:00.000Z"
+        },
+        "bcryptPassword": "$2a$10$VgUzf24ZfFBacG4c2uzzSOxOz9q3tPTPjyogh8Fac20NZ8bX0CYve",
+        "createdAt": "2015-05-19T00:12:54.519Z",
+        "email": "mrkastanford@gmail.com",
+        "flags": 0,
+        "isAdmin": true,
+        "objectId": "TyeUpnrLdw",
+        "points": 999999999,
+        "sessionToken": "1TqUN26IuLBDowyv5VYBeEbgi",
+        "updatedAt": "2016-02-01T10:02:14.191Z",
+        "username": "Mark",
+        "wordCount": 5280
+    },
+	{
+        "bcryptPassword": "$2a$10$nJiJTTj/bhB8/Y/ri/KbwOBCHFW2Xp4GuPzuZE7HHEeNJSycV6ADC",
+        "createdAt": "2015-07-31T22:28:18.080Z",
+        "email": "test@test.com",
+        "flags": 0,
+        "isAdmin": false,
+        "objectId": "X4STvx50z2",
+        "points": 0,
+        "sessionToken": "ScNk9EocrZdhDzR8RPDF3edW4",
+        "updatedAt": "2015-07-31T22:28:18.080Z",
+        "username": "Test",
+        "wordCount": 0
+    },
+	{
+        "ACL": {
+            "nP5UKldjhf": {
+                "read": true,
+                "write": true
+            }
+        },
+        "banEnd": {
+            "__type": "Date",
+            "iso": "2015-05-23T02:27:00.000Z"
+        },
+        "bcryptPassword": "$2a$10$yqyQcEkXhAqtEupY2p.jjuO5nSceeW4ULSigRDq.1J2xmmhwvGGjS",
+        "createdAt": "2015-05-21T20:46:56.544Z",
+        "flags": 1,
+        "isAdmin": false,
+        "objectId": "nP5UKldjhf",
+        "points": 5,
+        "sessionToken": "qmz7bWTUpEvk2qnJnJinMoqM3",
+        "updatedAt": "2015-05-25T02:27:21.295Z",
+        "username": "normalUser",
+        "wordCount": 0
+    },
+	{
+        "authData": {
+            "anonymous": {
+                "id": "2fa445b5-df58-43ac-a043-baae34548a44"
+            }
+        },
+        "bcryptPassword": "$2a$10$wkIWNpNwEgS/2sMRE8DSkOxggJcIUEzvE12SK3FzKZ3C7/b2tkVfC",
+        "createdAt": "2015-09-29T10:43:55.091Z",
+        "objectId": "tepvupvcSL",
+        "sessionToken": "Bh4yXmnJgX8Hq8AfTGWVIYFbT",
+        "updatedAt": "2015-09-29T10:43:55.091Z",
+        "username": "0YzRMBAzPwirvkkqfhSOV30FH"
+    }
+] }
