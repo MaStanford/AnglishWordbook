@@ -47,7 +47,7 @@ public class NameBitAdapter extends BaseAdapter{
         }
 
         TextView ne = ViewHolder.get(convertView, R.id.tv_new_english);
-        TextView oe = ViewHolder.get(convertView, R.id.tv_new_english);
+        TextView oe = ViewHolder.get(convertView, R.id.tv_old_english);
         TextView meaning = ViewHolder.get(convertView, R.id.tv_meaning);
 
         ParseObject data = (ParseObject) getItem(position);

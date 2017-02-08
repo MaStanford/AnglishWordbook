@@ -60,7 +60,7 @@ public class MainActivity extends ActionBarActivity implements NavigationDrawerF
         setContentView(R.layout.activity_main);
 
         mNavigationDrawerFragment = (NavigationDrawerFragment)getSupportFragmentManager().findFragmentById(R.id.navigation_drawer);
-        mTitle = getTitle();
+        mTitle = getString(R.string.title_wordbook);
 
         // Set up the drawer.
         mNavigationDrawerFragment.setUp(R.id.navigation_drawer,(DrawerLayout) findViewById(R.id.drawer_layout));
@@ -113,6 +113,7 @@ public class MainActivity extends ActionBarActivity implements NavigationDrawerF
                 mTitle = getString(R.string.title_etymology);
                 break;
         }
+        restoreActionBar();
     }
 
     public void restoreActionBar() {

@@ -96,22 +96,24 @@ public class NameBitFragment extends Fragment {
             return;
         }
         word = word.substring(0,1).toUpperCase() + word.substring(1).toLowerCase();
-        ParseQuery<ParseObject> query = new ParseQuery("NameWord");
-        query.whereContains("meaning", word);
-        query.findInBackground(new FindCallback<ParseObject>() {
-            @Override
-            public void done(List<ParseObject> parseObjects, ParseException e) {
-                if (e == null) {
-                    getActivity().findViewById(R.id.tv_word_error).setVisibility(View.GONE);
-                    mWordManager.setWordList(parseObjects);
-                    mAdapter.updateWords(parseObjects);
-                } else {
-                    mAdapter.updateWords(null);
-                    getActivity().findViewById(R.id.tv_word_error).setVisibility(View.VISIBLE);
-                    ((TextView) getActivity().findViewById(R.id.tv_word_error)).setText("Word not found, you could create a definition.");
-                }
-            }
-        });
+        new ParseQuery("NameWord")
+                .include("oe")
+                .include("ne")
+                .whereContains("meaning", word)
+                .findInBackground(new FindCallback<ParseObject>() {
+                    @Override
+                    public void done(List<ParseObject> parseObjects, ParseException e) {
+                        if (e == null) {
+                            getActivity().findViewById(R.id.tv_word_error).setVisibility(View.GONE);
+                            mWordManager.setWordList(parseObjects);
+                            mAdapter.updateWords(parseObjects);
+                        } else {
+                            mAdapter.updateWords(null);
+                            getActivity().findViewById(R.id.tv_word_error).setVisibility(View.VISIBLE);
+                            ((TextView) getActivity().findViewById(R.id.tv_word_error)).setText("Word not found, you could create a definition.");
+                        }
+                    }
+                });
     }
 
     @Override
