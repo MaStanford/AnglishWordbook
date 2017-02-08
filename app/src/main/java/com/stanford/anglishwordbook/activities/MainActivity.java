@@ -127,8 +127,8 @@ public class MainActivity extends ActionBarActivity implements NavigationDrawerF
     public boolean onCreateOptionsMenu(Menu menu) {
         this.mMenu = menu;
         if (!mNavigationDrawerFragment.isDrawerOpen()) {
-            getMenuInflater().inflate(R.menu.main, menu);
-            checkifAnon();
+//            getMenuInflater().inflate(R.menu.main, menu);
+//            checkifAnon();
             restoreActionBar();
             return true;
         }

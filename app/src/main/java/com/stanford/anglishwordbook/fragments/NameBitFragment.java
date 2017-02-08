@@ -5,6 +5,7 @@ import android.content.Context;
 import android.os.Bundle;
 import android.support.v4.app.Fragment;
 import android.support.v4.app.FragmentManager;
+import android.text.TextUtils;
 import android.view.KeyEvent;
 import android.view.LayoutInflater;
 import android.view.View;
@@ -90,7 +91,11 @@ public class NameBitFragment extends Fragment {
     }
 
     private void queryWord(){
-        String word = ((EditText) getActivity().findViewById(R.id.et_wordbook)).getText().toString();
+        String word = ((EditText) getActivity().findViewById(R.id.et_nameword)).getText().toString();
+        if(TextUtils.isEmpty(word)){
+            return;
+        }
+        word = word.substring(0,1).toUpperCase() + word.substring(1).toLowerCase();
         ParseQuery<ParseObject> query = new ParseQuery("NameWord");
         query.whereContains("meaning", word);
         query.findInBackground(new FindCallback<ParseObject>() {
@@ -116,20 +121,20 @@ public class NameBitFragment extends Fragment {
         getActivity().findViewById(R.id.tv_word_error).setVisibility(View.GONE);
 
         //Set up the keyboard
-        ((EditText) getActivity().findViewById(R.id.et_wordbook)).setOnEditorActionListener(new TextView.OnEditorActionListener() {
+        ((EditText) getActivity().findViewById(R.id.et_nameword)).setOnEditorActionListener(new TextView.OnEditorActionListener() {
             @Override
             public boolean onEditorAction(TextView v, int actionId, KeyEvent event) {
                 if (actionId == EditorInfo.IME_ACTION_SEARCH) {
                     queryWord();
                     InputMethodManager imm = (InputMethodManager) getActivity().getSystemService(Context.INPUT_METHOD_SERVICE);
-                    imm.hideSoftInputFromWindow(getActivity().findViewById(R.id.et_wordbook).getWindowToken(), 0);
+                    imm.hideSoftInputFromWindow(getActivity().findViewById(R.id.et_nameword).getWindowToken(), 0);
                 }
                 return false;
             }
         });
 
         //set up the list
-        mListView = (ListView) getActivity().findViewById(R.id.lv_wordbook);
+        mListView = (ListView) getActivity().findViewById(R.id.lv_namebook);
         mListView.setOnItemClickListener(new AdapterView.OnItemClickListener() {
             @Override
             public void onItemClick(AdapterView<?> parent, View view, int position, long id) {
