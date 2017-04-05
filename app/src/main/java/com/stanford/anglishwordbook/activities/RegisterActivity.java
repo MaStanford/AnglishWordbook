@@ -8,10 +8,9 @@ import android.content.Intent;
 import android.content.Loader;
 import android.database.Cursor;
 import android.net.Uri;
-
 import android.os.Bundle;
 import android.provider.ContactsContract;
-import android.support.v7.app.ActionBarActivity;
+import android.support.v7.app.AppCompatActivity;
 import android.text.TextUtils;
 import android.util.Log;
 import android.view.KeyEvent;
@@ -24,19 +23,19 @@ import android.widget.Button;
 import android.widget.EditText;
 import android.widget.TextView;
 
-import java.util.ArrayList;
-import java.util.List;
-
 import com.parse.ParseException;
 import com.parse.ParseUser;
 import com.parse.SignUpCallback;
 import com.stanford.anglishwordbook.R;
 import com.stanford.anglishwordbook.network.utils.ParseErrorHandler;
 
+import java.util.ArrayList;
+import java.util.List;
+
 /**
  * A login screen that offers login via email/password.
  */
-public class RegisterActivity extends ActionBarActivity implements LoaderCallbacks<Cursor> {
+public class RegisterActivity extends AppCompatActivity implements LoaderCallbacks<Cursor> {
 
     private static final String TAG = RegisterActivity.class.getSimpleName();
 

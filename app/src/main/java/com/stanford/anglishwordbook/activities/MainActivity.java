@@ -1,22 +1,22 @@
 package com.stanford.anglishwordbook.activities;
 
 import android.content.Intent;
-import android.support.v4.app.Fragment;
-import android.support.v7.app.ActionBarActivity;
-import android.support.v7.app.ActionBar;
-import android.support.v4.app.FragmentManager;
 import android.os.Bundle;
+import android.support.v4.app.Fragment;
+import android.support.v4.app.FragmentManager;
+import android.support.v4.widget.DrawerLayout;
+import android.support.v7.app.ActionBar;
+import android.support.v7.app.AppCompatActivity;
 import android.util.Log;
 import android.view.Menu;
 import android.view.MenuItem;
-import android.support.v4.widget.DrawerLayout;
 
 import com.parse.ParseAnonymousUtils;
 import com.parse.ParseUser;
+import com.stanford.anglishwordbook.R;
 import com.stanford.anglishwordbook.fragments.EtymologyFragment;
 import com.stanford.anglishwordbook.fragments.NameBitFragment;
 import com.stanford.anglishwordbook.fragments.NavigationDrawerFragment;
-import com.stanford.anglishwordbook.R;
 import com.stanford.anglishwordbook.fragments.OnFragmentInteractionListener;
 import com.stanford.anglishwordbook.fragments.WordBookFragment;
 
@@ -24,7 +24,7 @@ import java.util.ArrayList;
 import java.util.List;
 
 
-public class MainActivity extends ActionBarActivity implements NavigationDrawerFragment.NavigationDrawerCallbacks, OnFragmentInteractionListener {
+public class MainActivity extends AppCompatActivity implements NavigationDrawerFragment.NavigationDrawerCallbacks, OnFragmentInteractionListener {
 
     private static final String TAG = MainActivity.class.getSimpleName();
     public static final String FRAG_TAG_WORD = "com.stanford.fragment.word";
@@ -128,8 +128,8 @@ public class MainActivity extends ActionBarActivity implements NavigationDrawerF
     public boolean onCreateOptionsMenu(Menu menu) {
         this.mMenu = menu;
         if (!mNavigationDrawerFragment.isDrawerOpen()) {
-//            getMenuInflater().inflate(R.menu.main, menu);
-//            checkifAnon();
+            getMenuInflater().inflate(R.menu.main, menu);
+            checkifAnon();
             restoreActionBar();
             return true;
         }

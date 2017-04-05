@@ -10,8 +10,7 @@
         android:divider="@drawable/abc_list_divider_mtrl_alpha"
         android:dividerPadding="5dp"
         android:stretchColumns="1"
-        android:showDividers="middle"
-        android:background="@drawable/table_bg_wordbook">
+        android:showDividers="middle">
 
 
         <TableRow

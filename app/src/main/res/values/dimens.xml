@@ -7,10 +7,6 @@
          https://developer.android.com/design/patterns/navigation-drawer.html -->
     <dimen name="navigation_drawer_width">240dp</dimen>
 
-
-    <dimen name="drawable_wordbook_table_bg_padding">1dp</dimen>
-    <dimen name="drawable_wordbook_table_bg_corners">7dp</dimen>
-
     <dimen name="drawable_wordbook_header_padding">4dp</dimen>
     <dimen name="drawable_wordbook_header_corners">3dp</dimen>
 
