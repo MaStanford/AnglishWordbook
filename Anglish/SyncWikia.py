@@ -100,7 +100,7 @@ def addWord(wordDef):
     wordType = wordDef['type']
 
     try:
-        connection = httplib.HTTPSConnection('api.parse.com', 443)
+        connection = httplib.HTTPSConnection('https://anglishwordbook.herokuapp.com/', 443)
         connection.connect()
         connection.request('POST', '/1/classes/Word', json.dumps({
             "Word": word,
